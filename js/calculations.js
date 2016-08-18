@@ -3824,17 +3824,6 @@ var Players = [
 ]
 
 
-/////////////////////////////////////////////////////////////
-//////////////////////// TO DO LIST ////////////////////////
-////////////////////////////////////////////////////////////
-
-// Reset team scores if team is changed
-// Warning messages if goals and score do not match - own goals?
-// Add chevrons to table headings
-
-
-
-
 var $selectedTeam = null,
     $selectedFixture = null,
     $tableHeading = null,
