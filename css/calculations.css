@@ -201,6 +201,7 @@ select {
   margin-bottom: 10px;
   width: 100%;
   max-width: 100%;
+  font-size: 10px;
 }
 
 .teams table,
@@ -212,10 +213,15 @@ select {
   border: 1px solid #ccc;
   white-space: nowrap;
   page-break-inside: avoid;
-  font-size: 8px;
 }
 
 .teams .total-points-row th {
   text-align: center;
+}
+
+@media print {
+  .teams table {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=calculations.css.map */
