@@ -1,9 +1,9 @@
-body {
+﻿body {
   font-family: "Lato", sans-serif;
 }
 
 #container {
-  width: 1360px;
+  width: 1500px !important;
   margin: 0 auto;
 }
 
@@ -63,17 +63,13 @@ body {
 .results .fixtures .player-table .goalkeeper-header.active th:before,
 .results .fixtures .player-table .midfielder-header.active th:before {
   -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
 .results .fixtures .player-table .player-data {
   display: none;
   -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
-  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
@@ -84,8 +80,6 @@ body {
 .results .fixtures .player-table .player-data.active {
   display: table-row;
   -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
-  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
@@ -200,13 +194,13 @@ select {
 }
 
 .teams {
-  font-size: 10px;
   text-align: center;
 }
 
 .teams table {
   margin-bottom: 10px;
   width: 100%;
+  max-width: 100%;
 }
 
 .teams table,
@@ -217,8 +211,11 @@ select {
   text-align: center;
   border: 1px solid #ccc;
   white-space: nowrap;
+  page-break-inside: avoid;
+  font-size: 8px;
 }
 
 .teams .total-points-row th {
   text-align: center;
 }
+/*# sourceMappingURL=calculations.css.map */
