@@ -2087,12 +2087,6 @@ var Players = [
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
     }, {
-        "ID": "0316",
-        "Name": "Bolasie, Y",
-        "Position": "Midfielder",
-        "TeamID": "0005",
-        "TeamName": "Crystal Palace"
-    }, {
         "ID": "0317",
         "Name": "McArthur, J",
         "Position": "Midfielder",
@@ -2213,6 +2207,12 @@ var Players = [
     }, {
         "ID": "0336",
         "Name": "Gibson, D",
+        "Position": "Midfielder",
+        "TeamID": "0006",
+        "TeamName": "Everton"
+    }, {
+        "ID": "0316",
+        "Name": "Bolasie, Y",
         "Position": "Midfielder",
         "TeamID": "0006",
         "TeamName": "Everton"
