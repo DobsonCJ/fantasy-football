@@ -219,6 +219,12 @@ select {
   text-align: center;
 }
 
+.transfer {
+  color: blue;
+  background-color: yellow;
+  font-weight: bold;
+}
+
 @media print {
   .teams table {
     font-size: 8px;
