@@ -1,4 +1,4 @@
-﻿body {
+body {
   font-family: "Lato", sans-serif;
 }
 
@@ -63,13 +63,17 @@
 .results .fixtures .player-table .goalkeeper-header.active th:before,
 .results .fixtures .player-table .midfielder-header.active th:before {
   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
 .results .fixtures .player-table .player-data {
   display: none;
   -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
@@ -80,6 +84,8 @@
 .results .fixtures .player-table .player-data.active {
   display: table-row;
   -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
@@ -204,6 +210,11 @@ select {
   font-size: 10px;
 }
 
+.teams table .player-total-data.sent-off {
+  background-color: red;
+  color: #fff;
+}
+
 .teams table,
 .teams td,
 .teams th,
@@ -230,4 +241,3 @@ select {
     font-size: 8px;
   }
 }
-/*# sourceMappingURL=calculations.css.map */

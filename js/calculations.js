@@ -3896,6 +3896,11 @@ function calculatePoints() {
         // If the red card checkbox is selected set the redCardTotal to 10
         if ($(this).find('.red-card-checkbox').is(':checked')) {
             redCardTotal = 10;
+
+            // Add attribute to current player if sent off
+            $(this).attr('data-sentoff', 'true');
+        } else {
+          $(this).removeAttr('data-sentoff');
         }
 
         // If the position of the current player loop is 'Goalkeeper' set the goalsTotal
@@ -3994,21 +3999,39 @@ function calculatePoints() {
 
 }
 
-function updateplayerPoints() {
+function updatePlayerData() {
 
+    // Loop through each player in the teams table
     $('.player-total-data').each(function () {
 
+        // Create player ID variable from the ID text
         var playerID = $(this).find('.id').text();
 
+        // Add attribute to table using previous variable
         $(this).attr('data-player-id', playerID);
 
+        // Filter through all player data and return the matching player from variable ID
         var matchingPlayerID = $('.player-data').filter(function () {
             return $(this).attr('data-id') == playerID;
         });
 
-        var matchPlayerPoints = matchingPlayerID.attr('data-points');
+        // Create a variable for the points from the filtered player
+        var matchingPlayerPoints = matchingPlayerID.attr('data-points');
 
-        $(this).find('.points').text(matchPlayerPoints);
+        // Set the points using the filtered player points data
+        $(this).find('.points').text(matchingPlayerPoints);
+
+        // Check if the filtered player sent off attribute is true
+        if ($(matchingPlayerID).attr('data-sentoff') == 'true') {
+
+          // If true, add a class to the current loop
+          $(this).addClass('sent-off');
+
+        } else {
+
+          // Else , remove the class
+          $(this).removeClass('sent-off');
+        }
 
     });
 
@@ -4038,7 +4061,7 @@ function teamPointUpdates() {
 
     calculatePoints();
 
-    updateplayerPoints();
+    updatePlayerData();
 
     updatePointsTotal();
 

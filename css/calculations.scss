@@ -208,6 +208,13 @@ select {
         width: 100%;
         max-width: 100%;
         font-size: 10px;
+
+        .player-total-data {
+          &.sent-off {
+            background-color: red;
+            color: #fff;
+          }
+        }
     }
 
     table,
@@ -242,7 +249,7 @@ select {
 
             font-size: 8px;
         }
-        
+
     }
 
 }
