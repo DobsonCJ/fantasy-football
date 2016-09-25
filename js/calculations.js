@@ -3381,6 +3381,12 @@ var Players = [
         "Position": "Forward",
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
+    },{
+        "ID": "0535",
+        "Name": "Benteke, C",
+        "Position": "Forward",
+        "TeamID": "0005",
+        "TeamName": "Crystal Palace"
     },
 
     // Everton
@@ -3502,12 +3508,6 @@ var Players = [
     }, {
         "ID": "0534",
         "Name": "Origi, D",
-        "Position": "Forward",
-        "TeamID": "0009",
-        "TeamName": "Liverpool"
-    }, {
-        "ID": "0535",
-        "Name": "Benteke, C",
         "Position": "Forward",
         "TeamID": "0009",
         "TeamName": "Liverpool"
