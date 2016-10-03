@@ -231,8 +231,7 @@ select {
 }
 
 .transfer {
-  color: blue;
-  background-color: yellow;
+  color: green;
   font-weight: bold;
 }
 
