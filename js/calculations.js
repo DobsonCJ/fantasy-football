@@ -3540,12 +3540,6 @@ var Players = [
         "TeamID": "0010",
         "TeamName": "Manchester City"
     }, {
-        "ID": "0540",
-        "Name": "Bony, W",
-        "Position": "Forward",
-        "TeamID": "0010",
-        "TeamName": "Manchester City"
-    }, {
         "ID": "0541",
         "Name": "Iheanacho, K",
         "Position": "Forward",
@@ -3672,6 +3666,12 @@ var Players = [
     },{
         "ID": "0559",
         "Name": "Crouch, P",
+        "Position": "Forward",
+        "TeamID": "0014",
+        "TeamName": "Stoke City"
+    },{
+        "ID": "0540",
+        "Name": "Bony, W",
         "Position": "Forward",
         "TeamID": "0014",
         "TeamName": "Stoke City"
