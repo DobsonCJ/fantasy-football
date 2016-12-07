@@ -3929,7 +3929,7 @@ function calculatePoints() {
             goalsTotal = goalsScored * 10;
 
             // If 2 or more goals are scored add 5 to the goalsTotal
-            if (goalsScored >= 2) {
+            if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
@@ -3950,7 +3950,7 @@ function calculatePoints() {
             goalsTotal = goalsScored * 7;
 
             // If 2 or more goals are scored add 5 to the goalsTotal
-            if (goalsScored >= 2) {
+            if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
@@ -3971,7 +3971,7 @@ function calculatePoints() {
             goalsTotal = goalsScored * 5;
 
             // If 2 or more goals are scored add 5 to the goalsTotal
-            if (goalsScored >= 2) {
+            if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
@@ -3997,7 +3997,7 @@ function calculatePoints() {
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
             } else if ((goalsScored >= 3)) {
-                goalsTotal = goalsTotal + 10;
+                goalsTotal = goalsTotal + 15;
             }
 
         }
