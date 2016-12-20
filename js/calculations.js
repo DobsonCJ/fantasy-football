@@ -3997,7 +3997,7 @@ function calculatePoints() {
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
             } else if ((goalsScored >= 3)) {
-                goalsTotal = goalsTotal + 15;
+                goalsTotal = goalsTotal + 10;
             }
 
         }
