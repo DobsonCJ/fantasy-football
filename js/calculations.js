@@ -3545,6 +3545,12 @@ var Players = [
         "Position": "Forward",
         "TeamID": "0010",
         "TeamName": "Manchester City"
+    },{
+        "ID": "0583",
+        "Name": "G.Jesus",
+        "Position": "Forward",
+        "TeamID": "0010",
+        "TeamName": "Manchester City"
     },
 
     // Manchester United
