@@ -1335,12 +1335,6 @@ var Players = [
         "TeamID": "0013",
         "TeamName": "Southampton"
     }, {
-        "ID": "0197",
-        "Name": "Fonte, J",
-        "Position": "Defender",
-        "TeamID": "0013",
-        "TeamName": "Southampton"
-    }, {
         "ID": "0198",
         "Name": "van Dijk, V",
         "Position": "Defender",
@@ -1719,6 +1713,12 @@ var Players = [
     }, {
         "ID": "0257",
         "Name": "Henry, D",
+        "Position": "Defender",
+        "TeamID": "0020",
+        "TeamName": "West Ham United"
+    },{
+        "ID": "0197",
+        "Name": "Fonte, J",
         "Position": "Defender",
         "TeamID": "0020",
         "TeamName": "West Ham United"
