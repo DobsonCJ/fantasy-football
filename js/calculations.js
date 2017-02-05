@@ -840,7 +840,13 @@ var Players = [
         "Position": "Defender",
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
-    },
+    },{
+        "ID": "0126",
+        "Name": "Schlupp, J",
+        "Position": "Defender",
+        "TeamID": "0005",
+        "TeamName": "Crystal Palace"
+    }
 
     // Everton
 
@@ -987,12 +993,6 @@ var Players = [
     }, {
         "ID": "0125",
         "Name": "Morgan, W",
-        "Position": "Defender",
-        "TeamID": "0008",
-        "TeamName": "Leicester City"
-    }, {
-        "ID": "0126",
-        "Name": "Schlupp, J",
         "Position": "Defender",
         "TeamID": "0008",
         "TeamName": "Leicester City"
