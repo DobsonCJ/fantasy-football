@@ -2237,43 +2237,49 @@ var Players = [
         "Name": "Maloney, S",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0338",
         "Name": "Snodgrass, R",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0339",
         "Name": "Elmohamady, A",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0340",
         "Name": "Clucas, S",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0341",
         "Name": "Huddlestone, T",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0342",
         "Name": "Livermore, J",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
     }, {
         "ID": "0343",
         "Name": "Meyler, D",
         "Position": "Midfielder",
         "TeamID": "0007",
-        "TeamName": "Hull"
+        "TeamName": "Hull City"
+    },{
+        "ID": "0365",
+        "Name": "Markovic, L",
+        "Position": "Midfielder",
+        "TeamID": "0009",
+        "TeamName": "Hull City"
     },
 
         // Leicester City
@@ -2405,12 +2411,6 @@ var Players = [
     }, {
         "ID": "0364",
         "Name": "Alberto, L",
-        "Position": "Midfielder",
-        "TeamID": "0009",
-        "TeamName": "Liverpool"
-    }, {
-        "ID": "0365",
-        "Name": "Markovic, L",
         "Position": "Midfielder",
         "TeamID": "0009",
         "TeamName": "Liverpool"
