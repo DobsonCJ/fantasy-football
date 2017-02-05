@@ -3547,7 +3547,7 @@ var Players = [
         "TeamName": "Manchester City"
     },{
         "ID": "0583",
-        "Name": "G.Jesus",
+        "Name": "Jesus, G",
         "Position": "Forward",
         "TeamID": "0010",
         "TeamName": "Manchester City"
@@ -3638,6 +3638,12 @@ var Players = [
     }, {
         "ID": "0554",
         "Name": "Austin, C",
+        "Position": "Forward",
+        "TeamID": "0013",
+        "TeamName": "Southampton"
+    },{
+        "ID": "0584",
+        "Name": "Gabbiadini, M",
         "Position": "Forward",
         "TeamID": "0013",
         "TeamName": "Southampton"
