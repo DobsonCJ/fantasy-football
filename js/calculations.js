@@ -852,7 +852,13 @@ var Players = [
         "Position": "Defender",
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
-    },
+    }, {
+        "ID": "0143",
+        "Name": "Sakho, M",
+        "Position": "Defender",
+        "TeamID": "0005",
+        "TeamName": "Crystal Palace"
+    }
 
     // Everton
 
@@ -1045,12 +1051,6 @@ var Players = [
     }, {
         "ID": "0142",
         "Name": "Matip, J",
-        "Position": "Defender",
-        "TeamID": "0009",
-        "TeamName": "Liverpool"
-    }, {
-        "ID": "0143",
-        "Name": "Sakho, M",
         "Position": "Defender",
         "TeamID": "0009",
         "TeamName": "Liverpool"
