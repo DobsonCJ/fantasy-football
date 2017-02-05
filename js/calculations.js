@@ -649,12 +649,6 @@ var Players = [
         "TeamID": "0002",
         "TeamName": "Bournemouth"
     }, {
-        "ID": "0074",
-        "Name": "Ake, N",
-        "Position": "Defender",
-        "TeamID": "0002",
-        "TeamName": "Bournemouth"
-    }, {
         "ID": "0075",
         "Name": "Daniels, C",
         "Position": "Defender",
@@ -785,6 +779,12 @@ var Players = [
     }, {
         "ID": "0095",
         "Name": "Miazga, M",
+        "Position": "Defender",
+        "TeamID": "0004",
+        "TeamName": "Chelsea"
+    },{
+        "ID": "0074",
+        "Name": "Ake, N",
         "Position": "Defender",
         "TeamID": "0004",
         "TeamName": "Chelsea"
@@ -3971,7 +3971,7 @@ function calculatePoints() {
             goalsTotal = goalsScored * 5;
 
             // If 2 or more goals are scored add 5 to the goalsTotal
-            if (goalsScored == 2) {
+            if (goalsScored >= 2) {
                 goalsTotal = goalsTotal + 5;
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
@@ -3997,7 +3997,7 @@ function calculatePoints() {
 
                 // If 3 or more goals are scored add 10 to the goalsTotal
             } else if ((goalsScored >= 3)) {
-                goalsTotal = goalsTotal + 10;
+                goalsTotal = goalsTotal + 15;
             }
 
         }
