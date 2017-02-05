@@ -2239,12 +2239,6 @@ var Players = [
         "TeamID": "0007",
         "TeamName": "Hull City"
     }, {
-        "ID": "0338",
-        "Name": "Snodgrass, R",
-        "Position": "Midfielder",
-        "TeamID": "0007",
-        "TeamName": "Hull City"
-    }, {
         "ID": "0339",
         "Name": "Elmohamady, A",
         "Position": "Midfielder",
@@ -3223,6 +3217,12 @@ var Players = [
     }, {
         "ID": "0494",
         "Name": "Tore, G",
+        "Position": "Midfielder",
+        "TeamID": "0020",
+        "TeamName": "West Ham United"
+    },{
+        "ID": "0338",
+        "Name": "Snodgrass, R",
         "Position": "Midfielder",
         "TeamID": "0020",
         "TeamName": "West Ham United"
