@@ -846,7 +846,13 @@ var Players = [
         "Position": "Defender",
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
-    }
+    },{
+        "ID": "0210",
+        "Name": "van Aanholt, P",
+        "Position": "Defender",
+        "TeamID": "0005",
+        "TeamName": "Crystal Palace"
+    },
 
     // Everton
 
@@ -1417,12 +1423,6 @@ var Players = [
     }, {
         "ID": "0209",
         "Name": "Jones, B",
-        "Position": "Defender",
-        "TeamID": "0015",
-        "TeamName": "Sunderland"
-    }, {
-        "ID": "0210",
-        "Name": "van Aanholt, P",
         "Position": "Defender",
         "TeamID": "0015",
         "TeamName": "Sunderland"
