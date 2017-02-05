@@ -3392,12 +3392,6 @@ var Players = [
     // Everton
 
     {
-        "ID": "0517",
-        "Name": "Niasse, O",
-        "Position": "Forward",
-        "TeamID": "0006",
-        "TeamName": "Everton"
-    }, {
         "ID": "0518",
         "Name": "McAleny, C",
         "Position": "Forward",
@@ -3452,6 +3446,12 @@ var Players = [
     }, {
         "ID": "0526",
         "Name": "Jahraldo-Martin, C",
+        "Position": "Forward",
+        "TeamID": "0007",
+        "TeamName": "Hull City"
+    },{
+        "ID": "0517",
+        "Name": "Niasse, O",
         "Position": "Forward",
         "TeamID": "0007",
         "TeamName": "Hull City"
