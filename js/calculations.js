@@ -3687,6 +3687,12 @@ var Players = [
         "Position": "Forward",
         "TeamID": "0014",
         "TeamName": "Stoke City"
+    }, {
+        "ID": "0575",
+        "Name": "Berahino, S",
+        "Position": "Forward",
+        "TeamID": "0014",
+        "TeamName": "Stoke City"
     },
 
     // Sunderland
@@ -3801,12 +3807,6 @@ var Players = [
     }, {
         "ID": "0574",
         "Name": "Lambert, R",
-        "Position": "Forward",
-        "TeamID": "0019",
-        "TeamName": "West Bromwich Albion"
-    }, {
-        "ID": "0575",
-        "Name": "Berahino, S",
         "Position": "Forward",
         "TeamID": "0019",
         "TeamName": "West Bromwich Albion"
