@@ -858,7 +858,7 @@ var Players = [
         "Position": "Defender",
         "TeamID": "0005",
         "TeamName": "Crystal Palace"
-    }
+    },
 
     // Everton
 
@@ -2222,6 +2222,12 @@ var Players = [
         "Position": "Midfielder",
         "TeamID": "0006",
         "TeamName": "Everton"
+    },{
+        "ID": "0388",
+        "Name": "Schneiderlin, M",
+        "Position": "Midfielder",
+        "TeamID": "0006",
+        "TeamName": "Everton"
     },
 
         // Hull
@@ -2545,12 +2551,6 @@ var Players = [
     }, {
         "ID": "0387",
         "Name": "Young, A",
-        "Position": "Midfielder",
-        "TeamID": "0011",
-        "TeamName": "Manchester United"
-    }, {
-        "ID": "0388",
-        "Name": "Schneiderlin, M",
         "Position": "Midfielder",
         "TeamID": "0011",
         "TeamName": "Manchester United"
