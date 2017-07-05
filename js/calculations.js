@@ -3,6 +3,26 @@
 
 // JSON Data
 
+//  $.ajax({
+//             type: "POST",
+//             dataType: 'jsonp',
+//             url: "",
+//             async: false,
+//             contentType: "application/json; charset=utf-8",
+//             success: function (msg) {
+//                 console.log('success');
+//             },
+//             error: function(jqXHR, textStatus, errorThrown) {
+//             console.log(jqXHR.status, textStatus, errorThrown);
+//         },
+//  });
+
+$.getJSON( "https://fantasy.premierleague.com/drf/bootstrap-static?callback=?", function( data ) {
+  console.log(JSON.parse(data));
+});
+
+
+
 var Teams = [
 
     {
@@ -4346,4 +4366,16 @@ $(function () {
     });
 
 
+});
+
+
+$(function () {
+
+    // for (var i = 0; i < elements.length; i++) {
+
+    //      console.log(elements.id(i));
+
+    // }
+
+    
 });
