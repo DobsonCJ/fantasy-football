@@ -1,7 +1,4 @@
-﻿
-"use strict";
-
-// JSON Data
+﻿// JSON Data
 
 var Teams = [
     {
@@ -986,12 +983,12 @@ var Players = [
     {
         id: 6,
         photo: "98745.jpg",
-        web_name: "Bellerin",
+        web_name: "Bellerín",
         team_code: 3,
         status: "a",
         code: 98745,
-        first_name: "HÃ©ctor",
-        second_name: "BellerÃ­n",
+        first_name: "Héctor",
+        second_name: "Bellerín",
         squad_number: 24,
         news: "",
         now_cost: 65,
@@ -1340,12 +1337,12 @@ var Players = [
     {
         id: 12,
         photo: "37265.jpg",
-        web_name: "SÃ¡nchez",
+        web_name: "Sánchez",
         team_code: 3,
         status: "a",
         code: 37265,
         first_name: "Alexis",
-        second_name: "Sanchez",
+        second_name: "Sánchez",
         squad_number: 7,
         news: "",
         now_cost: 117,
@@ -1458,12 +1455,12 @@ var Players = [
     {
         id: 14,
         photo: "37605.jpg",
-        web_name: "Ã–zil",
+        web_name: "Özil",
         team_code: 3,
         status: "a",
         code: 37605,
         first_name: "Mesut",
-        second_name: "Ozil",
+        second_name: "Özil",
         squad_number: 11,
         news: "",
         now_cost: 95,
@@ -2756,12 +2753,12 @@ var Players = [
     {
         id: 36,
         photo: "126184.jpg",
-        web_name: "AkÃ©",
+        web_name: "Aké",
         team_code: 8,
         status: "a",
         code: 126184,
         first_name: "Nathan",
-        second_name: "AkÃ©",
+        second_name: "Aké",
         squad_number: 6,
         news: "",
         now_cost: 39,
@@ -5179,7 +5176,7 @@ var Players = [
         team_code: 8,
         status: "a",
         code: 41328,
-        first_name: "CÃ©sar",
+        first_name: "César",
         second_name: "Azpilicueta",
         squad_number: 28,
         news: "",
@@ -5529,12 +5526,12 @@ var Players = [
     {
         id: 83,
         photo: "17878.jpg",
-        web_name: "FÃ bregas",
+        web_name: "Fàbregas",
         team_code: 8,
         status: "a",
         code: 17878,
         first_name: "Cesc",
-        second_name: "FÃ bregas",
+        second_name: "Fàbregas",
         squad_number: 4,
         news: "",
         now_cost: 70,
@@ -5947,7 +5944,7 @@ var Players = [
         status: "a",
         code: 49579,
         first_name: "Pedro",
-        second_name: "RodrÃ­guez Ledesma",
+        second_name: "Rodríguez Ledesma",
         squad_number: 11,
         news: "",
         now_cost: 68,
@@ -6237,12 +6234,12 @@ var Players = [
     {
         id: 95,
         photo: "116594.jpg",
-        web_name: "KantÃ©",
+        web_name: "Kanté",
         team_code: 8,
         status: "a",
         code: 116594,
         first_name: "N'Golo",
-        second_name: "KantÃ©",
+        second_name: "Kanté",
         squad_number: 7,
         news: "",
         now_cost: 47,
@@ -6418,7 +6415,7 @@ var Players = [
         team_code: 31,
         status: "a",
         code: 38419,
-        first_name: "LoÃ¯c",
+        first_name: "Loïc",
         second_name: "Remy",
         squad_number: 8,
         news: "",
@@ -7004,12 +7001,12 @@ var Players = [
     {
         id: 108,
         photo: "79228.jpg",
-        web_name: "SouarÃ©",
+        web_name: "Souaré",
         team_code: 31,
         status: "i",
         code: 79228,
         first_name: "Pape",
-        second_name: "SouarÃ©",
+        second_name: "Souaré",
         squad_number: 23,
         news: "Thigh injury - Unknown return date",
         now_cost: 41,
@@ -9128,12 +9125,12 @@ var Players = [
     {
         id: 144,
         photo: "26921.jpg",
-        web_name: "KonÃ©",
+        web_name: "Koné",
         team_code: 11,
         status: "a",
         code: 26921,
         first_name: "Arouna",
-        second_name: "KonÃ©",
+        second_name: "Koné",
         squad_number: 9,
         news: "",
         now_cost: 51,
@@ -10013,12 +10010,12 @@ var Players = [
     {
         id: 159,
         photo: "28147.jpg",
-        web_name: "DiamÃ©",
+        web_name: "Diamé",
         team_code: 88,
         status: "u",
         code: 28147,
         first_name: "Mohamed",
-        second_name: "DiamÃ©",
+        second_name: "Diamé",
         squad_number: 17,
         news: "Joined Newcastle United on 3/8",
         now_cost: 55,
@@ -10249,12 +10246,12 @@ var Players = [
     {
         id: 163,
         photo: "59856.jpg",
-        web_name: "HernÃ¡ndez",
+        web_name: "Hernández",
         team_code: 88,
         status: "a",
         code: 59856,
         first_name: "Abel",
-        second_name: "HernÃ¡ndez",
+        second_name: "Hernández",
         squad_number: 9,
         news: "",
         now_cost: 59,
@@ -10957,12 +10954,12 @@ var Players = [
     {
         id: 175,
         photo: "130025.jpg",
-        web_name: "HernÃ¡ndez",
+        web_name: "Hernández",
         team_code: 13,
         status: "u",
         code: 130025,
         first_name: "Luis",
-        second_name: "HernÃ¡ndez",
+        second_name: "Hernández",
         squad_number: 2,
         news: "Transferred to Malaga",
         now_cost: 42,
@@ -11256,10 +11253,10 @@ var Players = [
         team_code: 13,
         status: "u",
         code: 40772,
-        first_name: "GÃ¶khan",
+        first_name: "Gökhan",
         second_name: "Inler",
         squad_number: 33,
-        news: "Transferred to BeÅŸiktaÅŸ",
+        news: "Transferred to Beşiktaş",
         now_cost: 44,
         chance_of_playing_this_round: 0,
         chance_of_playing_next_round: 0,
@@ -13140,12 +13137,12 @@ var Players = [
     {
         id: 212,
         photo: "110979.jpg",
-        web_name: "ManÃ©",
+        web_name: "Mané",
         team_code: 14,
         status: "d",
         code: 110979,
         first_name: "Sadio",
-        second_name: "ManÃ©",
+        second_name: "Mané",
         squad_number: 19,
         news: "Knee injury - 75% chance of playing",
         now_cost: 93,
@@ -13793,7 +13790,7 @@ var Players = [
         team_code: 43,
         status: "a",
         code: 17336,
-        first_name: "GaÃ«l",
+        first_name: "Gaël",
         second_name: "Clichy",
         squad_number: 22,
         news: "",
@@ -13970,7 +13967,7 @@ var Players = [
         team_code: 43,
         status: "a",
         code: 57410,
-        first_name: "NicolÃ¡s",
+        first_name: "Nicolás",
         second_name: "Otamendi",
         squad_number: 30,
         news: "",
@@ -14261,12 +14258,12 @@ var Players = [
     {
         id: 231,
         photo: "14664.jpg",
-        web_name: "Yaya TourÃ©",
+        web_name: "Yaya Touré",
         team_code: 43,
         status: "a",
         code: 14664,
         first_name: "Gnegneri Yaya",
-        second_name: "TourÃ©",
+        second_name: "Touré",
         squad_number: 42,
         news: "",
         now_cost: 72,
@@ -14324,7 +14321,7 @@ var Players = [
         team_code: 43,
         status: "a",
         code: 17740,
-        first_name: "JesÃºs",
+        first_name: "Jesús",
         second_name: "Navas",
         squad_number: 15,
         news: "",
@@ -14556,12 +14553,12 @@ var Players = [
     {
         id: 236,
         photo: "59859.jpg",
-        web_name: "GÃ¼ndogan",
+        web_name: "Gündogan",
         team_code: 43,
         status: "d",
         code: 59859,
         first_name: "Ilkay",
-        second_name: "GÃ¼ndogan",
+        second_name: "Gündogan",
         squad_number: 8,
         news: "Knee injury - 75% chance of playing",
         now_cost: 49,
@@ -14620,7 +14617,7 @@ var Players = [
         status: "a",
         code: 86173,
         first_name: "Manuel",
-        second_name: "Agudo DurÃ¡n",
+        second_name: "Agudo Durán",
         squad_number: 9,
         news: "",
         now_cost: 84,
@@ -14733,12 +14730,12 @@ var Players = [
     {
         id: 239,
         photo: "37572.jpg",
-        web_name: "AgÃ¼ero",
+        web_name: "Agüero",
         team_code: 43,
         status: "a",
         code: 37572,
         first_name: "Sergio",
-        second_name: "AgÃ¼ero",
+        second_name: "Agüero",
         squad_number: 10,
         news: "",
         now_cost: 127,
@@ -16798,12 +16795,12 @@ var Players = [
     {
         id: 274,
         photo: "12496.jpg",
-        web_name: "ValdÃ©s",
+        web_name: "Valdés",
         team_code: 25,
         status: "a",
         code: 12496,
-        first_name: "VÃ­ctor",
-        second_name: "ValdÃ©s",
+        first_name: "Víctor",
+        second_name: "Valdés",
         squad_number: 26,
         news: "",
         now_cost: 45,
@@ -17157,7 +17154,7 @@ var Players = [
         status: "a",
         code: 55317,
         first_name: "Bernardo",
-        second_name: "Espinosa ZÃºÃ±iga",
+        second_name: "Espinosa Zúñiga",
         squad_number: 5,
         news: "",
         now_cost: 42,
@@ -18391,11 +18388,11 @@ var Players = [
     {
         id: 301,
         photo: "58822.jpg",
-        web_name: "CÃ©dric",
+        web_name: "Cédric",
         team_code: 20,
         status: "a",
         code: 58822,
-        first_name: "CÃ©dric",
+        first_name: "Cédric",
         second_name: "Soares",
         squad_number: 2,
         news: "",
@@ -19040,12 +19037,12 @@ var Players = [
     {
         id: 312,
         photo: "132015.jpg",
-        web_name: "HÃ¸jbjerg",
+        web_name: "Højbjerg",
         team_code: 20,
         status: "a",
         code: 132015,
         first_name: "Pierre-Emile",
-        second_name: "HÃ¸jbjerg",
+        second_name: "Højbjerg",
         squad_number: 23,
         news: "",
         now_cost: 42,
@@ -20579,7 +20576,7 @@ var Players = [
         status: "u",
         code: 61316,
         first_name: "Jose Luis",
-        second_name: "Mato SanmartÃ­n",
+        second_name: "Mato Sanmartín",
         squad_number: 9,
         news: "Joined Deportivo la Coruna in season-long loan deal",
         now_cost: 53,
@@ -21046,12 +21043,12 @@ var Players = [
     {
         id: 346,
         photo: "45076.jpg",
-        web_name: "KonÃ©",
+        web_name: "Koné",
         team_code: 56,
         status: "a",
         code: 45076,
         first_name: "Lamine",
-        second_name: "KonÃ©",
+        second_name: "Koné",
         squad_number: 23,
         news: "",
         now_cost: 42,
@@ -21348,7 +21345,7 @@ var Players = [
         first_name: "Jeremain",
         second_name: "Lens",
         squad_number: 17,
-        news: "Season-long loan to FenerbahÃ§e",
+        news: "Season-long loan to Fenerbahçe",
         now_cost: 59,
         chance_of_playing_this_round: 0,
         chance_of_playing_next_round: 0,
@@ -22049,12 +22046,12 @@ var Players = [
     {
         id: 363,
         photo: "57145.jpg",
-        web_name: "FernÃ¡ndez",
+        web_name: "Fernández",
         team_code: 80,
         status: "a",
         code: 57145,
         first_name: "Federico",
-        second_name: "FernÃ¡ndez",
+        second_name: "Fernández",
         squad_number: 33,
         news: "",
         now_cost: 42,
@@ -22702,7 +22699,7 @@ var Players = [
         team_code: 21,
         status: "a",
         code: 45124,
-        first_name: "AndrÃ©",
+        first_name: "André",
         second_name: "Ayew",
         squad_number: 20,
         news: "",
@@ -22879,7 +22876,7 @@ var Players = [
         team_code: 80,
         status: "u",
         code: 37998,
-        first_name: "BafÃ©timbi",
+        first_name: "Bafétimbi",
         second_name: "Gomis",
         squad_number: 18,
         news: "Joined Marseile in season-long loan deal",
@@ -23701,12 +23698,12 @@ var Players = [
     {
         id: 391,
         photo: "39104.jpg",
-        web_name: "DembÃ©lÃ©",
+        web_name: "Dembélé",
         team_code: 6,
         status: "a",
         code: 39104,
         first_name: "Mousa",
-        second_name: "DembÃ©lÃ©",
+        second_name: "Dembélé",
         squad_number: 19,
         news: "",
         now_cost: 54,
@@ -24763,12 +24760,12 @@ var Players = [
     {
         id: 409,
         photo: "41945.jpg",
-        web_name: "PrÃ¶dl",
+        web_name: "Prödl",
         team_code: 57,
         status: "a",
         code: 41945,
         first_name: "Sebastian",
-        second_name: "PrÃ¶dl",
+        second_name: "Prödl",
         squad_number: 5,
         news: "",
         now_cost: 43,
@@ -24885,7 +24882,7 @@ var Players = [
         team_code: 57,
         status: "a",
         code: 40868,
-        first_name: "JosÃ©",
+        first_name: "José",
         second_name: "Holebas",
         squad_number: 25,
         news: "",
@@ -24944,7 +24941,7 @@ var Players = [
         team_code: 35,
         status: "a",
         code: 67527,
-        first_name: "Allan-RomÃ©o",
+        first_name: "Allan-Roméo",
         second_name: "Nyom",
         squad_number: 2,
         news: "",
@@ -25117,12 +25114,12 @@ var Players = [
     {
         id: 415,
         photo: "44302.jpg",
-        web_name: "GuÃ©dioura",
+        web_name: "Guédioura",
         team_code: 25,
         status: "a",
         code: 44302,
-        first_name: "AdlÃ¨ne",
-        second_name: "GuÃ©dioura",
+        first_name: "Adlène",
+        second_name: "Guédioura",
         squad_number: 27,
         news: "",
         now_cost: 42,
@@ -25589,12 +25586,12 @@ var Players = [
     {
         id: 423,
         photo: "28160.jpg",
-        web_name: "SuÃ¡rez",
+        web_name: "Suárez",
         team_code: 57,
         status: "u",
         code: 28160,
         first_name: "Mario",
-        second_name: "SuÃ¡rez",
+        second_name: "Suárez",
         squad_number: 4,
         news: "Moved to Valencia in season-long loan deal",
         now_cost: 45,
@@ -25825,12 +25822,12 @@ var Players = [
     {
         id: 427,
         photo: "179620.jpg",
-        web_name: "OularÃ©",
+        web_name: "Oularé",
         team_code: 57,
         status: "u",
         code: 179620,
         first_name: "Mamadou Obbi",
-        second_name: "OularÃ©",
+        second_name: "Oularé",
         squad_number: null,
         news: "Loaned to Willem II until end of season",
         now_cost: 45,
@@ -26242,7 +26239,7 @@ var Players = [
         team_code: 35,
         status: "u",
         code: 42583,
-        first_name: "SÃ©bastien",
+        first_name: "Sébastien",
         second_name: "Pocognoli",
         squad_number: 15,
         news: "Moved to Brighton on loan until the end of the season",
@@ -27123,12 +27120,12 @@ var Players = [
     {
         id: 449,
         photo: "57134.jpg",
-        web_name: "RondÃ³n",
+        web_name: "Rondón",
         team_code: 35,
         status: "a",
         code: 57134,
-        first_name: "SalomÃ³n",
-        second_name: "RondÃ³n",
+        first_name: "Salomón",
+        second_name: "Rondón",
         squad_number: 9,
         news: "",
         now_cost: 63,
@@ -27182,11 +27179,11 @@ var Players = [
     {
         id: 450,
         photo: "60706.jpg",
-        web_name: "AdriÃ¡n",
+        web_name: "Adrián",
         team_code: 21,
         status: "a",
         code: 60706,
-        first_name: "AdriÃ¡n",
+        first_name: "Adrián",
         second_name: "San Miguel del Castillo",
         squad_number: 13,
         news: "",
@@ -27713,12 +27710,12 @@ var Players = [
     {
         id: 459,
         photo: "55037.jpg",
-        web_name: "KouyatÃ©",
+        web_name: "Kouyaté",
         team_code: 21,
         status: "d",
         code: 55037,
         first_name: "Cheikhou",
-        second_name: "KouyatÃ©",
+        second_name: "Kouyaté",
         squad_number: 8,
         news: "Wrist Injury - 75% chance of playing",
         now_cost: 50,
@@ -28071,7 +28068,7 @@ var Players = [
         team_code: 21,
         status: "a",
         code: 43626,
-        first_name: "HÃ¥vard",
+        first_name: "Håvard",
         second_name: "Nordtveit",
         squad_number: 4,
         news: "",
@@ -28185,12 +28182,12 @@ var Players = [
     {
         id: 467,
         photo: "59796.jpg",
-        web_name: "TÃ¶re",
+        web_name: "Töre",
         team_code: 21,
         status: "d",
         code: 59796,
-        first_name: "GÃ¶khan",
-        second_name: "TÃ¶re",
+        first_name: "Gökhan",
+        second_name: "Töre",
         squad_number: 17,
         news: "Thigh injury - 75% chance of playing",
         now_cost: 53,
@@ -28775,12 +28772,12 @@ var Players = [
     {
         id: 477,
         photo: "20399.jpg",
-        web_name: "BarragÃ¡n",
+        web_name: "Barragán",
         team_code: 25,
         status: "a",
         code: 20399,
         first_name: "Antonio",
-        second_name: "BarragÃ¡n",
+        second_name: "Barragán",
         squad_number: 17,
         news: "",
         now_cost: 43,
@@ -28838,7 +28835,7 @@ var Players = [
         team_code: 25,
         status: "a",
         code: 42892,
-        first_name: "Ãlvaro",
+        first_name: "Álvaro",
         second_name: "Negredo",
         squad_number: 10,
         news: "",
@@ -28893,12 +28890,12 @@ var Players = [
     {
         id: 479,
         photo: "42738.jpg",
-        web_name: "ZuÃ±iga",
+        web_name: "Zuñiga",
         team_code: 57,
         status: "a",
         code: 42738,
         first_name: "Juan",
-        second_name: "ZuÃ±iga",
+        second_name: "Zuñiga",
         squad_number: 18,
         news: "",
         now_cost: 41,
@@ -29011,12 +29008,12 @@ var Players = [
     {
         id: 481,
         photo: "86431.jpg",
-        web_name: "Dja DjÃ©djÃ©",
+        web_name: "Dja Djédjé",
         team_code: 57,
         status: "u",
         code: 86431,
         first_name: "Brice",
-        second_name: "Dja DjÃ©djÃ©",
+        second_name: "Dja Djédjé",
         squad_number: 26,
         news: "Omitted from 25 man squad",
         now_cost: 44,
@@ -29070,12 +29067,12 @@ var Players = [
     {
         id: 482,
         photo: "121599.jpg",
-        web_name: "DoucourÃ©",
+        web_name: "Doucouré",
         team_code: 57,
         status: "a",
         code: 121599,
         first_name: "Abdoulaye",
-        second_name: "DoucourÃ©",
+        second_name: "Doucouré",
         squad_number: 16,
         news: "",
         now_cost: 46,
@@ -29483,12 +29480,12 @@ var Players = [
     {
         id: 489,
         photo: "182156.jpg",
-        web_name: "SanÃ©",
+        web_name: "Sané",
         team_code: 43,
         status: "d",
         code: 182156,
         first_name: "Leroy",
-        second_name: "SanÃ©",
+        second_name: "Sané",
         squad_number: 19,
         news: "Facial Injury - 75% chance of playing",
         now_cost: 77,
@@ -29601,12 +29598,12 @@ var Players = [
     {
         id: 491,
         photo: "78091.jpg",
-        web_name: "RamÃ­rez",
+        web_name: "Ramírez",
         team_code: 25,
         status: "a",
         code: 78091,
-        first_name: "GastÃ³n",
-        second_name: "RamÃ­rez",
+        first_name: "Gastón",
+        second_name: "Ramírez",
         squad_number: 21,
         news: "",
         now_cost: 52,
@@ -29664,7 +29661,7 @@ var Players = [
         team_code: 20,
         status: "a",
         code: 40833,
-        first_name: "JÃ©rÃ©my",
+        first_name: "Jérémy",
         second_name: "Pied",
         squad_number: 26,
         news: "",
@@ -30545,12 +30542,12 @@ var Players = [
     {
         id: 507,
         photo: "83091.jpg",
-        web_name: "BastÃ³n",
+        web_name: "Bastón",
         team_code: 80,
         status: "a",
         code: 83091,
         first_name: "Borja",
-        second_name: "BastÃ³n",
+        second_name: "Bastón",
         squad_number: 10,
         news: "",
         now_cost: 66,
@@ -33023,12 +33020,12 @@ var Players = [
     {
         id: 549,
         photo: "155851.jpg",
-        web_name: "PÃ©rez",
+        web_name: "Pérez",
         team_code: 3,
         status: "a",
         code: 155851,
         first_name: "Lucas",
-        second_name: "PÃ©rez",
+        second_name: "Pérez",
         squad_number: 9,
         news: "",
         now_cost: 78,
@@ -33849,12 +33846,12 @@ var Players = [
     {
         id: 563,
         photo: "159533.jpg",
-        web_name: "TraorÃ©",
+        web_name: "Traoré",
         team_code: 25,
         status: "a",
         code: 159533,
         first_name: "Adama",
-        second_name: "TraorÃ©",
+        second_name: "Traoré",
         squad_number: 37,
         news: "",
         now_cost: 48,
@@ -33908,12 +33905,12 @@ var Players = [
     {
         id: 564,
         photo: "182960.jpg",
-        web_name: "Pau LÃ³pez",
+        web_name: "Pau López",
         team_code: 6,
         status: "a",
         code: 182960,
         first_name: "Pau",
-        second_name: "LÃ³pez Sabata",
+        second_name: "López Sabata",
         squad_number: 30,
         news: "",
         now_cost: 49,
@@ -33971,7 +33968,7 @@ var Players = [
         team_code: 6,
         status: "a",
         code: 168566,
-        first_name: "Georges-KÃ©vin",
+        first_name: "Georges-Kévin",
         second_name: "Nkoudou",
         squad_number: 14,
         news: "",
@@ -34148,7 +34145,7 @@ var Players = [
         team_code: 21,
         status: "a",
         code: 18759,
-        first_name: "Ãlvaro",
+        first_name: "Álvaro",
         second_name: "Arbeloa",
         squad_number: 5,
         news: "",
@@ -34680,7 +34677,7 @@ var Players = [
         status: "a",
         code: 81061,
         first_name: "Michael",
-        second_name: "SimÃµes Domingues",
+        second_name: "Simões Domingues",
         squad_number: 12,
         news: "",
         now_cost: 44,
@@ -34734,12 +34731,12 @@ var Players = [
     {
         id: 578,
         photo: "178871.jpg",
-        web_name: "GarcÃ­a",
+        web_name: "García",
         team_code: 43,
         status: "a",
         code: 178871,
         first_name: "Aleix",
-        second_name: "GarcÃ­a Serrano",
+        second_name: "García Serrano",
         squad_number: 75,
         news: "",
         now_cost: 50,
@@ -38156,12 +38153,12 @@ var Players = [
     {
         id: 636,
         photo: "49696.jpg",
-        web_name: "ZÃ¡rate",
+        web_name: "Zárate",
         team_code: 57,
         status: "i",
         code: 49696,
         first_name: "Mauro",
-        second_name: "ZÃ¡rate",
+        second_name: "Zárate",
         squad_number: 20,
         news: "Knee injury - Unknown return date",
         now_cost: 52,
@@ -38687,12 +38684,12 @@ var Players = [
     {
         id: 645,
         photo: "103127.jpg",
-        web_name: "WaguÃ©",
+        web_name: "Wagué",
         team_code: 13,
         status: "d",
         code: 103127,
         first_name: "Molla",
-        second_name: "WaguÃ©",
+        second_name: "Wagué",
         squad_number: 18,
         news: "Shoulder Dislocation - 75% chance of playing",
         now_cost: 44,
@@ -39100,12 +39097,12 @@ var Players = [
     {
         id: 652,
         photo: "43693.jpg",
-        web_name: "CÃ¡ceres",
+        web_name: "Cáceres",
         team_code: 20,
         status: "a",
         code: 43693,
-        first_name: "MartÃ­n",
-        second_name: "CÃ¡ceres",
+        first_name: "Martín",
+        second_name: "Cáceres",
         squad_number: 12,
         news: "",
         now_cost: 50,
@@ -41047,12 +41044,12 @@ function calculatePoints() {
         if ($(this).find('.clean-sheet-checkbox').is(':checked')) {
 
             // If the position of the current player loop is 'Goalkeeper' set the cleanSheetTotal to 5
-            if (($(this).attr('data-position') == 'Goalkeeper')) {
+            if (($(this).attr('data-position') == '1')) {
                 cleanSheetTotal = 5;
             }
 
             // If the position of the current player loop is 'Defender' set the cleanSheetTotal to 10
-            if (($(this).attr('data-position') == 'Defender')) {
+            if (($(this).attr('data-position') == '2')) {
                 cleanSheetTotal = 2;
             }
         }
@@ -41068,7 +41065,7 @@ function calculatePoints() {
         }
 
         // If the position of the current player loop is 'Goalkeeper' set the goalsTotal
-        if ($(this).attr('data-position') == 'Goalkeeper') {
+        if ($(this).attr('data-position') == '1') {
 
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
@@ -41089,7 +41086,7 @@ function calculatePoints() {
             }
 
             // If the position of the current player loop is 'Defender' set the goalsTotal
-        } else if ($(this).attr('data-position') == 'Defender') {
+        } else if ($(this).attr('data-position') == '2') {
 
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
@@ -41110,7 +41107,7 @@ function calculatePoints() {
             }
 
             // If the position of the current player loop is 'Midfielder' set the goalsTotal
-        } else if ($(this).attr('data-position') == 'Midfielder') {
+        } else if ($(this).attr('data-position') == '3') {
 
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
@@ -41131,7 +41128,7 @@ function calculatePoints() {
             }
 
             // If the position of the current player loop is 'Forward' set the goalsTotal
-        } else if ($(this).attr('data-position') == 'Forward') {
+        } else if ($(this).attr('data-position') == '4') {
 
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
@@ -41251,44 +41248,99 @@ $(function () {
         var _selectedTeam = $(this).find(':selected').attr('data-id'),
             _playerTableClass = '.' + $(this).parent().attr('class') + '-players',
             _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
-            _playerTable = _selectedFixture + ' .' + $(this).parent().attr('class') + '-players' + ' table';
+            _playerTable = _selectedFixture + ' .' + $(this).parent().attr('class') + '-players' + ' table',
+
+            // Create empty arrays so that players can be filtered into correct positions
+            _goalkeepersArray = [],
+            _defendersArray = [],
+            _midfieldersArray = [],
+            _forwardsArray = [],
+
+            // Create variables to store player rows
+            _goalkeepers,
+            _defenders,
+            _midfielders,
+            _forwards
 
         // Empty the selected table and append the table heading
         $(_playerTable).empty();
 
+        // Create headings for each position
+        $(_playerTable).append('<tr class="goalkeeper-header"><th colspan="5">Goalkeepers</th></tr>').append($tableHeading);
+        $(_playerTable).append('<tr class="defender-header"><th colspan="5">Defenders</th></tr>').append($tableHeading);
+        $(_playerTable).append('<tr class="midfielder-header"><th colspan="5">Midfielders</th></tr>').append($tableHeading);
+        $(_playerTable).append('<tr class="forward-header"><th colspan="5">Forwards</th></tr>').append($tableHeading);
+
         // Loop through each player in the players array
         for (var i = 0; i < Players.length; i++) {
 
-            // Create a variable for the Players Team ID
-            var _playersTeamID = Players[i].team;
+            // Create a variable for the Players Team ID and players position element type
+            var _playersTeamID = Players[i].team,
+                _playersPositionID = Players[i].element_type
 
             // Check if the players ID matches the selected teams ID
             if (_playersTeamID == _selectedTeam) {
 
-                // Create a row with the players data and the fields
-                var _players = '<tr class="player-data" data-points="' + '0' + '" data-position="' + Players[i].element_type + '" data-id="' + Players[i].id + '"><td>' + Players[i].id + '</td><td>' + Players[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
+                if (_playersPositionID == 1) {
 
-                // Append to the correct table
-                $(_playerTable).append(_players);
+                    _goalkeepersArray.push(Players[i]);
+
+                } else if (_playersPositionID == 2) {
+
+                    _defendersArray.push(Players[i]);
+
+                } else if (_playersPositionID == 3) {
+
+                    _midfieldersArray.push(Players[i]);
+
+                } else if (_playersPositionID == 4) {
+
+                    _forwardsArray.push(Players[i]);
+                }
 
             }
 
         }
 
-        $(_playerTable).find('.player-data[data-position="1"]').first().before('<tr class="goalkeeper-header"><th colspan="5">Goalkeepers</th></tr>').before($tableHeading);
-        $(_playerTable).find('.player-data[data-position="2"]').first().before('<tr class="defender-header"><th colspan="5">Defenders</th></tr>').before($tableHeading);
-        $(_playerTable).find('.player-data[data-position="3"]').first().before('<tr class="midfielder-header"><th colspan="5">Midfielders</th></tr>').before($tableHeading);
-        $(_playerTable).find('.player-data[data-position="4"]').first().before('<tr class="forward-header"><th colspan="5">Forwards</th></tr>').before($tableHeading);
+        // Loop through goalkeepers array and create player rows and append to add to goalkeeper variable
+        for (var i = 0; i < _goalkeepersArray.length; i++) {
+            _goalkeepers += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _goalkeepersArray[i].element_type + '" data-id="' + _goalkeepersArray[i].id + '"><td>' + _goalkeepersArray[i].id + '</td><td>' + _goalkeepersArray[i].second_name + ", " + _goalkeepersArray[i].first_name.slice(0,1) + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
+        }
+
+        // Loop through defenders array and create player rows and append to add to defender variable
+        for (var i = 0; i < _defendersArray.length; i++) {
+            _defenders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _defendersArray[i].element_type + '" data-id="' + _defendersArray[i].id + '"><td>' + _defendersArray[i].id + '</td><td>' + _defendersArray[i].second_name + ", " + _defendersArray[i].first_name.slice(0,1) + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
+        }
+
+        // Loop through midfielders array and create player rows and append to add to midfielder variable
+        for (var i = 0; i < _midfieldersArray.length; i++) {
+            _midfielders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _midfieldersArray[i].element_type + '" data-id="' + _midfieldersArray[i].id + '"><td>' + _midfieldersArray[i].id + '</td><td>' + _midfieldersArray[i].second_name + ", " + _midfieldersArray[i].first_name.slice(0,1) + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
+        }
+
+        // Loop through forwards array and create player rows and append to add to forwards variable
+        for (var i = 0; i < _forwardsArray.length; i++) {
+            _forwards += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _forwardsArray[i].element_type + '" data-id="' + _forwardsArray[i].id + '"><td>' + _forwardsArray[i].id + '</td><td>' + _forwardsArray[i].second_name + ", " + _forwardsArray[i].first_name.slice(0,1) + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
+        }
+
+        // Add goalkeeper rows to the goalkeeper section
+        $(_playerTable).find('.goalkeeper-header').next('.table-heading').after(_goalkeepers);
+
+        // Add defenders rows to the defenders section
+        $(_playerTable).find('.defender-header').next('.table-heading').after(_defenders);
+
+        // Add midfielders rows to the midfielders section
+        $(_playerTable).find('.midfielder-header').next('.table-heading').after(_midfielders);
+
+        // Add midfielders rows to the midfielders section
+        $(_playerTable).find('.forward-header').next('.table-heading').after(_forwards);
 
         // Loop through each player
         $(_playerTableClass).find('.player-data').each(function () {
 
-
-
             if (!$(this).siblings('tr').find('.clean-sheet-image').hasClass('disabled')) {
 
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
-                if (($(this).attr('data-position') == 'Midfielder' || $(this).attr('data-position') == 'Forward')) {
+                if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
 
@@ -41346,7 +41398,7 @@ $(function () {
             $(_selectedFixture).find('.away-team-players .player-data').each(function () {
 
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
-                if (($(this).attr('data-position') == 'Midfielder' || $(this).attr('data-position') == 'Forward')) {
+                if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
 
@@ -41384,7 +41436,7 @@ $(function () {
             $($(_selectedFixture)).find('.home-team-players .player-data').each(function () {
 
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
-                if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == 'Forward')) {
+                if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
 
