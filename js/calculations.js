@@ -681,7 +681,7 @@ var Teams = [
         strength_defence_away: 1080,
         team_division: 1
     }
-]/**/
+]
 
 
 var Players = [
@@ -28074,121 +28074,106 @@ function teamPointUpdates() {
 var week_1 = [
 
     {
-        fixture_1: [
+        "fixture_1": [
             {
-                home_team: [
+                "home_team": [
                     {
-                        id: 1,
-                        name: 'lfc',
-                        score: 2,
-                        goalkeepers: [
+                        "id": 1,
+                        "name": 'lfc',
+                        "score": 2,
+                        "players": [
                             {
-                                id: 2,
-                                name: 'Mignolet',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
-                            },
-
-                        ],
-                        defenders: [
-                            {
-                                id: 3,
-                                name: 'Matip',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 2,
+                                "name": 'Mignolet',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
                             {
-                                id: 4,
-                                name: 'Lovren',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 3,
+                                "name": 'Matip',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
                             {
-                                id: 5,
-                                name: 'Clyne',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 4,
+                                "name": 'Lovren',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
-
-                        ],
-                        midfielders: [
                             {
-                                id: 6,
-                                name: 'Mane',
-                                goals: 1,
-                                red_card: false,
+                                "id": 5,
+                                "name": 'Clyne',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
-                        ],
-                        Forwards: [
                             {
-                                id: 7,
-                                name: 'Firmino',
-                                goals: 2,
-                                red_card: true,
+                                "id": 6,
+                                "name": 'Mane',
+                                "goals": 1,
+                                "red_card": false,
                             },
+                            {
+                                "id": 7,
+                                "name": 'Firmino',
+                                "goals": 2,
+                                "red_card": true,
+                            }
 
                         ],
                     }
 
                 ],
-                away_team: [
+
+                "away_team": [
                     {
-                        id: 1,
-                        name: 'lfc',
-                        score: 2,
-                        goalkeepers: [
+                        "id": 1,
+                        "name": 'lfc',
+                        "score": 2,
+                        "players": [
                             {
-                                id: 2,
-                                name: 'Mignolet',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
-                            },
-
-                        ],
-                        defenders: [
-                            {
-                                id: 3,
-                                name: 'Matip',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 2,
+                                "name": 'Mignolet',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
                             {
-                                id: 4,
-                                name: 'Lovren',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 3,
+                                "name": 'Matip',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
                             {
-                                id: 5,
-                                name: 'Clyne',
-                                goals: 0,
-                                clean_sheet: true,
-                                red_card: false,
+                                "id": 4,
+                                "name": 'Lovren',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
-
-                        ],
-                        midfielders: [
                             {
-                                id: 6,
-                                name: 'Mane',
-                                goals: 1,
-                                red_card: false,
+                                "id": 5,
+                                "name": 'Clyne',
+                                "goals": 0,
+                                "clean_sheet": true,
+                                "red_card": false,
                             },
-                        ],
-                        Forwards: [
                             {
-                                id: 7,
-                                name: 'Firmino',
-                                goals: 2,
-                                red_card: true,
+                                "id": 6,
+                                "name": 'Mane',
+                                "goals": 1,
+                                "red_card": false,
                             },
+                            {
+                                "id": 7,
+                                "name": 'Firmino',
+                                "goals": 2,
+                                "red_card": true,
+                            }
 
                         ],
                     }
@@ -28204,29 +28189,57 @@ var week_1 = [
 function storeLocalData() {
 
     var _currentWeek = 'week_' + $('.week-dropdown').val();
+    var current_week = [];
     var fixture_1 = [];
+    var home_teams = [];
+    var home_team = {};
+    var away_team = [];
+    var players = [];
+
+    var homeTeamName = $('#fixture-1 .home-team .teams-dropdown').find(':selected').text();
+    var homeTeamID = $('#fixture-1 .home-team .teams-dropdown').find(':selected').val();
+
+    home_team["Home_Team"] = {
+        "_homeTeamName": homeTeamName,
+        "_homeTeamID": homeTeamID
+    }
+
+    home_teams.push(home_team);
 
     $('#fixture-1 .home-team-players .player-data').each(function () {
 
+        var player = {};
+
         // Check if the player has any data that needs to be stored
         if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
-            console.log($(this).attr('data-id'));
+            //console.log($(this).attr('data-id'));
 
-            if ($(this).attr('data-position') == 1) {
-                var goalkeepers = [];
-                
-                var goalsScored = $(this).find('.score-select').val();
-                var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
-                var redcard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
+            var playerName = $(this).find('td:nth-child(2)').text();
+            var playerID = $(this).attr('data-id');
+            var goalsScored = $(this).find('.score-select').val();
+            var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
+            var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
 
-                console.log(goalsScored, cleanSheet, redcard);
+            player[playerName] = {
+                "homeTeamPlayerName": playerName,
+                "homeTeamPlayerID": playerID,
+                "homeTeamGoalsScored": goalsScored,
+                "homeTeamCleanSheet": cleanSheet,
+                "homeTeamRedCard": redCard
             }
+
+            players.push(player);
         }
-    
+
+        
     });
 
-    localStorage[_currentWeek] = JSON.stringify(week_1);
+    home_teams.push(players);
+    fixture_1.push(home_teams);
+    current_week.push(fixture_1)
+    console.log(current_week);
 
+    localStorage[_currentWeek] = JSON.stringify(fixture_1);
 }
 
 $(function () {
@@ -28244,6 +28257,8 @@ $(function () {
     enableScore();
 
     $('.teams-dropdown').change(function () {
+
+        $(this).attr('selected', 'selected');
 
         // Create scoped variables
         var _selectedTeam = $(this).find(':selected').attr('data-id'),
@@ -28356,12 +28371,6 @@ $(function () {
         enableScore();
 
         teamPointUpdates();
-
-        $(this).addClass('selected');
-
-        var fiture1homeid = _selectedTeam;
-
-        localStorage.setItem(_selectedFixture + _venue, fiture1homeid);
 
     });
 
