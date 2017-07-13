@@ -28190,56 +28190,55 @@ function storeLocalData() {
 
     var _currentWeek = 'week_' + $('.week-dropdown').val();
     var current_week = [];
-    var fixture_1 = [];
-    var home_teams = [];
-    var home_team = {};
-    var away_team = [];
+    var fixture = {};
     var players = [];
 
-    var homeTeamName = $('#fixture-1 .home-team .teams-dropdown').find(':selected').text();
-    var homeTeamID = $('#fixture-1 .home-team .teams-dropdown').find(':selected').val();
+    $('.fixtures .teams-dropdown').find(':selected').each(function () {
 
-    home_team["Home_Team"] = {
-        "_homeTeamName": homeTeamName,
-        "_homeTeamID": homeTeamID
-    }
+        if ($(this).val() !== 'Teams') {
 
-    home_teams.push(home_team);
+            var _fixtureNumber = $(this).closest('[id^=fixture-]').find('h3').text();
+            var _homeTeamName = $(this).text();
+            var _homeTeamID = $(this).val();
 
-    $('#fixture-1 .home-team-players .player-data').each(function () {
-
-        var player = {};
-
-        // Check if the player has any data that needs to be stored
-        if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
-            //console.log($(this).attr('data-id'));
-
-            var playerName = $(this).find('td:nth-child(2)').text();
-            var playerID = $(this).attr('data-id');
-            var goalsScored = $(this).find('.score-select').val();
-            var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
-            var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
-
-            player[playerName] = {
-                "homeTeamPlayerName": playerName,
-                "homeTeamPlayerID": playerID,
-                "homeTeamGoalsScored": goalsScored,
-                "homeTeamCleanSheet": cleanSheet,
-                "homeTeamRedCard": redCard
+            fixture[_fixtureNumber] = {
+                "_homeTeamName": _homeTeamName,
+                "_homeTeamID": _homeTeamID,
             }
-
-            players.push(player);
         }
-
-        
     });
 
-    home_teams.push(players);
-    fixture_1.push(home_teams);
-    current_week.push(fixture_1)
+    // $('#fixture-1 .home-team-players .player-data').each(function () {
+
+    //     var player = {};
+
+    //     // Check if the player has any data that needs to be stored
+    //     if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
+
+    //         var playerName = $(this).find('td:nth-child(2)').text();
+    //         var playerID = $(this).attr('data-id');
+    //         var goalsScored = $(this).find('.score-select').val();
+    //         var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
+    //         var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
+
+    //         player[playerName] = {
+    //             "homeTeamPlayerName": playerName,
+    //             "homeTeamPlayerID": playerID,
+    //             "homeTeamGoalsScored": goalsScored,
+    //             "homeTeamCleanSheet": cleanSheet,
+    //             "homeTeamRedCard": redCard
+    //         }
+
+    //         players.push(player);
+    //     }
+
+
+    // });
+
+    current_week.push(fixture);
     console.log(current_week);
 
-    localStorage[_currentWeek] = JSON.stringify(fixture_1);
+    localStorage[_currentWeek] = JSON.stringify(current_week);
 }
 
 $(function () {
