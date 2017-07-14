@@ -28071,175 +28071,98 @@ function teamPointUpdates() {
 
 }
 
-var week_1 = [
-
-    {
-        "fixture_1": [
-            {
-                "home_team": [
-                    {
-                        "id": 1,
-                        "name": 'lfc',
-                        "score": 2,
-                        "players": [
-                            {
-                                "id": 2,
-                                "name": 'Mignolet',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 3,
-                                "name": 'Matip',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 4,
-                                "name": 'Lovren',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 5,
-                                "name": 'Clyne',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 6,
-                                "name": 'Mane',
-                                "goals": 1,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 7,
-                                "name": 'Firmino',
-                                "goals": 2,
-                                "red_card": true,
-                            }
-
-                        ],
-                    }
-
-                ],
-
-                "away_team": [
-                    {
-                        "id": 1,
-                        "name": 'lfc',
-                        "score": 2,
-                        "players": [
-                            {
-                                "id": 2,
-                                "name": 'Mignolet',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 3,
-                                "name": 'Matip',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 4,
-                                "name": 'Lovren',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 5,
-                                "name": 'Clyne',
-                                "goals": 0,
-                                "clean_sheet": true,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 6,
-                                "name": 'Mane',
-                                "goals": 1,
-                                "red_card": false,
-                            },
-                            {
-                                "id": 7,
-                                "name": 'Firmino',
-                                "goals": 2,
-                                "red_card": true,
-                            }
-
-                        ],
-                    }
-
-                ],
-            }
-        ],
-
-    },
-
-]
-
 function storeLocalData() {
 
     var _currentWeek = 'week_' + $('.week-dropdown').val();
     var current_week = [];
     var fixture = {};
+    var fixtures = [];
+    var player = {};
     var players = [];
+
+    var _homeTeamName = null;
+    var _homeTeamID = null;
+
+    var _awayTeamName = null;
+    var _awayTeamID = null;
 
     $('.fixtures .teams-dropdown').find(':selected').each(function () {
 
         if ($(this).val() !== 'Teams') {
 
             var _fixtureNumber = $(this).closest('[id^=fixture-]').find('h3').text();
-            var _homeTeamName = $(this).text();
-            var _homeTeamID = $(this).val();
+
+            console.log($(this).parent().parent());
+
+            if ($(this).parents('.home-team').length) {
+
+                _homeTeamName = $(this).text();
+                _homeTeamID = $(this).val();
+
+            } else {
+                _awayTeamName = $(this).text();
+                _awayTeamID = $(this).val();
+            }
 
             fixture[_fixtureNumber] = {
                 "_homeTeamName": _homeTeamName,
                 "_homeTeamID": _homeTeamID,
+                "_awayTeamName": _awayTeamName,
+                "_awayTeamID": _awayTeamID
             }
         }
     });
 
-    // $('#fixture-1 .home-team-players .player-data').each(function () {
+    $('.player-data').each(function () {
 
-    //     var player = {};
+        // Check if the player has any data that needs to be stored
+        if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
 
-    //     // Check if the player has any data that needs to be stored
-    //     if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
+            var playerName = $(this).find('td:nth-child(2)').text();
+            var playerID = $(this).attr('data-id');
+            var goalsScored = $(this).find('.score-select').val();
+            var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
+            var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
 
-    //         var playerName = $(this).find('td:nth-child(2)').text();
-    //         var playerID = $(this).attr('data-id');
-    //         var goalsScored = $(this).find('.score-select').val();
-    //         var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
-    //         var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
+            player[playerName] = {
+                "playerName": playerName,
+                "playerID": playerID,
+                "goalsScored": goalsScored,
+                "cleanSheet": cleanSheet,
+                "redCard": redCard
+            }
 
-    //         player[playerName] = {
-    //             "homeTeamPlayerName": playerName,
-    //             "homeTeamPlayerID": playerID,
-    //             "homeTeamGoalsScored": goalsScored,
-    //             "homeTeamCleanSheet": cleanSheet,
-    //             "homeTeamRedCard": redCard
-    //         }
-
-    //         players.push(player);
-    //     }
+        }
 
 
-    // });
+    });
 
-    current_week.push(fixture);
-    console.log(current_week);
+    current_week.push(fixture, player);
+
+    weeks = [current_week];
 
     localStorage[_currentWeek] = JSON.stringify(current_week);
+
+    console.log(current_week);
+
+    
 }
+
+function applyLocaldata() {
+
+    var _selectedWeek = 'week_' + $('.week-dropdown').val();
+    var selectedWeekdata = JSON.parse(localStorage.getItem(_selectedWeek));
+
+    $.each(selectedWeekdata, function(i , item){
+
+        var Fixtures = selectedWeekdata[0];
+        var Players = selectedWeekdata[1];
+
+    });
+
+    console.log(selectedWeekdata[0]);
+
+} 
 
 $(function () {
 
@@ -28555,5 +28478,10 @@ $(function () {
     $('.save-week').on('click', function () {
         storeLocalData();
     });
+
+    $('.week-dropdown').on('change', function () {
+        applyLocaldata();
+    });
+
 
 });
