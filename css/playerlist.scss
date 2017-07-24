@@ -1,5 +1,30 @@
-.players-table {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.player-tables {
+
     table {
         width: 100%;
+        table-layout: fixed;
+
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        tr.table-heading {
+            background-color: transparent;
+            padding: 5px 0;
+        }
+
+        
+        td {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+    
+
     }
+
 }
