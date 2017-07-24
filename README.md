@@ -5,8 +5,8 @@ Fantasy Football project designed to remove the manual process of points total c
 
 [craigjamesdobson.github.io/fantasy-football](https://craigjamesdobson.github.io/fantasy-football)
 
-[Player List](fantasy-football/players)
+[Player List](players)
 
 
-[Calculator](fantasy-football/calculator)
+[Calculator](calculator)
 
