@@ -28074,7 +28074,8 @@ function teamPointUpdates() {
 function storeLocalData() {
 
     var _currentWeek = 'week_' + $('.week-dropdown').val();
-    var current_week = [];
+    var current_week_fixtures = [];
+    var current_week_players = [];
     var fixture = {};
     var fixtures = [];
     var player = {};
@@ -28105,12 +28106,15 @@ function storeLocalData() {
             }
 
             fixture[_fixtureNumber] = {
+                "_fixture" : _fixtureNumber,
                 "_homeTeamName": _homeTeamName,
                 "_homeTeamID": _homeTeamID,
                 "_awayTeamName": _awayTeamName,
                 "_awayTeamID": _awayTeamID
             }
         }
+
+        
     });
 
     $('.player-data').each(function () {
@@ -28124,7 +28128,7 @@ function storeLocalData() {
             var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
             var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
 
-            player[playerName] = {
+            player = {
                 "playerName": playerName,
                 "playerID": playerID,
                 "goalsScored": goalsScored,
@@ -28132,35 +28136,41 @@ function storeLocalData() {
                 "redCard": redCard
             }
 
-        }
+            current_week_players.push(player);
 
+        }
 
     });
 
-    current_week.push(fixture, player);
+    current_week_fixtures.push(fixture);
 
-    weeks = [current_week];
-
-    localStorage[_currentWeek] = JSON.stringify(current_week);
-
-    console.log(current_week);
-
+    localStorage[_currentWeek + " fixtures"] = JSON.stringify(current_week_fixtures);
+    localStorage[_currentWeek + " players"] = JSON.stringify(current_week_players);
     
 }
 
 function applyLocaldata() {
 
-    var _selectedWeek = 'week_' + $('.week-dropdown').val();
-    var selectedWeekdata = JSON.parse(localStorage.getItem(_selectedWeek));
+    var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + " fixtures";
+    var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + " fixtures";
 
-    $.each(selectedWeekdata, function(i , item){
+    var selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
+    var selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
 
-        var Fixtures = selectedWeekdata[0];
-        var Players = selectedWeekdata[1];
+    // var Fixtures = selectedWeekdata[0];
+    // var Players = selectedWeekdata[1];
 
-    });
+    for (var i = 0; i < selectedWeekFixturesData.length; i++) {
 
-    console.log(selectedWeekdata[0]);
+        console.log(selectedWeekFixturesData[i]);
+
+    }
+
+    for (var i = 0; i < selectedWeekPlayersData.length; i++) {
+
+        console.log(selectedWeekPlayersData[i]);
+
+    }
 
 } 
 
