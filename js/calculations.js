@@ -27837,7 +27837,10 @@ var $selectedTeam = null,
     $dropdownOption = null,
 
     $score = null,
-    $total = 0;
+    $total = 0,
+
+    $selectedWeekFixturesData = null,
+    $selectedWeekPlayersData = null;
 
 
 // Find each team and populate the dropdowns
@@ -28091,7 +28094,7 @@ function storeLocalData() {
 
         if ($(this).val() !== 'Teams') {
 
-            var _fixtureNumber = $(this).closest('[id^=fixture-]').find('h3').text();
+            var _fixtureNumber = $(this).closest('[id^=fixture-]').val();
 
             console.log($(this).parent().parent());
 
@@ -28128,7 +28131,7 @@ function storeLocalData() {
             var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
             var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
 
-            player = {
+            player[playerID] = {
                 "playerName": playerName,
                 "playerID": playerID,
                 "goalsScored": goalsScored,
@@ -28144,33 +28147,40 @@ function storeLocalData() {
 
     current_week_fixtures.push(fixture);
 
-    localStorage[_currentWeek + " fixtures"] = JSON.stringify(current_week_fixtures);
-    localStorage[_currentWeek + " players"] = JSON.stringify(current_week_players);
+    localStorage[_currentWeek + "_fixtures"] = JSON.stringify(current_week_fixtures);
+    localStorage[_currentWeek + "_players"] = JSON.stringify(current_week_players);
     
 }
 
 function applyLocaldata() {
 
-    var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + " fixtures";
-    var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + " fixtures";
+    var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + "_fixtures";
+    var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + "_players";
 
-    var selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
-    var selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
+    $selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
+    $selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
 
     // var Fixtures = selectedWeekdata[0];
     // var Players = selectedWeekdata[1];
 
-    for (var i = 0; i < selectedWeekFixturesData.length; i++) {
 
-        console.log(selectedWeekFixturesData[i]);
+    for (var i = 0; i < 5; i++) {
+
+            console.log($selectedWeekFixturesData[i]["_fixture"]);
+
+        $('.fixtures').each(function () { 
+            if (($selectedWeekFixturesData[i]._fixture == $(this).attr("id"))) {
+                $(this).find('.home-team .teams-dropdown').val(selectedWeekFixturesData[i]._homeTeamID);
+            }
+        });
 
     }
 
-    for (var i = 0; i < selectedWeekPlayersData.length; i++) {
+    // for (var i = 0; i < selectedWeekPlayersData.length; i++) {
 
-        console.log(selectedWeekPlayersData[i]);
+    //     //console.log(selectedWeekPlayersData[i]);
 
-    }
+    // }
 
 } 
 
@@ -28178,8 +28188,8 @@ $(function () {
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
-        $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
-        $score = $('.score');
+    $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
+    $score = $('.score');
     $total = 0;
 
     // Find each team and populate the dropdowns
