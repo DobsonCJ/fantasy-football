@@ -27836,6 +27836,10 @@ var $selectedTeam = null,
     $teamDropdown = null,
     $dropdownOption = null,
 
+    $selectedWeekFixturesData = null,
+    $selectedWeekPlayersData = null,
+    $selectedWeekFixturesData2 = null,
+
     $score = null,
     $total = 0,
 
@@ -28086,38 +28090,44 @@ function storeLocalData() {
 
     var _homeTeamName = null;
     var _homeTeamID = null;
+    var _homeTeamScore = null;
 
     var _awayTeamName = null;
     var _awayTeamID = null;
+    var _awayTeamScore = null;
 
     $('.fixtures .teams-dropdown').find(':selected').each(function () {
 
         if ($(this).val() !== 'Teams') {
 
-            var _fixtureNumber = $(this).closest('[id^=fixture-]').val();
-
-            console.log($(this).parent().parent());
+            var _fixtureNumber = $(this).closest('[id^=fixture-]').attr('id');
 
             if ($(this).parents('.home-team').length) {
 
                 _homeTeamName = $(this).text();
                 _homeTeamID = $(this).val();
+                _homeTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
 
             } else {
+
                 _awayTeamName = $(this).text();
                 _awayTeamID = $(this).val();
+                _awayTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
+                
             }
 
             fixture[_fixtureNumber] = {
-                "_fixture" : _fixtureNumber,
+                "_fixture": _fixtureNumber,
                 "_homeTeamName": _homeTeamName,
                 "_homeTeamID": _homeTeamID,
+                "_homeTeamScore": _homeTeamScore,
                 "_awayTeamName": _awayTeamName,
-                "_awayTeamID": _awayTeamID
+                "_awayTeamID": _awayTeamID,
+                "_awayTeamScore": _awayTeamScore
             }
         }
 
-        
+
     });
 
     $('.player-data').each(function () {
@@ -28149,10 +28159,14 @@ function storeLocalData() {
 
     localStorage[_currentWeek + "_fixtures"] = JSON.stringify(current_week_fixtures);
     localStorage[_currentWeek + "_players"] = JSON.stringify(current_week_players);
-    
 }
 
 function applyLocaldata() {
+
+    $('.home-team .teams-dropdown').val('Teams').prop('selected', false);
+    $('.away-team .teams-dropdown').val('Teams').prop('selected', false);
+
+    $('.home-team-players table, .away-team-players table').empty()
 
     var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + "_fixtures";
     var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + "_players";
@@ -28160,29 +28174,59 @@ function applyLocaldata() {
     $selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
     $selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
 
-    // var Fixtures = selectedWeekdata[0];
-    // var Players = selectedWeekdata[1];
+    $.each($selectedWeekFixturesData, function (i, fixture) {
 
+        $.each(fixture, function (i, fixturename) {
 
-    for (var i = 0; i < 5; i++) {
+            var currentFixture = fixturename._fixture;
 
-            console.log($selectedWeekFixturesData[i]["_fixture"]);
+            $('.fixtures').each(function (i) {
+                if ($(this).attr('id') == currentFixture) {
 
-        $('.fixtures').each(function () { 
-            if (($selectedWeekFixturesData[i]._fixture == $(this).attr("id"))) {
-                $(this).find('.home-team .teams-dropdown').val(selectedWeekFixturesData[i]._homeTeamID);
+                    console.log(fixturename._homeTeamID);
+
+                    $(this).find('.home-team .teams-dropdown').val(fixturename._homeTeamID).prop('selected', true);
+                    $(this).find('.away-team .teams-dropdown').val(fixturename._awayTeamID).prop('selected', true);
+
+                    $(this).find('.home-team .score').val(fixturename._homeTeamScore).prop('selected', true);
+                    $(this).find('.away-team .score').val(fixturename._awayTeamScore).prop('selected', true);
+                }
+            });
+        });
+
+    });
+
+    $('.teams-dropdown').each(function () {
+
+        if ($(this).prop('selected') == true) {
+            $(this).trigger('change');
+        }
+
+    });
+
+    $('.score').each(function () {
+
+        if ($(this).prop('selected') == true) {
+            $(this).trigger('change');
+        }
+
+    });
+
+    $.each($selectedWeekPlayersData, function (i, player) {
+
+        $('.player-data').each(function (i) {
+            if ($(this).attr('data-id') == player.playerID) {
+
+                $(this).find('.red-card-checkbox').prop('checked', player.redCard);
+                $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
+                $(this).find('.score-select').val(player.goalsScored);
+
             }
         });
 
-    }
+    });
 
-    // for (var i = 0; i < selectedWeekPlayersData.length; i++) {
-
-    //     //console.log(selectedWeekPlayersData[i]);
-
-    // }
-
-} 
+}
 
 $(function () {
 
@@ -28501,6 +28545,7 @@ $(function () {
 
     $('.week-dropdown').on('change', function () {
         applyLocaldata();
+        teamPointUpdates();
     });
 
 
