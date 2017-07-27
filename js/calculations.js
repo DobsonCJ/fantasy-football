@@ -27841,7 +27841,10 @@ var $selectedTeam = null,
     $selectedWeekFixturesData2 = null,
 
     $score = null,
-    $total = 0;
+    $total = 0,
+
+    $selectedWeekFixturesData = null,
+    $selectedWeekPlayersData = null;
 
 
 // Find each team and populate the dropdowns
@@ -28105,14 +28108,12 @@ function storeLocalData() {
                 _homeTeamID = $(this).val();
                 _homeTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
 
-                console.log(_homeTeamScore);
-
             } else {
+
                 _awayTeamName = $(this).text();
                 _awayTeamID = $(this).val();
                 _awayTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
-
-                console.log(_awayTeamScore);
+                
             }
 
             fixture[_fixtureNumber] = {
@@ -28140,7 +28141,7 @@ function storeLocalData() {
             var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
             var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
 
-            player = {
+            player[playerID] = {
                 "playerName": playerName,
                 "playerID": playerID,
                 "goalsScored": goalsScored,
@@ -28158,7 +28159,6 @@ function storeLocalData() {
 
     localStorage[_currentWeek + "_fixtures"] = JSON.stringify(current_week_fixtures);
     localStorage[_currentWeek + "_players"] = JSON.stringify(current_week_players);
-
 }
 
 function applyLocaldata() {
@@ -28192,8 +28192,6 @@ function applyLocaldata() {
                     $(this).find('.away-team .score').val(fixturename._awayTeamScore).prop('selected', true);
                 }
             });
-
-            //console.log(fixturename._fixture);
         });
 
     });
