@@ -743,7 +743,7 @@ var Players = [
         ict_index: "2.9",
         ea_index: 0,
         element_type: 1,
-        team: "ARS"
+        team: 1
     },
     {
         id: 2,
@@ -767,7 +767,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.7",
+        selected_by_percent: "5.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -802,7 +802,7 @@ var Players = [
         ict_index: "82.0",
         ea_index: 0,
         element_type: 1,
-        team: "ARS"
+        team: 1
     },
     {
         id: 3,
@@ -861,7 +861,7 @@ var Players = [
         ict_index: "3.1",
         ea_index: 0,
         element_type: 1,
-        team: "ARS"
+        team: 1
     },
     {
         id: 4,
@@ -920,7 +920,7 @@ var Players = [
         ict_index: "112.7",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 5,
@@ -944,7 +944,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "1.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -979,7 +979,7 @@ var Players = [
         ict_index: "1.8",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 6,
@@ -991,10 +991,10 @@ var Players = [
         first_name: "Gabriel Armando",
         second_name: "de Abreu",
         squad_number: 5,
-        news: "Knee injury - 75% chance of playing",
+        news: "Knee injury - 25% chance of playing",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 25,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -1017,7 +1017,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.4",
         ep_this: null,
-        ep_next: "1.9",
+        ep_next: "0.6",
         special: false,
         minutes: 1517,
         goals_scored: 0,
@@ -1038,7 +1038,7 @@ var Players = [
         ict_index: "50.0",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 7,
@@ -1062,7 +1062,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.8",
+        selected_by_percent: "13.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1097,22 +1097,22 @@ var Players = [
         ict_index: "133.8",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 8,
         photo: "42427.jpg",
         web_name: "Gibbs",
         team_code: 3,
-        status: "a",
+        status: "d",
         code: 42427,
         first_name: "Kieran",
         second_name: "Gibbs",
         squad_number: 3,
-        news: "",
+        news: "Illness - 75% chance of playing",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -1121,7 +1121,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1135,7 +1135,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.1",
         ep_this: null,
-        ep_next: "2.6",
+        ep_next: "1.9",
         special: false,
         minutes: 702,
         goals_scored: 0,
@@ -1156,7 +1156,7 @@ var Players = [
         ict_index: "43.1",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 9,
@@ -1215,7 +1215,7 @@ var Players = [
         ict_index: "2.1",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 10,
@@ -1239,7 +1239,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.8",
+        selected_by_percent: "4.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1274,7 +1274,7 @@ var Players = [
         ict_index: "105.8",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 11,
@@ -1298,7 +1298,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1333,7 +1333,7 @@ var Players = [
         ict_index: "32.2",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 12,
@@ -1357,7 +1357,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.8",
+        selected_by_percent: "3.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1392,7 +1392,7 @@ var Players = [
         ict_index: "112.4",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 13,
@@ -1416,7 +1416,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.9",
+        selected_by_percent: "6.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1451,22 +1451,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 14,
         photo: "37265.jpg",
         web_name: "Sánchez",
         team_code: 3,
-        status: "a",
+        status: "d",
         code: 37265,
         first_name: "Alexis",
         second_name: "Sánchez",
         squad_number: 7,
-        news: "",
+        news: "Illness - 75% chance of playing",
         now_cost: 120,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -1475,7 +1475,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.1",
+        selected_by_percent: "11.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1489,7 +1489,7 @@ var Players = [
         event_points: 0,
         points_per_game: "6.9",
         ep_this: null,
-        ep_next: "4.5",
+        ep_next: "3.4",
         special: false,
         minutes: 3217,
         goals_scored: 24,
@@ -1510,22 +1510,22 @@ var Players = [
         ict_index: "453.4",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 15,
         photo: "20467.jpg",
         web_name: "Walcott",
         team_code: 3,
-        status: "d",
+        status: "a",
         code: 20467,
         first_name: "Theo",
         second_name: "Walcott",
         squad_number: 14,
-        news: "Illness - 75% chance of playing",
+        news: "",
         now_cost: 75,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -1534,7 +1534,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1548,7 +1548,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.4",
         ep_this: null,
-        ep_next: "2.3",
+        ep_next: "3.1",
         special: false,
         minutes: 1916,
         goals_scored: 10,
@@ -1569,7 +1569,7 @@ var Players = [
         ict_index: "184.1",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 16,
@@ -1593,7 +1593,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.4",
+        selected_by_percent: "5.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1628,7 +1628,7 @@ var Players = [
         ict_index: "322.0",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 17,
@@ -1687,7 +1687,7 @@ var Players = [
         ict_index: "50.8",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 18,
@@ -1711,7 +1711,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.1",
+        selected_by_percent: "4.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1746,7 +1746,7 @@ var Players = [
         ict_index: "111.3",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 19,
@@ -1770,7 +1770,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.9",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1805,22 +1805,22 @@ var Players = [
         ict_index: "137.5",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 20,
         photo: "56864.jpg",
         web_name: "Coquelin",
         team_code: 3,
-        status: "a",
+        status: "d",
         code: 56864,
         first_name: "Francis",
         second_name: "Coquelin",
         squad_number: 34,
-        news: "",
+        news: "Ankle injury - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -1829,7 +1829,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1843,7 +1843,7 @@ var Players = [
         event_points: 0,
         points_per_game: "1.8",
         ep_this: null,
-        ep_next: "1.5",
+        ep_next: "1.1",
         special: false,
         minutes: 1779,
         goals_scored: 0,
@@ -1864,7 +1864,7 @@ var Players = [
         ict_index: "72.4",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 21,
@@ -1888,7 +1888,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.3",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -1923,7 +1923,7 @@ var Players = [
         ict_index: "138.7",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 22,
@@ -1982,7 +1982,7 @@ var Players = [
         ict_index: "31.1",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 23,
@@ -2006,7 +2006,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "2.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2041,7 +2041,7 @@ var Players = [
         ict_index: "130.8",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 24,
@@ -2100,7 +2100,7 @@ var Players = [
         ict_index: "116.8",
         ea_index: 0,
         element_type: 3,
-        team: "ARS"
+        team: 1
     },
     {
         id: 25,
@@ -2124,7 +2124,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.7",
+        selected_by_percent: "1.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2159,7 +2159,7 @@ var Players = [
         ict_index: "158.9",
         ea_index: 0,
         element_type: 4,
-        team: "ARS"
+        team: 1
     },
     {
         id: 26,
@@ -2218,7 +2218,7 @@ var Players = [
         ict_index: "55.5",
         ea_index: 0,
         element_type: 4,
-        team: "ARS"
+        team: 1
     },
     {
         id: 27,
@@ -2277,7 +2277,7 @@ var Players = [
         ict_index: "32.9",
         ea_index: 0,
         element_type: 4,
-        team: "ARS"
+        team: 1
     },
     {
         id: 28,
@@ -2301,7 +2301,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "19.7",
+        selected_by_percent: "17.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2336,7 +2336,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "ARS"
+        team: 1
     },
     {
         id: 29,
@@ -2360,7 +2360,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "7.5",
+        selected_by_percent: "6.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2395,7 +2395,7 @@ var Players = [
         ict_index: "1.3",
         ea_index: 0,
         element_type: 1,
-        team: "BOU"
+        team: 2
     },
     {
         id: 30,
@@ -2419,7 +2419,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.2",
+        selected_by_percent: "6.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2454,7 +2454,7 @@ var Players = [
         ict_index: "82.4",
         ea_index: 0,
         element_type: 1,
-        team: "BOU"
+        team: 2
     },
     {
         id: 31,
@@ -2478,7 +2478,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.4",
+        selected_by_percent: "2.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2513,7 +2513,7 @@ var Players = [
         ict_index: "3.5",
         ea_index: 0,
         element_type: 1,
-        team: "BOU"
+        team: 2
     },
     {
         id: 32,
@@ -2537,7 +2537,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.8",
+        selected_by_percent: "3.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2572,7 +2572,7 @@ var Players = [
         ict_index: "117.3",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 33,
@@ -2596,7 +2596,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2631,7 +2631,7 @@ var Players = [
         ict_index: "158.2",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 34,
@@ -2655,7 +2655,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "20.7",
+        selected_by_percent: "21.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2690,22 +2690,22 @@ var Players = [
         ict_index: "152.9",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 35,
         photo: "54469.jpg",
         web_name: "Adam Smith",
         team_code: 91,
-        status: "d",
+        status: "a",
         code: 54469,
         first_name: "Adam",
         second_name: "Smith",
         squad_number: 15,
-        news: "Thigh injury - 75% chance of playing",
+        news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -2728,7 +2728,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.9",
         ep_this: null,
-        ep_next: "1.6",
+        ep_next: "2.1",
         special: false,
         minutes: 3101,
         goals_scored: 1,
@@ -2749,7 +2749,7 @@ var Players = [
         ict_index: "132.1",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 36,
@@ -2808,7 +2808,7 @@ var Players = [
         ict_index: "18.9",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 37,
@@ -2832,7 +2832,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.9",
+        selected_by_percent: "4.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2867,7 +2867,7 @@ var Players = [
         ict_index: "8.6",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 38,
@@ -2891,7 +2891,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "10.5",
+        selected_by_percent: "9.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -2926,7 +2926,7 @@ var Players = [
         ict_index: "57.5",
         ea_index: 0,
         element_type: 2,
-        team: "BOU"
+        team: 2
     },
     {
         id: 39,
@@ -2985,7 +2985,7 @@ var Players = [
         ict_index: "135.4",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 40,
@@ -3044,7 +3044,7 @@ var Players = [
         ict_index: "83.3",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 41,
@@ -3103,7 +3103,7 @@ var Players = [
         ict_index: "57.0",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 42,
@@ -3127,7 +3127,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3162,7 +3162,7 @@ var Players = [
         ict_index: "128.0",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 43,
@@ -3221,7 +3221,7 @@ var Players = [
         ict_index: "60.5",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 44,
@@ -3280,7 +3280,7 @@ var Players = [
         ict_index: "10.8",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 45,
@@ -3304,7 +3304,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3339,7 +3339,7 @@ var Players = [
         ict_index: "61.5",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 46,
@@ -3398,7 +3398,7 @@ var Players = [
         ict_index: "21.8",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 47,
@@ -3457,7 +3457,7 @@ var Players = [
         ict_index: "120.7",
         ea_index: 0,
         element_type: 3,
-        team: "BOU"
+        team: 2
     },
     {
         id: 48,
@@ -3516,7 +3516,7 @@ var Players = [
         ict_index: "82.2",
         ea_index: 0,
         element_type: 4,
-        team: "BOU"
+        team: 2
     },
     {
         id: 49,
@@ -3540,7 +3540,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "0.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3575,7 +3575,7 @@ var Players = [
         ict_index: "130.8",
         ea_index: 0,
         element_type: 4,
-        team: "BOU"
+        team: 2
     },
     {
         id: 50,
@@ -3634,22 +3634,22 @@ var Players = [
         ict_index: "16.1",
         ea_index: 0,
         element_type: 4,
-        team: "BOU"
+        team: 2
     },
     {
         id: 51,
         photo: "78007.jpg",
         web_name: "King",
         team_code: 91,
-        status: "a",
+        status: "d",
         code: 78007,
         first_name: "Joshua",
         second_name: "King",
         squad_number: 17,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 75,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -3658,7 +3658,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.6",
+        selected_by_percent: "6.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3672,7 +3672,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.9",
         ep_this: null,
-        ep_next: "2.3",
+        ep_next: "1.7",
         special: false,
         minutes: 2714,
         goals_scored: 16,
@@ -3693,7 +3693,7 @@ var Players = [
         ict_index: "231.6",
         ea_index: 0,
         element_type: 4,
-        team: "BOU"
+        team: 2
     },
     {
         id: 52,
@@ -3717,7 +3717,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.4",
+        selected_by_percent: "13.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3752,7 +3752,7 @@ var Players = [
         ict_index: "227.0",
         ea_index: 0,
         element_type: 4,
-        team: "BOU"
+        team: 2
     },
     {
         id: 53,
@@ -3776,7 +3776,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.9",
+        selected_by_percent: "1.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3811,7 +3811,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "BHA"
+        team: 3
     },
     {
         id: 54,
@@ -3835,7 +3835,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3870,7 +3870,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "BHA"
+        team: 3
     },
     {
         id: 55,
@@ -3894,7 +3894,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.5",
+        selected_by_percent: "3.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3929,7 +3929,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 56,
@@ -3953,7 +3953,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.6",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -3988,7 +3988,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 57,
@@ -4012,7 +4012,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.5",
+        selected_by_percent: "8.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -4047,7 +4047,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 58,
@@ -4106,7 +4106,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 59,
@@ -4165,7 +4165,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 60,
@@ -4224,7 +4224,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 61,
@@ -4283,7 +4283,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 62,
@@ -4307,7 +4307,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.1",
+        selected_by_percent: "2.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -4342,7 +4342,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 63,
@@ -4401,7 +4401,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 64,
@@ -4460,7 +4460,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 65,
@@ -4484,7 +4484,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.6",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -4519,7 +4519,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 66,
@@ -4543,7 +4543,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -4578,7 +4578,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 67,
@@ -4637,7 +4637,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 68,
@@ -4696,7 +4696,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 69,
@@ -4755,7 +4755,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 70,
@@ -4814,7 +4814,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 71,
@@ -4838,7 +4838,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.0",
+        selected_by_percent: "0.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -4873,7 +4873,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "BHA"
+        team: 3
     },
     {
         id: 72,
@@ -4932,7 +4932,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "BHA"
+        team: 3
     },
     {
         id: 73,
@@ -4991,7 +4991,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "BHA"
+        team: 3
     },
     {
         id: 74,
@@ -5015,7 +5015,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "12.3",
+        selected_by_percent: "12.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5050,7 +5050,7 @@ var Players = [
         ict_index: "103.2",
         ea_index: 0,
         element_type: 1,
-        team: "BUR"
+        team: 4
     },
     {
         id: 75,
@@ -5074,7 +5074,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5109,7 +5109,7 @@ var Players = [
         ict_index: "6.6",
         ea_index: 0,
         element_type: 1,
-        team: "BUR"
+        team: 4
     },
     {
         id: 76,
@@ -5133,7 +5133,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5168,7 +5168,7 @@ var Players = [
         ict_index: "134.2",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 77,
@@ -5192,7 +5192,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "10.9",
+        selected_by_percent: "11.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5227,7 +5227,7 @@ var Players = [
         ict_index: "126.7",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 78,
@@ -5251,7 +5251,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.1",
+        selected_by_percent: "2.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5286,22 +5286,22 @@ var Players = [
         ict_index: "118.3",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 79,
         photo: "17761.jpg",
         web_name: "Tarkowski",
         team_code: 90,
-        status: "d",
+        status: "a",
         code: 17761,
         first_name: "James",
         second_name: "Tarkowski",
-        squad_number: 26,
-        news: "Hip injury - 75% chance of playing",
+        squad_number: 5,
+        news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -5345,7 +5345,7 @@ var Players = [
         ict_index: "27.5",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 80,
@@ -5369,7 +5369,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.2",
+        selected_by_percent: "2.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5404,7 +5404,7 @@ var Players = [
         ict_index: "6.1",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 81,
@@ -5415,7 +5415,7 @@ var Players = [
         code: 103914,
         first_name: "Charlie",
         second_name: "Taylor",
-        squad_number: null,
+        squad_number: 3,
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
@@ -5463,7 +5463,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 82,
@@ -5522,7 +5522,7 @@ var Players = [
         ict_index: "115.7",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 83,
@@ -5581,7 +5581,7 @@ var Players = [
         ict_index: "40.5",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 84,
@@ -5592,7 +5592,7 @@ var Players = [
         code: 60586,
         first_name: "Johann Berg",
         second_name: "Gudmundsson",
-        squad_number: 25,
+        squad_number: 17,
         news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
@@ -5640,7 +5640,7 @@ var Players = [
         ict_index: "64.8",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 85,
@@ -5664,7 +5664,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5699,7 +5699,7 @@ var Players = [
         ict_index: "73.3",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 86,
@@ -5758,7 +5758,7 @@ var Players = [
         ict_index: "77.4",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 87,
@@ -5817,7 +5817,7 @@ var Players = [
         ict_index: "51.6",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 88,
@@ -5876,7 +5876,7 @@ var Players = [
         ict_index: "11.8",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 89,
@@ -5887,7 +5887,7 @@ var Players = [
         code: 12813,
         first_name: "Jonathan",
         second_name: "Walters",
-        squad_number: null,
+        squad_number: 19,
         news: "",
         now_cost: 55,
         chance_of_playing_this_round: null,
@@ -5935,7 +5935,7 @@ var Players = [
         ict_index: "98.0",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 90,
@@ -5946,7 +5946,7 @@ var Players = [
         code: 40145,
         first_name: "Jack",
         second_name: "Cork",
-        squad_number: null,
+        squad_number: 4,
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
@@ -5959,7 +5959,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -5994,7 +5994,7 @@ var Players = [
         ict_index: "71.6",
         ea_index: 0,
         element_type: 3,
-        team: "BUR"
+        team: 4
     },
     {
         id: 91,
@@ -6018,7 +6018,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.2",
+        selected_by_percent: "2.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6053,7 +6053,7 @@ var Players = [
         ict_index: "164.6",
         ea_index: 0,
         element_type: 4,
-        team: "BUR"
+        team: 4
     },
     {
         id: 92,
@@ -6077,7 +6077,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.7",
+        selected_by_percent: "1.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6112,7 +6112,7 @@ var Players = [
         ict_index: "137.4",
         ea_index: 0,
         element_type: 4,
-        team: "BUR"
+        team: 4
     },
     {
         id: 93,
@@ -6171,7 +6171,7 @@ var Players = [
         ict_index: "125.5",
         ea_index: 0,
         element_type: 4,
-        team: "BUR"
+        team: 4
     },
     {
         id: 94,
@@ -6195,7 +6195,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "18.4",
+        selected_by_percent: "18.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6230,7 +6230,7 @@ var Players = [
         ict_index: "52.0",
         ea_index: 0,
         element_type: 1,
-        team: "CHE"
+        team: 5
     },
     {
         id: 95,
@@ -6289,7 +6289,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "CHE"
+        team: 5
     },
     {
         id: 96,
@@ -6348,7 +6348,7 @@ var Players = [
         ict_index: "26.8",
         ea_index: 0,
         element_type: 1,
-        team: "CHE"
+        team: 5
     },
     {
         id: 97,
@@ -6372,7 +6372,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "12.0",
+        selected_by_percent: "11.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6407,7 +6407,7 @@ var Players = [
         ict_index: "136.8",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 98,
@@ -6431,7 +6431,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "12.9",
+        selected_by_percent: "13.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6466,7 +6466,7 @@ var Players = [
         ict_index: "133.3",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 99,
@@ -6490,7 +6490,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "2.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6525,7 +6525,7 @@ var Players = [
         ict_index: "7.8",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 100,
@@ -6549,7 +6549,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.6",
+        selected_by_percent: "14.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6584,7 +6584,7 @@ var Players = [
         ict_index: "157.6",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 101,
@@ -6608,7 +6608,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "21.5",
+        selected_by_percent: "21.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6643,7 +6643,7 @@ var Players = [
         ict_index: "109.1",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 102,
@@ -6702,7 +6702,7 @@ var Players = [
         ict_index: "166.7",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 103,
@@ -6726,7 +6726,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.6",
+        selected_by_percent: "5.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6761,7 +6761,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 104,
@@ -6785,7 +6785,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.2",
+        selected_by_percent: "2.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6820,7 +6820,7 @@ var Players = [
         ict_index: "351.6",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 105,
@@ -6844,7 +6844,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "7.9",
+        selected_by_percent: "8.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6879,7 +6879,7 @@ var Players = [
         ict_index: "184.1",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 106,
@@ -6903,7 +6903,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.4",
+        selected_by_percent: "14.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6938,18 +6938,18 @@ var Players = [
         ict_index: "182.1",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 107,
         photo: "62398.jpg",
         web_name: "Matic",
-        team_code: 8,
+        team_code: 1,
         status: "a",
         code: 62398,
         first_name: "Nemanja",
         second_name: "Matic",
-        squad_number: 21,
+        squad_number: 31,
         news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
@@ -6962,7 +6962,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.0",
+        selected_by_percent: "7.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -6976,7 +6976,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.0",
         ep_this: null,
-        ep_next: "2.9",
+        ep_next: "2.4",
         special: false,
         minutes: 2694,
         goals_scored: 1,
@@ -6997,7 +6997,7 @@ var Players = [
         ict_index: "127.5",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 12
     },
     {
         id: 108,
@@ -7021,7 +7021,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "15.8",
+        selected_by_percent: "15.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7056,7 +7056,7 @@ var Players = [
         ict_index: "3.4",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 109,
@@ -7080,7 +7080,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.9",
+        selected_by_percent: "2.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7115,7 +7115,7 @@ var Players = [
         ict_index: "198.8",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 110,
@@ -7174,7 +7174,7 @@ var Players = [
         ict_index: "6.0",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 111,
@@ -7198,7 +7198,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.8",
+        selected_by_percent: "15.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7233,7 +7233,7 @@ var Players = [
         ict_index: "119.0",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 112,
@@ -7292,7 +7292,7 @@ var Players = [
         ict_index: "9.9",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 113,
@@ -7316,7 +7316,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.9",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7351,7 +7351,7 @@ var Players = [
         ict_index: "50.7",
         ea_index: 0,
         element_type: 4,
-        team: "CHE"
+        team: 5
     },
     {
         id: 114,
@@ -7375,7 +7375,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7410,7 +7410,7 @@ var Players = [
         ict_index: "355.0",
         ea_index: 0,
         element_type: 4,
-        team: "CHE"
+        team: 5
     },
     {
         id: 115,
@@ -7434,7 +7434,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.9",
+        selected_by_percent: "1.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7469,7 +7469,7 @@ var Players = [
         ict_index: "63.2",
         ea_index: 0,
         element_type: 1,
-        team: "CRY"
+        team: 6
     },
     {
         id: 116,
@@ -7493,7 +7493,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7528,7 +7528,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "CRY"
+        team: 6
     },
     {
         id: 117,
@@ -7552,7 +7552,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "1.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -7587,7 +7587,7 @@ var Players = [
         ict_index: "72.1",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 118,
@@ -7646,7 +7646,7 @@ var Players = [
         ict_index: "96.0",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 119,
@@ -7705,7 +7705,7 @@ var Players = [
         ict_index: "100.4",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 120,
@@ -7764,7 +7764,7 @@ var Players = [
         ict_index: "61.0",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 121,
@@ -7823,7 +7823,7 @@ var Players = [
         ict_index: "64.1",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 122,
@@ -7882,7 +7882,7 @@ var Players = [
         ict_index: "9.7",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 123,
@@ -7941,7 +7941,7 @@ var Players = [
         ict_index: "38.1",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 124,
@@ -7965,7 +7965,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.1",
+        selected_by_percent: "4.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8000,7 +8000,7 @@ var Players = [
         ict_index: "153.5",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 125,
@@ -8024,7 +8024,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.3",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8059,7 +8059,7 @@ var Players = [
         ict_index: "188.7",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 126,
@@ -8083,7 +8083,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "22.4",
+        selected_by_percent: "22.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8118,7 +8118,7 @@ var Players = [
         ict_index: "221.2",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 127,
@@ -8142,7 +8142,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "10.8",
+        selected_by_percent: "10.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8177,7 +8177,7 @@ var Players = [
         ict_index: "97.7",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 128,
@@ -8236,7 +8236,7 @@ var Players = [
         ict_index: "23.9",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 129,
@@ -8295,7 +8295,7 @@ var Players = [
         ict_index: "146.8",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 130,
@@ -8354,7 +8354,7 @@ var Players = [
         ict_index: "8.7",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 131,
@@ -8413,7 +8413,7 @@ var Players = [
         ict_index: "191.3",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 132,
@@ -8472,7 +8472,7 @@ var Players = [
         ict_index: "41.8",
         ea_index: 0,
         element_type: 3,
-        team: "CRY"
+        team: 6
     },
     {
         id: 133,
@@ -8531,7 +8531,7 @@ var Players = [
         ict_index: "25.0",
         ea_index: 0,
         element_type: 4,
-        team: "CRY"
+        team: 6
     },
     {
         id: 134,
@@ -8555,7 +8555,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "9.7",
+        selected_by_percent: "9.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8590,7 +8590,7 @@ var Players = [
         ict_index: "286.1",
         ea_index: 0,
         element_type: 4,
-        team: "CRY"
+        team: 6
     },
     {
         id: 135,
@@ -8614,7 +8614,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.1",
+        selected_by_percent: "12.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8649,7 +8649,7 @@ var Players = [
         ict_index: "97.4",
         ea_index: 0,
         element_type: 1,
-        team: "EVE"
+        team: 7
     },
     {
         id: 136,
@@ -8708,7 +8708,7 @@ var Players = [
         ict_index: "44.9",
         ea_index: 0,
         element_type: 1,
-        team: "EVE"
+        team: 7
     },
     {
         id: 137,
@@ -8732,7 +8732,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8767,7 +8767,7 @@ var Players = [
         ict_index: "35.1",
         ea_index: 0,
         element_type: 1,
-        team: "EVE"
+        team: 7
     },
     {
         id: 138,
@@ -8791,7 +8791,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "10.3",
+        selected_by_percent: "11.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -8826,7 +8826,7 @@ var Players = [
         ict_index: "141.9",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 139,
@@ -8885,7 +8885,7 @@ var Players = [
         ict_index: "120.3",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 140,
@@ -8944,7 +8944,7 @@ var Players = [
         ict_index: "110.1",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 141,
@@ -8968,7 +8968,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9003,7 +9003,7 @@ var Players = [
         ict_index: "10.8",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 142,
@@ -9062,7 +9062,7 @@ var Players = [
         ict_index: "54.0",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 143,
@@ -9086,7 +9086,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.1",
+        selected_by_percent: "5.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9121,7 +9121,7 @@ var Players = [
         ict_index: "133.9",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 144,
@@ -9145,7 +9145,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.4",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9180,7 +9180,7 @@ var Players = [
         ict_index: "52.3",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 145,
@@ -9239,7 +9239,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 146,
@@ -9263,7 +9263,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.0",
+        selected_by_percent: "12.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9298,7 +9298,7 @@ var Players = [
         ict_index: "158.6",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 147,
@@ -9357,7 +9357,7 @@ var Players = [
         ict_index: "81.8",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 148,
@@ -9381,7 +9381,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.3",
+        selected_by_percent: "3.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9416,7 +9416,7 @@ var Players = [
         ict_index: "185.4",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 149,
@@ -9440,7 +9440,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.6",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9475,7 +9475,7 @@ var Players = [
         ict_index: "290.3",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 150,
@@ -9534,7 +9534,7 @@ var Players = [
         ict_index: "28.6",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 151,
@@ -9593,7 +9593,7 @@ var Players = [
         ict_index: "115.0",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 152,
@@ -9652,7 +9652,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 153,
@@ -9711,7 +9711,7 @@ var Players = [
         ict_index: "22.3",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 154,
@@ -9770,7 +9770,7 @@ var Players = [
         ict_index: "42.0",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 155,
@@ -9794,7 +9794,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.3",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -9829,7 +9829,7 @@ var Players = [
         ict_index: "122.9",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 156,
@@ -9888,7 +9888,7 @@ var Players = [
         ict_index: "70.9",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 157,
@@ -9947,7 +9947,7 @@ var Players = [
         ict_index: "26.1",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 158,
@@ -9971,7 +9971,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.9",
+        selected_by_percent: "2.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10006,7 +10006,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "EVE"
+        team: 7
     },
     {
         id: 159,
@@ -10030,7 +10030,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10065,7 +10065,7 @@ var Players = [
         ict_index: "14.1",
         ea_index: 0,
         element_type: 4,
-        team: "EVE"
+        team: 7
     },
     {
         id: 160,
@@ -10089,7 +10089,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "1.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10124,7 +10124,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "EVE"
+        team: 7
     },
     {
         id: 161,
@@ -10148,7 +10148,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "21.0",
+        selected_by_percent: "19.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10183,7 +10183,7 @@ var Players = [
         ict_index: "160.2",
         ea_index: 0,
         element_type: 4,
-        team: "EVE"
+        team: 7
     },
     {
         id: 162,
@@ -10242,7 +10242,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "HUD"
+        team: 8
     },
     {
         id: 163,
@@ -10301,22 +10301,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "HUD"
+        team: 8
     },
     {
         id: 164,
         photo: "85368.jpg",
         web_name: "Schindler",
         team_code: 38,
-        status: "a",
+        status: "d",
         code: 85368,
         first_name: "Christopher",
         second_name: "Schindler",
         squad_number: 26,
-        news: "",
+        news: "Illness - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -10325,7 +10325,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10339,7 +10339,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "1.5",
+        ep_next: "1.2",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -10360,7 +10360,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 165,
@@ -10419,7 +10419,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 166,
@@ -10443,7 +10443,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10478,7 +10478,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 167,
@@ -10537,22 +10537,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 168,
         photo: "18006.jpg",
         web_name: "Cranie",
         team_code: 38,
-        status: "a",
+        status: "d",
         code: 18006,
         first_name: "Martin",
         second_name: "Cranie",
         squad_number: 14,
-        news: "",
+        news: "Hip injury - 75% chance of playing",
         now_cost: 40,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -10561,7 +10561,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10575,7 +10575,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "1.0",
+        ep_next: "0.8",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -10596,7 +10596,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 169,
@@ -10620,7 +10620,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10655,7 +10655,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 170,
@@ -10714,7 +10714,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 171,
@@ -10773,7 +10773,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 172,
@@ -10797,7 +10797,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.3",
+        selected_by_percent: "2.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10832,7 +10832,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 173,
@@ -10891,22 +10891,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 174,
         photo: "79619.jpg",
         web_name: "Hogg",
         team_code: 38,
-        status: "a",
+        status: "d",
         code: 79619,
         first_name: "Jonathan",
         second_name: "Hogg",
         squad_number: 6,
-        news: "",
+        news: "Ankle injury - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -10915,7 +10915,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -10929,7 +10929,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "1.0",
+        ep_next: "0.8",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -10950,7 +10950,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 175,
@@ -11009,7 +11009,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 176,
@@ -11025,65 +11025,6 @@ var Players = [
         now_cost: 45,
         chance_of_playing_this_round: null,
         chance_of_playing_next_round: 100,
-        value_form: "0.0",
-        value_season: "0.0",
-        cost_change_start: 0,
-        cost_change_event: 0,
-        cost_change_start_fall: 0,
-        cost_change_event_fall: 0,
-        in_dreamteam: false,
-        dreamteam_count: 0,
-        selected_by_percent: "0.0",
-        form: "0.0",
-        transfers_out: 0,
-        transfers_in: 0,
-        transfers_out_event: 0,
-        transfers_in_event: 0,
-        loans_in: 0,
-        loans_out: 0,
-        loaned_in: 0,
-        loaned_out: 0,
-        total_points: 0,
-        event_points: 0,
-        points_per_game: "0.0",
-        ep_this: null,
-        ep_next: "1.0",
-        special: false,
-        minutes: 0,
-        goals_scored: 0,
-        assists: 0,
-        clean_sheets: 0,
-        goals_conceded: 0,
-        own_goals: 0,
-        penalties_saved: 0,
-        penalties_missed: 0,
-        yellow_cards: 0,
-        red_cards: 0,
-        saves: 0,
-        bonus: 0,
-        bps: 0,
-        influence: "0.0",
-        creativity: "0.0",
-        threat: "0.0",
-        ict_index: "0.0",
-        ea_index: 0,
-        element_type: 3,
-        team: "HUD"
-    },
-    {
-        id: 177,
-        photo: "167541.jpg",
-        web_name: "Payne",
-        team_code: 38,
-        status: "a",
-        code: 167541,
-        first_name: "Jack",
-        second_name: "Payne",
-        squad_number: 16,
-        news: "",
-        now_cost: 45,
-        chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -11127,7 +11068,66 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
+    },
+    {
+        id: 177,
+        photo: "167541.jpg",
+        web_name: "Payne",
+        team_code: 38,
+        status: "u",
+        code: 167541,
+        first_name: "Jack",
+        second_name: "Payne",
+        squad_number: 16,
+        news: "Season-long loan to Oxford United",
+        now_cost: 45,
+        chance_of_playing_this_round: null,
+        chance_of_playing_next_round: 0,
+        value_form: "0.0",
+        value_season: "0.0",
+        cost_change_start: 0,
+        cost_change_event: 0,
+        cost_change_start_fall: 0,
+        cost_change_event_fall: 0,
+        in_dreamteam: false,
+        dreamteam_count: 0,
+        selected_by_percent: "0.1",
+        form: "0.0",
+        transfers_out: 0,
+        transfers_in: 0,
+        transfers_out_event: 0,
+        transfers_in_event: 0,
+        loans_in: 0,
+        loans_out: 0,
+        loaned_in: 0,
+        loaned_out: 0,
+        total_points: 0,
+        event_points: 0,
+        points_per_game: "0.0",
+        ep_this: null,
+        ep_next: "0.0",
+        special: false,
+        minutes: 0,
+        goals_scored: 0,
+        assists: 0,
+        clean_sheets: 0,
+        goals_conceded: 0,
+        own_goals: 0,
+        penalties_saved: 0,
+        penalties_missed: 0,
+        yellow_cards: 0,
+        red_cards: 0,
+        saves: 0,
+        bonus: 0,
+        bps: 0,
+        influence: "0.0",
+        creativity: "0.0",
+        threat: "0.0",
+        ict_index: "0.0",
+        ea_index: 0,
+        element_type: 3,
+        team: 8
     },
     {
         id: 178,
@@ -11186,7 +11186,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 179,
@@ -11245,7 +11245,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 180,
@@ -11304,7 +11304,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 181,
@@ -11363,7 +11363,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 182,
@@ -11387,7 +11387,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.4",
+        selected_by_percent: "2.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -11422,7 +11422,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 183,
@@ -11481,7 +11481,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 184,
@@ -11540,22 +11540,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "HUD"
+        team: 8
     },
     {
         id: 185,
         photo: "92383.jpg",
         web_name: "Wells",
         team_code: 38,
-        status: "d",
+        status: "i",
         code: 92383,
         first_name: "Nahki",
         second_name: "Wells",
         squad_number: 21,
-        news: "Ankle injury - 75% chance of playing",
+        news: "Ankle injury - Expected back 19 Aug",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 0,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -11564,7 +11564,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -11578,7 +11578,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "0.9",
+        ep_next: "0.0",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -11599,7 +11599,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "HUD"
+        team: 8
     },
     {
         id: 186,
@@ -11623,7 +11623,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.9",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -11658,7 +11658,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "HUD"
+        team: 8
     },
     {
         id: 187,
@@ -11717,7 +11717,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "HUD"
+        team: 8
     },
     {
         id: 188,
@@ -11776,7 +11776,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "HUD"
+        team: 8
     },
     {
         id: 189,
@@ -11835,7 +11835,7 @@ var Players = [
         ict_index: "75.8",
         ea_index: 0,
         element_type: 1,
-        team: "LEI"
+        team: 9
     },
     {
         id: 190,
@@ -11894,7 +11894,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "LEI"
+        team: 9
     },
     {
         id: 191,
@@ -11953,7 +11953,7 @@ var Players = [
         ict_index: "81.4",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 192,
@@ -12012,7 +12012,7 @@ var Players = [
         ict_index: "149.4",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 193,
@@ -12071,7 +12071,7 @@ var Players = [
         ict_index: "77.9",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 194,
@@ -12095,7 +12095,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -12130,7 +12130,7 @@ var Players = [
         ict_index: "124.9",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 195,
@@ -12189,7 +12189,7 @@ var Players = [
         ict_index: "23.6",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 196,
@@ -12248,7 +12248,7 @@ var Players = [
         ict_index: "27.2",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 197,
@@ -12307,7 +12307,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 198,
@@ -12366,7 +12366,7 @@ var Players = [
         ict_index: "130.6",
         ea_index: 0,
         element_type: 2,
-        team: "LEI"
+        team: 9
     },
     {
         id: 199,
@@ -12425,7 +12425,7 @@ var Players = [
         ict_index: "227.8",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 200,
@@ -12484,7 +12484,7 @@ var Players = [
         ict_index: "147.6",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 201,
@@ -12543,7 +12543,7 @@ var Players = [
         ict_index: "54.9",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 202,
@@ -12567,7 +12567,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -12602,7 +12602,7 @@ var Players = [
         ict_index: "92.0",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 203,
@@ -12626,7 +12626,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -12661,7 +12661,7 @@ var Players = [
         ict_index: "72.2",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 204,
@@ -12720,7 +12720,7 @@ var Players = [
         ict_index: "57.0",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 205,
@@ -12779,7 +12779,7 @@ var Players = [
         ict_index: "4.0",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 206,
@@ -12838,7 +12838,7 @@ var Players = [
         ict_index: "76.4",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 207,
@@ -12862,7 +12862,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -12897,7 +12897,7 @@ var Players = [
         ict_index: "47.7",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 208,
@@ -12921,7 +12921,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "0.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -12956,7 +12956,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 209,
@@ -12980,7 +12980,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.4",
+        selected_by_percent: "3.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13015,7 +13015,7 @@ var Players = [
         ict_index: "202.5",
         ea_index: 0,
         element_type: 4,
-        team: "LEI"
+        team: 9
     },
     {
         id: 210,
@@ -13074,7 +13074,7 @@ var Players = [
         ict_index: "37.4",
         ea_index: 0,
         element_type: 4,
-        team: "LEI"
+        team: 9
     },
     {
         id: 211,
@@ -13133,22 +13133,22 @@ var Players = [
         ict_index: "90.4",
         ea_index: 0,
         element_type: 4,
-        team: "LEI"
+        team: 9
     },
     {
         id: 212,
         photo: "149828.jpg",
         web_name: "Slimani",
         team_code: 13,
-        status: "a",
+        status: "d",
         code: 149828,
         first_name: "Islam",
         second_name: "Slimani",
         squad_number: 19,
-        news: "",
+        news: "Gashed Leg - 75% chance of playing",
         now_cost: 70,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -13157,7 +13157,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.8",
+        selected_by_percent: "0.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13171,7 +13171,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.6",
         ep_this: null,
-        ep_next: "1.6",
+        ep_next: "1.2",
         special: false,
         minutes: 1281,
         goals_scored: 7,
@@ -13192,7 +13192,7 @@ var Players = [
         ict_index: "111.3",
         ea_index: 0,
         element_type: 4,
-        team: "LEI"
+        team: 9
     },
     {
         id: 213,
@@ -13251,22 +13251,22 @@ var Players = [
         ict_index: "46.0",
         ea_index: 0,
         element_type: 1,
-        team: "LIV"
+        team: 10
     },
     {
         id: 214,
         photo: "104542.jpg",
         web_name: "Karius",
         team_code: 14,
-        status: "d",
+        status: "a",
         code: 104542,
         first_name: "Loris",
         second_name: "Karius",
         squad_number: 1,
-        news: "Hip injury - 75% chance of playing",
+        news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -13275,7 +13275,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13289,7 +13289,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.2",
         ep_this: null,
-        ep_next: "2.9",
+        ep_next: "3.8",
         special: false,
         minutes: 900,
         goals_scored: 0,
@@ -13310,7 +13310,7 @@ var Players = [
         ict_index: "15.0",
         ea_index: 0,
         element_type: 1,
-        team: "LIV"
+        team: 10
     },
     {
         id: 215,
@@ -13334,7 +13334,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13369,7 +13369,7 @@ var Players = [
         ict_index: "107.1",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 216,
@@ -13393,7 +13393,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13428,7 +13428,7 @@ var Players = [
         ict_index: "17.5",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 217,
@@ -13440,10 +13440,10 @@ var Players = [
         first_name: "Nathaniel",
         second_name: "Clyne",
         squad_number: 2,
-        news: "Muscle injury - 75% chance of playing",
+        news: "Muscle injury - 50% chance of playing",
         now_cost: 55,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 50,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -13452,7 +13452,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.2",
+        selected_by_percent: "2.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13466,7 +13466,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.5",
         ep_this: null,
-        ep_next: "2.7",
+        ep_next: "1.8",
         special: false,
         minutes: 3323,
         goals_scored: 0,
@@ -13487,22 +13487,22 @@ var Players = [
         ict_index: "152.4",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 218,
         photo: "171287.jpg",
         web_name: "Gomez",
         team_code: 14,
-        status: "a",
+        status: "d",
         code: 171287,
         first_name: "Joseph",
         second_name: "Gomez",
         squad_number: 12,
-        news: "",
+        news: "Knee injury - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -13525,7 +13525,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "2.5",
+        ep_next: "1.9",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -13546,7 +13546,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 219,
@@ -13570,7 +13570,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.4",
+        selected_by_percent: "2.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13605,7 +13605,7 @@ var Players = [
         ict_index: "108.0",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 220,
@@ -13664,7 +13664,7 @@ var Players = [
         ict_index: "44.0",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 221,
@@ -13723,7 +13723,7 @@ var Players = [
         ict_index: "23.2",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 222,
@@ -13747,7 +13747,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.5",
+        selected_by_percent: "4.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13782,7 +13782,7 @@ var Players = [
         ict_index: "235.2",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 223,
@@ -13806,7 +13806,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -13841,7 +13841,7 @@ var Players = [
         ict_index: "10.1",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 224,
@@ -13900,7 +13900,7 @@ var Players = [
         ict_index: "51.1",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 225,
@@ -13959,7 +13959,7 @@ var Players = [
         ict_index: "115.5",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 226,
@@ -13983,7 +13983,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "32.3",
+        selected_by_percent: "30.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14018,7 +14018,7 @@ var Players = [
         ict_index: "306.5",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 227,
@@ -14077,7 +14077,7 @@ var Players = [
         ict_index: "155.3",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 228,
@@ -14101,7 +14101,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.4",
+        selected_by_percent: "6.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14136,7 +14136,7 @@ var Players = [
         ict_index: "219.5",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 229,
@@ -14195,22 +14195,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 230,
         photo: "110979.jpg",
         web_name: "Mané",
         team_code: 14,
-        status: "d",
+        status: "a",
         code: 110979,
         first_name: "Sadio",
         second_name: "Mané",
         squad_number: 19,
-        news: "Knee injury - 75% chance of playing",
+        news: "",
         now_cost: 95,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -14219,7 +14219,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.8",
+        selected_by_percent: "7.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14233,7 +14233,7 @@ var Players = [
         event_points: 0,
         points_per_game: "5.8",
         ep_this: null,
-        ep_next: "3.2",
+        ep_next: "4.2",
         special: false,
         minutes: 2242,
         goals_scored: 13,
@@ -14254,7 +14254,7 @@ var Players = [
         ict_index: "246.0",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 231,
@@ -14313,7 +14313,7 @@ var Players = [
         ict_index: "6.1",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 232,
@@ -14372,7 +14372,7 @@ var Players = [
         ict_index: "198.5",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 233,
@@ -14387,7 +14387,7 @@ var Players = [
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -14431,7 +14431,7 @@ var Players = [
         ict_index: "5.4",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 234,
@@ -14455,7 +14455,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.7",
+        selected_by_percent: "17.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14490,7 +14490,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "LIV"
+        team: 10
     },
     {
         id: 235,
@@ -14514,7 +14514,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "17.3",
+        selected_by_percent: "16.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14549,22 +14549,22 @@ var Players = [
         ict_index: "356.9",
         ea_index: 0,
         element_type: 4,
-        team: "LIV"
+        team: 10
     },
     {
         id: 236,
         photo: "40755.jpg",
         web_name: "Sturridge",
         team_code: 14,
-        status: "a",
+        status: "d",
         code: 40755,
         first_name: "Daniel",
         second_name: "Sturridge",
         squad_number: 15,
-        news: "",
+        news: "Thigh injury - 75% chance of playing",
         now_cost: 80,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -14573,7 +14573,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.2",
+        selected_by_percent: "4.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14587,7 +14587,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.7",
         ep_this: null,
-        ep_next: "3.5",
+        ep_next: "2.6",
         special: false,
         minutes: 775,
         goals_scored: 3,
@@ -14608,7 +14608,7 @@ var Players = [
         ict_index: "89.7",
         ea_index: 0,
         element_type: 4,
-        team: "LIV"
+        team: 10
     },
     {
         id: 237,
@@ -14667,22 +14667,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "LIV"
+        team: 10
     },
     {
         id: 238,
         photo: "152760.jpg",
         web_name: "Origi",
         team_code: 14,
-        status: "a",
+        status: "d",
         code: 152760,
         first_name: "Divock",
         second_name: "Origi",
         squad_number: 27,
-        news: "",
+        news: "Muscle injury - 75% chance of playing",
         now_cost: 75,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -14691,7 +14691,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14705,7 +14705,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.8",
         ep_this: null,
-        ep_next: "3.3",
+        ep_next: "2.5",
         special: false,
         minutes: 1469,
         goals_scored: 7,
@@ -14726,7 +14726,7 @@ var Players = [
         ict_index: "116.1",
         ea_index: 0,
         element_type: 4,
-        team: "LIV"
+        team: 10
     },
     {
         id: 239,
@@ -14750,7 +14750,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.5",
+        selected_by_percent: "3.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14785,7 +14785,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "LIV"
+        team: 10
     },
     {
         id: 240,
@@ -14809,7 +14809,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.2",
+        selected_by_percent: "4.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14844,7 +14844,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "MNC"
+        team: 11
     },
     {
         id: 241,
@@ -14903,7 +14903,7 @@ var Players = [
         ict_index: "28.9",
         ea_index: 0,
         element_type: 1,
-        team: "MNC"
+        team: 11
     },
     {
         id: 242,
@@ -14927,7 +14927,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.6",
+        selected_by_percent: "3.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -14962,7 +14962,7 @@ var Players = [
         ict_index: "69.7",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 243,
@@ -14986,7 +14986,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15021,7 +15021,7 @@ var Players = [
         ict_index: "116.0",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 244,
@@ -15045,7 +15045,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.4",
+        selected_by_percent: "6.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15080,7 +15080,7 @@ var Players = [
         ict_index: "40.6",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 245,
@@ -15104,7 +15104,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.3",
+        selected_by_percent: "3.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15139,7 +15139,7 @@ var Players = [
         ict_index: "117.6",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 246,
@@ -15198,7 +15198,7 @@ var Players = [
         ict_index: "15.3",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 247,
@@ -15222,7 +15222,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.3",
+        selected_by_percent: "5.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15257,22 +15257,22 @@ var Players = [
         ict_index: "237.7",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 248,
         photo: "20664.jpg",
         web_name: "David Silva",
         team_code: 43,
-        status: "d",
+        status: "a",
         code: 20664,
         first_name: "David",
         second_name: "Silva",
         squad_number: 21,
-        news: "Groin Injury - 75% chance of playing",
+        news: "",
         now_cost: 80,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -15281,7 +15281,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15295,7 +15295,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.8",
         ep_this: null,
-        ep_next: "2.8",
+        ep_next: "3.7",
         special: false,
         minutes: 2760,
         goals_scored: 4,
@@ -15316,7 +15316,7 @@ var Players = [
         ict_index: "286.2",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 249,
@@ -15340,7 +15340,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.5",
+        selected_by_percent: "2.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15375,7 +15375,7 @@ var Players = [
         ict_index: "121.8",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 250,
@@ -15434,7 +15434,7 @@ var Players = [
         ict_index: "148.5",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 251,
@@ -15493,7 +15493,7 @@ var Players = [
         ict_index: "21.0",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 252,
@@ -15517,7 +15517,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "18.6",
+        selected_by_percent: "22.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15552,7 +15552,7 @@ var Players = [
         ict_index: "336.6",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 253,
@@ -15576,7 +15576,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15611,7 +15611,7 @@ var Players = [
         ict_index: "59.6",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 254,
@@ -15635,7 +15635,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15670,7 +15670,7 @@ var Players = [
         ict_index: "85.6",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 255,
@@ -15681,7 +15681,7 @@ var Players = [
         code: 182156,
         first_name: "Leroy",
         second_name: "Sané",
-        squad_number: 18,
+        squad_number: 19,
         news: "",
         now_cost: 85,
         chance_of_playing_this_round: null,
@@ -15694,7 +15694,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.3",
+        selected_by_percent: "6.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15729,7 +15729,7 @@ var Players = [
         ict_index: "153.7",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 256,
@@ -15753,7 +15753,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.9",
+        selected_by_percent: "3.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15788,7 +15788,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "MNC"
+        team: 11
     },
     {
         id: 257,
@@ -15812,7 +15812,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.9",
+        selected_by_percent: "9.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15847,7 +15847,7 @@ var Players = [
         ict_index: "323.9",
         ea_index: 0,
         element_type: 4,
-        team: "MNC"
+        team: 11
     },
     {
         id: 258,
@@ -15871,7 +15871,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15906,7 +15906,7 @@ var Players = [
         ict_index: "87.4",
         ea_index: 0,
         element_type: 4,
-        team: "MNC"
+        team: 11
     },
     {
         id: 259,
@@ -15930,7 +15930,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "12.6",
+        selected_by_percent: "12.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -15965,7 +15965,7 @@ var Players = [
         ict_index: "92.9",
         ea_index: 0,
         element_type: 4,
-        team: "MNC"
+        team: 11
     },
     {
         id: 260,
@@ -15989,7 +15989,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "27.3",
+        selected_by_percent: "28.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16024,7 +16024,7 @@ var Players = [
         ict_index: "55.0",
         ea_index: 0,
         element_type: 1,
-        team: "MNU"
+        team: 12
     },
     {
         id: 261,
@@ -16083,7 +16083,7 @@ var Players = [
         ict_index: "7.7",
         ea_index: 0,
         element_type: 1,
-        team: "MNU"
+        team: 12
     },
     {
         id: 262,
@@ -16142,7 +16142,7 @@ var Players = [
         ict_index: "0.7",
         ea_index: 0,
         element_type: 1,
-        team: "MNU"
+        team: 12
     },
     {
         id: 263,
@@ -16201,7 +16201,7 @@ var Players = [
         ict_index: "47.4",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 264,
@@ -16225,7 +16225,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16260,7 +16260,7 @@ var Players = [
         ict_index: "56.3",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 265,
@@ -16319,7 +16319,7 @@ var Players = [
         ict_index: "36.5",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 266,
@@ -16378,7 +16378,7 @@ var Players = [
         ict_index: "66.5",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 267,
@@ -16402,7 +16402,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.5",
+        selected_by_percent: "6.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16437,7 +16437,7 @@ var Players = [
         ict_index: "140.6",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 268,
@@ -16496,7 +16496,7 @@ var Players = [
         ict_index: "29.4",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 269,
@@ -16555,7 +16555,7 @@ var Players = [
         ict_index: "2.4",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 270,
@@ -16579,7 +16579,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "1.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16614,7 +16614,7 @@ var Players = [
         ict_index: "108.2",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 271,
@@ -16673,7 +16673,7 @@ var Players = [
         ict_index: "61.2",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 272,
@@ -16697,7 +16697,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "2.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16732,7 +16732,7 @@ var Players = [
         ict_index: "7.8",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 273,
@@ -16756,7 +16756,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.5",
+        selected_by_percent: "11.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16791,22 +16791,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "MNU"
+        team: 12
     },
     {
         id: 274,
         photo: "43670.jpg",
         web_name: "Mata",
         team_code: 1,
-        status: "d",
+        status: "a",
         code: 43670,
         first_name: "Juan",
         second_name: "Mata",
         squad_number: 8,
-        news: "Ankle injury - 75% chance of playing",
+        news: "",
         now_cost: 70,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -16815,7 +16815,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16829,7 +16829,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.1",
         ep_this: null,
-        ep_next: "2.6",
+        ep_next: "3.4",
         special: false,
         minutes: 1614,
         goals_scored: 6,
@@ -16850,7 +16850,7 @@ var Players = [
         ict_index: "179.9",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 275,
@@ -16909,7 +16909,7 @@ var Players = [
         ict_index: "90.9",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 276,
@@ -16933,7 +16933,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "1.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -16968,7 +16968,7 @@ var Players = [
         ict_index: "54.5",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 277,
@@ -17027,22 +17027,22 @@ var Players = [
         ict_index: "37.6",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 278,
         photo: "59846.jpg",
         web_name: "Herrera",
         team_code: 1,
-        status: "d",
+        status: "a",
         code: 59846,
         first_name: "Ander",
         second_name: "Herrera",
         squad_number: 21,
-        news: "Hip injury - 75% chance of playing",
+        news: "",
         now_cost: 55,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -17051,7 +17051,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.8",
+        selected_by_percent: "5.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17065,7 +17065,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.1",
         ep_this: null,
-        ep_next: "2.2",
+        ep_next: "2.9",
         special: false,
         minutes: 2465,
         goals_scored: 1,
@@ -17086,7 +17086,7 @@ var Players = [
         ict_index: "159.2",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 279,
@@ -17110,7 +17110,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "0.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17145,7 +17145,7 @@ var Players = [
         ict_index: "118.0",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 280,
@@ -17169,7 +17169,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17204,7 +17204,7 @@ var Players = [
         ict_index: "136.2",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 281,
@@ -17228,7 +17228,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.8",
+        selected_by_percent: "5.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17263,7 +17263,7 @@ var Players = [
         ict_index: "126.2",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 282,
@@ -17287,7 +17287,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "19.3",
+        selected_by_percent: "21.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17322,7 +17322,7 @@ var Players = [
         ict_index: "250.0",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 283,
@@ -17381,7 +17381,7 @@ var Players = [
         ict_index: "5.8",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 284,
@@ -17440,7 +17440,7 @@ var Players = [
         ict_index: "145.5",
         ea_index: 0,
         element_type: 4,
-        team: "MNU"
+        team: 12
     },
     {
         id: 285,
@@ -17464,7 +17464,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "48.0",
+        selected_by_percent: "48.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17499,7 +17499,7 @@ var Players = [
         ict_index: "354.1",
         ea_index: 0,
         element_type: 4,
-        team: "MNU"
+        team: 12
     },
     {
         id: 286,
@@ -17523,7 +17523,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "13.5",
+        selected_by_percent: "14.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17558,7 +17558,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "NEW"
+        team: 13
     },
     {
         id: 287,
@@ -17582,7 +17582,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.8",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17617,22 +17617,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "NEW"
+        team: 13
     },
     {
         id: 288,
         photo: "151119.jpg",
         web_name: "Yedlin",
         team_code: 4,
-        status: "a",
+        status: "d",
         code: 151119,
         first_name: "DeAndre",
         second_name: "Yedlin",
         squad_number: 22,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -17641,7 +17641,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.3",
+        selected_by_percent: "3.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17676,7 +17676,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 289,
@@ -17700,7 +17700,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17735,7 +17735,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 290,
@@ -17759,7 +17759,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.5",
+        selected_by_percent: "1.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17794,7 +17794,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 291,
@@ -17818,7 +17818,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.9",
+        selected_by_percent: "0.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17853,7 +17853,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 292,
@@ -17912,7 +17912,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 293,
@@ -17936,7 +17936,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.4",
+        selected_by_percent: "2.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -17971,7 +17971,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 294,
@@ -18030,7 +18030,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 295,
@@ -18054,7 +18054,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.1",
+        selected_by_percent: "3.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18089,7 +18089,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 296,
@@ -18113,7 +18113,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.5",
+        selected_by_percent: "2.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18148,7 +18148,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 297,
@@ -18172,7 +18172,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18207,7 +18207,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 298,
@@ -18231,7 +18231,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18266,7 +18266,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 299,
@@ -18325,7 +18325,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 300,
@@ -18349,7 +18349,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "1.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18384,7 +18384,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 301,
@@ -18408,7 +18408,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "9.1",
+        selected_by_percent: "7.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18443,7 +18443,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "NEW"
+        team: 13
     },
     {
         id: 302,
@@ -18467,7 +18467,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18502,7 +18502,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "NEW"
+        team: 13
     },
     {
         id: 303,
@@ -18561,7 +18561,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "NEW"
+        team: 13
     },
     {
         id: 304,
@@ -18585,7 +18585,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "1.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18620,7 +18620,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "NEW"
+        team: 13
     },
     {
         id: 305,
@@ -18679,7 +18679,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "SOU"
+        team: 14
     },
     {
         id: 306,
@@ -18703,7 +18703,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.9",
+        selected_by_percent: "6.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18738,7 +18738,7 @@ var Players = [
         ict_index: "56.4",
         ea_index: 0,
         element_type: 1,
-        team: "SOU"
+        team: 14
     },
     {
         id: 307,
@@ -18762,7 +18762,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "11.6",
+        selected_by_percent: "12.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18797,7 +18797,7 @@ var Players = [
         ict_index: "121.5",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 308,
@@ -18821,7 +18821,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18856,7 +18856,7 @@ var Players = [
         ict_index: "87.5",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 309,
@@ -18915,7 +18915,7 @@ var Players = [
         ict_index: "16.5",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 310,
@@ -18939,7 +18939,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "15.9",
+        selected_by_percent: "14.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -18974,7 +18974,7 @@ var Players = [
         ict_index: "139.6",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 311,
@@ -18998,7 +18998,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.2",
+        selected_by_percent: "4.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19033,7 +19033,7 @@ var Players = [
         ict_index: "86.0",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 312,
@@ -19057,7 +19057,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19092,7 +19092,7 @@ var Players = [
         ict_index: "6.3",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 313,
@@ -19151,7 +19151,7 @@ var Players = [
         ict_index: "46.6",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 314,
@@ -19210,7 +19210,7 @@ var Players = [
         ict_index: "20.8",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 315,
@@ -19234,7 +19234,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19269,7 +19269,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "SOU"
+        team: 14
     },
     {
         id: 316,
@@ -19328,7 +19328,7 @@ var Players = [
         ict_index: "138.9",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 317,
@@ -19352,7 +19352,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19387,7 +19387,7 @@ var Players = [
         ict_index: "160.7",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 318,
@@ -19411,7 +19411,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.4",
+        selected_by_percent: "4.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19446,7 +19446,7 @@ var Players = [
         ict_index: "242.0",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 319,
@@ -19505,7 +19505,7 @@ var Players = [
         ict_index: "33.3",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 320,
@@ -19529,7 +19529,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.4",
+        selected_by_percent: "4.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19564,7 +19564,7 @@ var Players = [
         ict_index: "110.7",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 321,
@@ -19623,7 +19623,7 @@ var Players = [
         ict_index: "74.1",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 322,
@@ -19682,7 +19682,7 @@ var Players = [
         ict_index: "78.6",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 323,
@@ -19741,7 +19741,7 @@ var Players = [
         ict_index: "16.3",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 324,
@@ -19765,7 +19765,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "10.6",
+        selected_by_percent: "10.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19800,7 +19800,7 @@ var Players = [
         ict_index: "243.8",
         ea_index: 0,
         element_type: 3,
-        team: "SOU"
+        team: 14
     },
     {
         id: 325,
@@ -19859,7 +19859,7 @@ var Players = [
         ict_index: "100.1",
         ea_index: 0,
         element_type: 4,
-        team: "SOU"
+        team: 14
     },
     {
         id: 326,
@@ -19918,7 +19918,7 @@ var Players = [
         ict_index: "97.9",
         ea_index: 0,
         element_type: 4,
-        team: "SOU"
+        team: 14
     },
     {
         id: 327,
@@ -19942,7 +19942,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.5",
+        selected_by_percent: "4.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -19977,7 +19977,7 @@ var Players = [
         ict_index: "67.8",
         ea_index: 0,
         element_type: 4,
-        team: "SOU"
+        team: 14
     },
     {
         id: 328,
@@ -20036,7 +20036,7 @@ var Players = [
         ict_index: "12.2",
         ea_index: 0,
         element_type: 1,
-        team: "STO"
+        team: 15
     },
     {
         id: 329,
@@ -20060,7 +20060,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.0",
+        selected_by_percent: "0.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20095,7 +20095,7 @@ var Players = [
         ict_index: "64.7",
         ea_index: 0,
         element_type: 1,
-        team: "STO"
+        team: 15
     },
     {
         id: 330,
@@ -20119,7 +20119,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20154,7 +20154,7 @@ var Players = [
         ict_index: "119.3",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 331,
@@ -20213,7 +20213,7 @@ var Players = [
         ict_index: "69.6",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 332,
@@ -20272,7 +20272,7 @@ var Players = [
         ict_index: "107.1",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 333,
@@ -20331,22 +20331,22 @@ var Players = [
         ict_index: "28.2",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 334,
         photo: "17997.jpg",
         web_name: "Bardsley",
         team_code: 90,
-        status: "d",
+        status: "a",
         code: 17997,
         first_name: "Phil",
         second_name: "Bardsley",
-        squad_number: null,
-        news: "Back injury - 75% chance of playing",
+        squad_number: 26,
+        news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -20355,7 +20355,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20390,7 +20390,7 @@ var Players = [
         ict_index: "35.4",
         ea_index: 0,
         element_type: 2,
-        team: "BUR"
+        team: 4
     },
     {
         id: 335,
@@ -20449,22 +20449,22 @@ var Players = [
         ict_index: "62.8",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 336,
         photo: "221267.jpg",
         web_name: "Tymon",
         team_code: 110,
-        status: "a",
+        status: "d",
         code: 221267,
         first_name: "Josh",
         second_name: "Tymon",
         squad_number: null,
-        news: "",
+        news: "Foot injury - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -20487,7 +20487,7 @@ var Players = [
         event_points: 0,
         points_per_game: "1.8",
         ep_this: null,
-        ep_next: "0.5",
+        ep_next: "0.4",
         special: false,
         minutes: 323,
         goals_scored: 0,
@@ -20508,7 +20508,7 @@ var Players = [
         ict_index: "6.4",
         ea_index: 0,
         element_type: 2,
-        team: "STO"
+        team: 15
     },
     {
         id: 337,
@@ -20532,7 +20532,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.6",
+        selected_by_percent: "5.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20567,7 +20567,7 @@ var Players = [
         ict_index: "179.4",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 338,
@@ -20626,7 +20626,7 @@ var Players = [
         ict_index: "106.7",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 339,
@@ -20650,7 +20650,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20685,22 +20685,22 @@ var Players = [
         ict_index: "77.0",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 340,
         photo: "41464.jpg",
         web_name: "Arnautovic",
         team_code: 21,
-        status: "d",
+        status: "a",
         code: 41464,
         first_name: "Marko",
         second_name: "Arnautovic",
         squad_number: null,
-        news: "Knee injury - 75% chance of playing",
+        news: "",
         now_cost: 70,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -20709,7 +20709,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.5",
+        selected_by_percent: "3.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20723,7 +20723,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.7",
         ep_this: null,
-        ep_next: "1.1",
+        ep_next: "1.4",
         special: false,
         minutes: 2713,
         goals_scored: 6,
@@ -20744,7 +20744,7 @@ var Players = [
         ict_index: "216.2",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 341,
@@ -20803,7 +20803,7 @@ var Players = [
         ict_index: "14.8",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 342,
@@ -20827,7 +20827,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.3",
+        selected_by_percent: "3.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -20862,7 +20862,7 @@ var Players = [
         ict_index: "141.6",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 343,
@@ -20921,7 +20921,7 @@ var Players = [
         ict_index: "22.0",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 344,
@@ -20980,7 +20980,7 @@ var Players = [
         ict_index: "32.1",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 345,
@@ -21039,7 +21039,7 @@ var Players = [
         ict_index: "38.5",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 346,
@@ -21098,7 +21098,7 @@ var Players = [
         ict_index: "101.2",
         ea_index: 0,
         element_type: 3,
-        team: "STO"
+        team: 15
     },
     {
         id: 347,
@@ -21157,7 +21157,7 @@ var Players = [
         ict_index: "126.8",
         ea_index: 0,
         element_type: 4,
-        team: "STO"
+        team: 15
     },
     {
         id: 348,
@@ -21216,7 +21216,7 @@ var Players = [
         ict_index: "68.4",
         ea_index: 0,
         element_type: 4,
-        team: "STO"
+        team: 15
     },
     {
         id: 349,
@@ -21275,7 +21275,7 @@ var Players = [
         ict_index: "40.0",
         ea_index: 0,
         element_type: 4,
-        team: "STO"
+        team: 15
     },
     {
         id: 350,
@@ -21299,7 +21299,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.2",
+        selected_by_percent: "4.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -21334,7 +21334,7 @@ var Players = [
         ict_index: "78.1",
         ea_index: 0,
         element_type: 1,
-        team: "SWA"
+        team: 16
     },
     {
         id: 351,
@@ -21393,7 +21393,7 @@ var Players = [
         ict_index: "2.5",
         ea_index: 0,
         element_type: 1,
-        team: "SWA"
+        team: 16
     },
     {
         id: 352,
@@ -21417,7 +21417,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "2.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -21452,7 +21452,7 @@ var Players = [
         ict_index: "121.3",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 353,
@@ -21476,7 +21476,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "20.3",
+        selected_by_percent: "20.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -21511,7 +21511,7 @@ var Players = [
         ict_index: "40.0",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 354,
@@ -21570,7 +21570,7 @@ var Players = [
         ict_index: "82.9",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 355,
@@ -21629,7 +21629,7 @@ var Players = [
         ict_index: "26.2",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 356,
@@ -21688,7 +21688,7 @@ var Players = [
         ict_index: "24.3",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 357,
@@ -21712,7 +21712,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.8",
+        selected_by_percent: "1.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -21747,7 +21747,7 @@ var Players = [
         ict_index: "104.2",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 358,
@@ -21806,7 +21806,7 @@ var Players = [
         ict_index: "52.6",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 359,
@@ -21830,7 +21830,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.6",
+        selected_by_percent: "8.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -21865,7 +21865,7 @@ var Players = [
         ict_index: "328.3",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 360,
@@ -21924,7 +21924,7 @@ var Players = [
         ict_index: "105.5",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 361,
@@ -21983,7 +21983,7 @@ var Players = [
         ict_index: "21.2",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 362,
@@ -22042,7 +22042,7 @@ var Players = [
         ict_index: "18.7",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 363,
@@ -22101,7 +22101,7 @@ var Players = [
         ict_index: "44.4",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 364,
@@ -22160,7 +22160,7 @@ var Players = [
         ict_index: "31.5",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 365,
@@ -22219,7 +22219,7 @@ var Players = [
         ict_index: "128.3",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 366,
@@ -22278,7 +22278,7 @@ var Players = [
         ict_index: "14.6",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 367,
@@ -22337,7 +22337,7 @@ var Players = [
         ict_index: "61.0",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 368,
@@ -22396,7 +22396,7 @@ var Players = [
         ict_index: "70.5",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 369,
@@ -22455,7 +22455,7 @@ var Players = [
         ict_index: "23.9",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 370,
@@ -22514,7 +22514,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "SWA"
+        team: 16
     },
     {
         id: 371,
@@ -22526,10 +22526,10 @@ var Players = [
         first_name: "Fernando",
         second_name: "Llorente",
         squad_number: 9,
-        news: "Arm injury - 75% chance of playing",
+        news: "Arm injury - 25% chance of playing",
         now_cost: 75,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 25,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -22538,7 +22538,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.6",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -22552,7 +22552,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.4",
         ep_this: null,
-        ep_next: "1.3",
+        ep_next: "0.4",
         special: false,
         minutes: 2442,
         goals_scored: 15,
@@ -22573,7 +22573,7 @@ var Players = [
         ict_index: "220.3",
         ea_index: 0,
         element_type: 4,
-        team: "SWA"
+        team: 16
     },
     {
         id: 372,
@@ -22597,7 +22597,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.8",
+        selected_by_percent: "0.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -22632,7 +22632,7 @@ var Players = [
         ict_index: "8.0",
         ea_index: 0,
         element_type: 4,
-        team: "SWA"
+        team: 16
     },
     {
         id: 373,
@@ -22691,7 +22691,7 @@ var Players = [
         ict_index: "47.9",
         ea_index: 0,
         element_type: 4,
-        team: "SWA"
+        team: 16
     },
     {
         id: 374,
@@ -22715,7 +22715,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.1",
+        selected_by_percent: "3.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -22750,7 +22750,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "SWA"
+        team: 16
     },
     {
         id: 375,
@@ -22809,7 +22809,7 @@ var Players = [
         ict_index: "68.7",
         ea_index: 0,
         element_type: 1,
-        team: "TOT"
+        team: 17
     },
     {
         id: 376,
@@ -22868,7 +22868,7 @@ var Players = [
         ict_index: "6.9",
         ea_index: 0,
         element_type: 1,
-        team: "TOT"
+        team: 17
     },
     {
         id: 377,
@@ -22892,7 +22892,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "14.3",
+        selected_by_percent: "14.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -22927,7 +22927,7 @@ var Players = [
         ict_index: "108.6",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 378,
@@ -22986,7 +22986,7 @@ var Players = [
         ict_index: "99.6",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 379,
@@ -23010,7 +23010,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "19.2",
+        selected_by_percent: "20.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23045,7 +23045,7 @@ var Players = [
         ict_index: "140.2",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 380,
@@ -23069,7 +23069,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "9.5",
+        selected_by_percent: "9.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23104,7 +23104,7 @@ var Players = [
         ict_index: "105.1",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 381,
@@ -23128,7 +23128,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.7",
+        selected_by_percent: "1.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23163,7 +23163,7 @@ var Players = [
         ict_index: "105.8",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 382,
@@ -23187,7 +23187,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "20.0",
+        selected_by_percent: "20.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23222,7 +23222,7 @@ var Players = [
         ict_index: "40.6",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 383,
@@ -23281,7 +23281,7 @@ var Players = [
         ict_index: "5.4",
         ea_index: 0,
         element_type: 2,
-        team: "TOT"
+        team: 17
     },
     {
         id: 384,
@@ -23305,7 +23305,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "4.0",
+        selected_by_percent: "4.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23340,7 +23340,7 @@ var Players = [
         ict_index: "120.7",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 385,
@@ -23364,7 +23364,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.0",
+        selected_by_percent: "2.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23399,7 +23399,7 @@ var Players = [
         ict_index: "94.2",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 386,
@@ -23458,7 +23458,7 @@ var Players = [
         ict_index: "62.2",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 387,
@@ -23517,7 +23517,7 @@ var Players = [
         ict_index: "389.7",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 388,
@@ -23541,7 +23541,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "38.0",
+        selected_by_percent: "37.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23576,22 +23576,22 @@ var Players = [
         ict_index: "301.7",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 389,
         photo: "54756.jpg",
         web_name: "Wanyama",
         team_code: 6,
-        status: "a",
+        status: "d",
         code: 54756,
         first_name: "Victor",
         second_name: "Wanyama",
         squad_number: 12,
-        news: "",
+        news: "Knee injury - 75% chance of playing",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -23600,7 +23600,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.4",
+        selected_by_percent: "2.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23614,7 +23614,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.9",
         ep_this: null,
-        ep_next: "2.9",
+        ep_next: "2.2",
         special: false,
         minutes: 3012,
         goals_scored: 4,
@@ -23635,7 +23635,7 @@ var Players = [
         ict_index: "157.7",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 390,
@@ -23659,7 +23659,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23694,7 +23694,7 @@ var Players = [
         ict_index: "255.6",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 391,
@@ -23718,7 +23718,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23753,7 +23753,7 @@ var Players = [
         ict_index: "32.8",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 392,
@@ -23812,7 +23812,7 @@ var Players = [
         ict_index: "5.2",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 393,
@@ -23836,7 +23836,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23871,7 +23871,7 @@ var Players = [
         ict_index: "61.0",
         ea_index: 0,
         element_type: 3,
-        team: "TOT"
+        team: 17
     },
     {
         id: 394,
@@ -23895,7 +23895,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "34.5",
+        selected_by_percent: "34.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -23930,7 +23930,7 @@ var Players = [
         ict_index: "336.0",
         ea_index: 0,
         element_type: 4,
-        team: "TOT"
+        team: 17
     },
     {
         id: 395,
@@ -23989,7 +23989,7 @@ var Players = [
         ict_index: "89.4",
         ea_index: 0,
         element_type: 4,
-        team: "TOT"
+        team: 17
     },
     {
         id: 396,
@@ -24048,7 +24048,7 @@ var Players = [
         ict_index: "4.1",
         ea_index: 0,
         element_type: 1,
-        team: "WAT"
+        team: 18
     },
     {
         id: 397,
@@ -24107,7 +24107,7 @@ var Players = [
         ict_index: "84.4",
         ea_index: 0,
         element_type: 1,
-        team: "WAT"
+        team: 18
     },
     {
         id: 398,
@@ -24131,7 +24131,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24166,22 +24166,22 @@ var Players = [
         ict_index: "71.8",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 399,
         photo: "41338.jpg",
         web_name: "Cathcart",
         team_code: 57,
-        status: "d",
+        status: "a",
         code: 41338,
         first_name: "Craig",
         second_name: "Cathcart",
         squad_number: 15,
-        news: "Knee injury - 75% chance of playing",
+        news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -24190,7 +24190,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24204,7 +24204,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.1",
         ep_this: null,
-        ep_next: "0.4",
+        ep_next: "0.5",
         special: false,
         minutes: 1162,
         goals_scored: 0,
@@ -24225,7 +24225,7 @@ var Players = [
         ict_index: "33.2",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 400,
@@ -24249,7 +24249,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.8",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24284,7 +24284,7 @@ var Players = [
         ict_index: "103.8",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 401,
@@ -24343,7 +24343,7 @@ var Players = [
         ict_index: "144.6",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 402,
@@ -24402,22 +24402,22 @@ var Players = [
         ict_index: "90.9",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 403,
         photo: "85624.jpg",
         web_name: "Kabasele",
         team_code: 57,
-        status: "a",
+        status: "d",
         code: 85624,
         first_name: "Christian",
         second_name: "Kabasele",
         squad_number: 27,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -24426,7 +24426,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24440,7 +24440,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.2",
         ep_this: null,
-        ep_next: "0.5",
+        ep_next: "0.4",
         special: false,
         minutes: 771,
         goals_scored: 2,
@@ -24461,7 +24461,7 @@ var Players = [
         ict_index: "41.7",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 404,
@@ -24520,7 +24520,7 @@ var Players = [
         ict_index: "78.8",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 405,
@@ -24544,7 +24544,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.4",
+        selected_by_percent: "2.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24579,7 +24579,7 @@ var Players = [
         ict_index: "20.1",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 406,
@@ -24638,7 +24638,7 @@ var Players = [
         ict_index: "1.2",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 407,
@@ -24662,7 +24662,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24697,22 +24697,22 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "WAT"
+        team: 18
     },
     {
         id: 408,
         photo: "43250.jpg",
         web_name: "Cleverley",
         team_code: 57,
-        status: "d",
+        status: "a",
         code: 43250,
         first_name: "Tom",
         second_name: "Cleverley",
         squad_number: 8,
-        news: "Knock - 75% chance of playing",
+        news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 75,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -24735,7 +24735,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.0",
         ep_this: null,
-        ep_next: "0.3",
+        ep_next: "0.4",
         special: false,
         minutes: 1848,
         goals_scored: 0,
@@ -24756,7 +24756,7 @@ var Players = [
         ict_index: "78.7",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 409,
@@ -24780,7 +24780,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.2",
+        selected_by_percent: "8.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -24815,7 +24815,7 @@ var Players = [
         ict_index: "178.7",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 410,
@@ -24874,22 +24874,22 @@ var Players = [
         ict_index: "33.6",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 411,
         photo: "88935.jpg",
         web_name: "Berghuis",
         team_code: 57,
-        status: "a",
+        status: "u",
         code: 88935,
         first_name: "Steven",
         second_name: "Berghuis",
         squad_number: null,
-        news: "",
+        news: "Transferred to Feyenoord",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 0,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -24912,7 +24912,7 @@ var Players = [
         event_points: 0,
         points_per_game: "0.0",
         ep_this: null,
-        ep_next: "0.4",
+        ep_next: "0.0",
         special: false,
         minutes: 0,
         goals_scored: 0,
@@ -24933,7 +24933,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 412,
@@ -24992,7 +24992,7 @@ var Players = [
         ict_index: "113.9",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 413,
@@ -25051,7 +25051,7 @@ var Players = [
         ict_index: "46.8",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 414,
@@ -25110,7 +25110,7 @@ var Players = [
         ict_index: "61.1",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 415,
@@ -25169,7 +25169,7 @@ var Players = [
         ict_index: "54.7",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 416,
@@ -25193,7 +25193,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25228,7 +25228,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 417,
@@ -25252,7 +25252,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.1",
+        selected_by_percent: "1.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25287,7 +25287,7 @@ var Players = [
         ict_index: "206.8",
         ea_index: 0,
         element_type: 4,
-        team: "WAT"
+        team: 18
     },
     {
         id: 418,
@@ -25346,7 +25346,7 @@ var Players = [
         ict_index: "87.1",
         ea_index: 0,
         element_type: 4,
-        team: "WAT"
+        team: 18
     },
     {
         id: 419,
@@ -25405,7 +25405,7 @@ var Players = [
         ict_index: "14.3",
         ea_index: 0,
         element_type: 4,
-        team: "WAT"
+        team: 18
     },
     {
         id: 420,
@@ -25429,7 +25429,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.0",
+        selected_by_percent: "4.9",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25464,7 +25464,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "WBA"
+        team: 19
     },
     {
         id: 421,
@@ -25488,7 +25488,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "18.3",
+        selected_by_percent: "17.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25523,7 +25523,7 @@ var Players = [
         ict_index: "79.5",
         ea_index: 0,
         element_type: 1,
-        team: "WBA"
+        team: 19
     },
     {
         id: 422,
@@ -25582,7 +25582,7 @@ var Players = [
         ict_index: "78.3",
         ea_index: 0,
         element_type: 2,
-        team: "WBA"
+        team: 19
     },
     {
         id: 423,
@@ -25606,7 +25606,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.1",
+        selected_by_percent: "1.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25641,22 +25641,22 @@ var Players = [
         ict_index: "100.6",
         ea_index: 0,
         element_type: 2,
-        team: "WBA"
+        team: 19
     },
     {
         id: 424,
         photo: "60232.jpg",
         web_name: "Dawson",
         team_code: 35,
-        status: "a",
+        status: "d",
         code: 60232,
         first_name: "Craig",
         second_name: "Dawson",
         squad_number: 25,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -25665,7 +25665,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.2",
+        selected_by_percent: "6.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25679,7 +25679,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.8",
         ep_this: null,
-        ep_next: "2.1",
+        ep_next: "1.6",
         special: false,
         minutes: 3276,
         goals_scored: 4,
@@ -25700,7 +25700,7 @@ var Players = [
         ict_index: "147.9",
         ea_index: 0,
         element_type: 2,
-        team: "WBA"
+        team: 19
     },
     {
         id: 425,
@@ -25724,7 +25724,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "8.8",
+        selected_by_percent: "6.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25759,7 +25759,7 @@ var Players = [
         ict_index: "135.4",
         ea_index: 0,
         element_type: 2,
-        team: "WBA"
+        team: 19
     },
     {
         id: 426,
@@ -25818,7 +25818,7 @@ var Players = [
         ict_index: "116.5",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 427,
@@ -25842,7 +25842,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.5",
+        selected_by_percent: "2.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -25877,7 +25877,7 @@ var Players = [
         ict_index: "148.7",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 428,
@@ -25936,7 +25936,7 @@ var Players = [
         ict_index: "93.7",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 429,
@@ -25995,22 +25995,22 @@ var Players = [
         ict_index: "49.0",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 430,
         photo: "63370.jpg",
         web_name: "McClean",
         team_code: 35,
-        status: "a",
+        status: "d",
         code: 63370,
         first_name: "James",
         second_name: "McClean",
         squad_number: 14,
-        news: "",
+        news: "Knee injury - 75% chance of playing",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -26019,7 +26019,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26033,7 +26033,7 @@ var Players = [
         event_points: 0,
         points_per_game: "1.5",
         ep_this: null,
-        ep_next: "1.4",
+        ep_next: "1.1",
         special: false,
         minutes: 1477,
         goals_scored: 1,
@@ -26054,7 +26054,7 @@ var Players = [
         ict_index: "98.2",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 431,
@@ -26113,22 +26113,22 @@ var Players = [
         ict_index: "7.6",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 432,
         photo: "50229.jpg",
         web_name: "Phillips",
         team_code: 35,
-        status: "a",
+        status: "d",
         code: 50229,
         first_name: "Matt",
         second_name: "Phillips",
         squad_number: 10,
-        news: "",
+        news: "Hamstring injury - 75% chance of playing",
         now_cost: 60,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -26137,7 +26137,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.1",
+        selected_by_percent: "3.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26151,7 +26151,7 @@ var Players = [
         event_points: 0,
         points_per_game: "4.3",
         ep_this: null,
-        ep_next: "2.1",
+        ep_next: "1.6",
         special: false,
         minutes: 2181,
         goals_scored: 4,
@@ -26172,7 +26172,7 @@ var Players = [
         ict_index: "142.3",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 433,
@@ -26231,22 +26231,22 @@ var Players = [
         ict_index: "6.7",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 434,
         photo: "19151.jpg",
         web_name: "Brunt",
         team_code: 35,
-        status: "a",
+        status: "d",
         code: 19151,
         first_name: "Chris",
         second_name: "Brunt",
         squad_number: 11,
-        news: "",
+        news: "Calf injury - 75% chance of playing",
         now_cost: 55,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -26255,7 +26255,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "0.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26269,7 +26269,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.2",
         ep_this: null,
-        ep_next: "1.9",
+        ep_next: "1.4",
         special: false,
         minutes: 2477,
         goals_scored: 3,
@@ -26290,7 +26290,7 @@ var Players = [
         ict_index: "153.1",
         ea_index: 0,
         element_type: 3,
-        team: "WBA"
+        team: 19
     },
     {
         id: 435,
@@ -26349,7 +26349,7 @@ var Players = [
         ict_index: "227.8",
         ea_index: 0,
         element_type: 4,
-        team: "WBA"
+        team: 19
     },
     {
         id: 436,
@@ -26408,7 +26408,7 @@ var Players = [
         ict_index: "53.8",
         ea_index: 0,
         element_type: 4,
-        team: "WBA"
+        team: 19
     },
     {
         id: 437,
@@ -26467,7 +26467,7 @@ var Players = [
         ict_index: "89.4",
         ea_index: 0,
         element_type: 4,
-        team: "WBA"
+        team: 19
     },
     {
         id: 438,
@@ -26526,7 +26526,7 @@ var Players = [
         ict_index: "37.7",
         ea_index: 0,
         element_type: 1,
-        team: "WHU"
+        team: 20
     },
     {
         id: 439,
@@ -26550,7 +26550,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26585,7 +26585,7 @@ var Players = [
         ict_index: "48.7",
         ea_index: 0,
         element_type: 1,
-        team: "WHU"
+        team: 20
     },
     {
         id: 440,
@@ -26644,22 +26644,22 @@ var Players = [
         ict_index: "100.2",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 441,
         photo: "8380.jpg",
         web_name: "Collins",
         team_code: 21,
-        status: "a",
+        status: "d",
         code: 8380,
         first_name: "James",
         second_name: "Collins",
         squad_number: 19,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -26682,7 +26682,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.1",
         ep_this: null,
-        ep_next: "0.5",
+        ep_next: "0.4",
         special: false,
         minutes: 1655,
         goals_scored: 2,
@@ -26703,22 +26703,22 @@ var Players = [
         ict_index: "71.6",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 442,
         photo: "48717.jpg",
         web_name: "Reid",
         team_code: 21,
-        status: "d",
+        status: "a",
         code: 48717,
         first_name: "Winston",
         second_name: "Reid",
         squad_number: 2,
-        news: "Knee injury - 50% chance of playing",
+        news: "",
         now_cost: 50,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 50,
+        chance_of_playing_next_round: 100,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -26741,7 +26741,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.4",
         ep_this: null,
-        ep_next: "0.5",
+        ep_next: "1.1",
         special: false,
         minutes: 2587,
         goals_scored: 2,
@@ -26762,7 +26762,7 @@ var Players = [
         ict_index: "104.0",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 443,
@@ -26786,7 +26786,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.5",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26821,7 +26821,7 @@ var Players = [
         ict_index: "71.2",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 444,
@@ -26880,7 +26880,7 @@ var Players = [
         ict_index: "51.6",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 445,
@@ -26939,7 +26939,7 @@ var Players = [
         ict_index: "39.4",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 446,
@@ -26963,7 +26963,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -26998,7 +26998,7 @@ var Players = [
         ict_index: "36.4",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 447,
@@ -27022,7 +27022,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.7",
+        selected_by_percent: "3.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27057,7 +27057,7 @@ var Players = [
         ict_index: "52.1",
         ea_index: 0,
         element_type: 2,
-        team: "WHU"
+        team: 20
     },
     {
         id: 448,
@@ -27081,7 +27081,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "6.5",
+        selected_by_percent: "6.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27116,7 +27116,7 @@ var Players = [
         ict_index: "212.3",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 449,
@@ -27140,7 +27140,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "3.3",
+        selected_by_percent: "3.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27175,22 +27175,22 @@ var Players = [
         ict_index: "105.6",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 450,
         photo: "18073.jpg",
         web_name: "Noble",
         team_code: 21,
-        status: "a",
+        status: "d",
         code: 18073,
         first_name: "Mark",
         second_name: "Noble",
         squad_number: 16,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 55,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: 100,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -27213,7 +27213,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.4",
         ep_this: null,
-        ep_next: "0.9",
+        ep_next: "0.7",
         special: false,
         minutes: 2389,
         goals_scored: 3,
@@ -27234,7 +27234,7 @@ var Players = [
         ict_index: "95.9",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 451,
@@ -27258,7 +27258,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27293,7 +27293,7 @@ var Players = [
         ict_index: "80.5",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 452,
@@ -27317,7 +27317,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.5",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27352,22 +27352,22 @@ var Players = [
         ict_index: "49.4",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 453,
         photo: "86934.jpg",
         web_name: "Lanzini",
         team_code: 21,
-        status: "a",
+        status: "d",
         code: 86934,
         first_name: "Manuel",
         second_name: "Lanzini",
         squad_number: 10,
-        news: "",
+        news: "Knee injury - 75% chance of playing",
         now_cost: 70,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -27376,7 +27376,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "7.5",
+        selected_by_percent: "5.8",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27390,7 +27390,7 @@ var Players = [
         event_points: 0,
         points_per_game: "3.8",
         ep_this: null,
-        ep_next: "1.4",
+        ep_next: "1.1",
         special: false,
         minutes: 2708,
         goals_scored: 8,
@@ -27411,7 +27411,7 @@ var Players = [
         ict_index: "213.5",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 454,
@@ -27435,7 +27435,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27470,22 +27470,22 @@ var Players = [
         ict_index: "222.7",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 455,
         photo: "44336.jpg",
         web_name: "Feghouli",
         team_code: 21,
-        status: "a",
+        status: "d",
         code: 44336,
         first_name: "Sofiane",
         second_name: "Feghouli",
         squad_number: 7,
-        news: "",
+        news: "Knock - 75% chance of playing",
         now_cost: 55,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 75,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -27494,7 +27494,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27508,7 +27508,7 @@ var Players = [
         event_points: 0,
         points_per_game: "2.6",
         ep_this: null,
-        ep_next: "0.9",
+        ep_next: "0.7",
         special: false,
         minutes: 1042,
         goals_scored: 3,
@@ -27529,7 +27529,7 @@ var Players = [
         ict_index: "84.9",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 456,
@@ -27553,7 +27553,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.4",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27588,7 +27588,7 @@ var Players = [
         ict_index: "42.3",
         ea_index: 0,
         element_type: 3,
-        team: "WHU"
+        team: 20
     },
     {
         id: 457,
@@ -27612,7 +27612,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27647,7 +27647,7 @@ var Players = [
         ict_index: "119.2",
         ea_index: 0,
         element_type: 4,
-        team: "WHU"
+        team: 20
     },
     {
         id: 458,
@@ -27706,22 +27706,22 @@ var Players = [
         ict_index: "10.7",
         ea_index: 0,
         element_type: 4,
-        team: "WHU"
+        team: 20
     },
     {
         id: 459,
         photo: "176296.jpg",
         web_name: "Fletcher",
         team_code: 21,
-        status: "a",
+        status: "u",
         code: 176296,
         first_name: "Ashley",
         second_name: "Fletcher",
         squad_number: 24,
-        news: "",
+        news: "Transferred to Middlesbrough",
         now_cost: 45,
         chance_of_playing_this_round: null,
-        chance_of_playing_next_round: null,
+        chance_of_playing_next_round: 0,
         value_form: "0.0",
         value_season: "0.0",
         cost_change_start: 0,
@@ -27730,7 +27730,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "5.8",
+        selected_by_percent: "5.6",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27765,7 +27765,7 @@ var Players = [
         ict_index: "24.4",
         ea_index: 0,
         element_type: 4,
-        team: "WHU"
+        team: 20
     },
     {
         id: 460,
@@ -27789,7 +27789,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27824,7 +27824,7 @@ var Players = [
         ict_index: "79.0",
         ea_index: 0,
         element_type: 4,
-        team: "WHU"
+        team: 20
     },
     {
         id: 461,
@@ -27848,7 +27848,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27883,7 +27883,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "BHA"
+        team: 3
     },
     {
         id: 462,
@@ -27907,7 +27907,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -27942,7 +27942,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "HUD"
+        team: 8
     },
     {
         id: 463,
@@ -27966,7 +27966,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28001,7 +28001,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 464,
@@ -28012,7 +28012,7 @@ var Players = [
         code: 56192,
         first_name: "Cuco",
         second_name: "Martina",
-        squad_number: null,
+        squad_number: 15,
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
@@ -28025,7 +28025,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "1.0",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28060,7 +28060,7 @@ var Players = [
         ict_index: "22.7",
         ea_index: 0,
         element_type: 2,
-        team: "EVE"
+        team: 7
     },
     {
         id: 465,
@@ -28084,7 +28084,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.4",
+        selected_by_percent: "1.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28119,7 +28119,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 466,
@@ -28143,7 +28143,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28178,7 +28178,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 467,
@@ -28202,7 +28202,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28237,7 +28237,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 468,
@@ -28261,7 +28261,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "2.3",
+        selected_by_percent: "2.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28296,7 +28296,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "WBA"
+        team: 19
     },
     {
         id: 469,
@@ -28320,7 +28320,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28355,7 +28355,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "BUR"
+        team: 4
     },
     {
         id: 470,
@@ -28414,7 +28414,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "CHE"
+        team: 5
     },
     {
         id: 471,
@@ -28438,7 +28438,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28473,7 +28473,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "CHE"
+        team: 5
     },
     {
         id: 472,
@@ -28497,7 +28497,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "11.4",
+        selected_by_percent: "10.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28532,7 +28532,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "CHE"
+        team: 5
     },
     {
         id: 473,
@@ -28556,7 +28556,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28591,7 +28591,7 @@ var Players = [
         ict_index: "55.8",
         ea_index: 0,
         element_type: 1,
-        team: "LEI"
+        team: 9
     },
     {
         id: 474,
@@ -28602,7 +28602,7 @@ var Players = [
         code: 61604,
         first_name: "Matty",
         second_name: "James",
-        squad_number: 8,
+        squad_number: 22,
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
@@ -28650,7 +28650,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "LEI"
+        team: 9
     },
     {
         id: 475,
@@ -28674,7 +28674,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "1.7",
+        selected_by_percent: "2.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28709,7 +28709,7 @@ var Players = [
         ict_index: "95.6",
         ea_index: 0,
         element_type: 2,
-        team: "LIV"
+        team: 10
     },
     {
         id: 476,
@@ -28768,7 +28768,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "MNU"
+        team: 12
     },
     {
         id: 477,
@@ -28792,7 +28792,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.8",
+        selected_by_percent: "1.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28827,7 +28827,7 @@ var Players = [
         ict_index: "40.8",
         ea_index: 0,
         element_type: 2,
-        team: "NEW"
+        team: 13
     },
     {
         id: 478,
@@ -28851,7 +28851,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.3",
+        selected_by_percent: "0.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28886,7 +28886,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "NEW"
+        team: 13
     },
     {
         id: 479,
@@ -28897,7 +28897,7 @@ var Players = [
         code: 15749,
         first_name: "Joe",
         second_name: "Hart",
-        squad_number: null,
+        squad_number: 25,
         news: "",
         now_cost: 45,
         chance_of_playing_this_round: null,
@@ -28910,7 +28910,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "9.8",
+        selected_by_percent: "12.4",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -28945,7 +28945,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 1,
-        team: "WHU"
+        team: 20
     },
     {
         id: 480,
@@ -28969,7 +28969,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.1",
+        selected_by_percent: "0.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29004,7 +29004,7 @@ var Players = [
         ict_index: "88.0",
         ea_index: 0,
         element_type: 2,
-        team: "ARS"
+        team: 1
     },
     {
         id: 481,
@@ -29063,7 +29063,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 3,
-        team: "BHA"
+        team: 3
     },
     {
         id: 482,
@@ -29087,7 +29087,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.2",
+        selected_by_percent: "0.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29122,7 +29122,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "CRY"
+        team: 6
     },
     {
         id: 483,
@@ -29146,7 +29146,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.7",
+        selected_by_percent: "2.3",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29181,7 +29181,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 484,
@@ -29205,7 +29205,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.6",
+        selected_by_percent: "0.7",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29240,7 +29240,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "MNC"
+        team: 11
     },
     {
         id: 485,
@@ -29264,7 +29264,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29299,7 +29299,7 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 2,
-        team: "SWA"
+        team: 16
     },
     {
         id: 486,
@@ -29323,7 +29323,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "0.0",
+        selected_by_percent: "0.1",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29358,7 +29358,7 @@ var Players = [
         ict_index: "0.6",
         ea_index: 0,
         element_type: 3,
-        team: "WAT"
+        team: 18
     },
     {
         id: 487,
@@ -29382,7 +29382,7 @@ var Players = [
         cost_change_event_fall: 0,
         in_dreamteam: false,
         dreamteam_count: 0,
-        selected_by_percent: "9.0",
+        selected_by_percent: "17.2",
         form: "0.0",
         transfers_out: 0,
         transfers_in: 0,
@@ -29417,9 +29417,8 @@ var Players = [
         ict_index: "0.0",
         ea_index: 0,
         element_type: 4,
-        team: "WHU"
+        team: 20
     }
-
 ]
 
 
@@ -29476,55 +29475,123 @@ function PopulatePlayerList() {
 
     // Loop through goalkeepers array and create player rows and append to add to goalkeeper variable
     for (var i = 0; i < Math.floor(_goalkeepersArray.length / 2); i++) {
-        _goalkeepers += '<tr><td>' + _goalkeepersArray[i].id + '</td><td>' + _goalkeepersArray[i].team + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td>' + (_goalkeepersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _goalkeepers += '<tr><td>' + _goalkeepersArray[i].id + '</td><td class="player-team">' + _goalkeepersArray[i].team + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td>' + (_goalkeepersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(GoalkeepersLeftColumn).append(_goalkeepers);
 
     _goalkeepers = [];
 
     for (var i = Math.floor(_goalkeepersArray.length / 2); i < _goalkeepersArray.length; i++) {
-        _goalkeepers += '<tr><td>' + _goalkeepersArray[i].id + '</td><td>' + _goalkeepersArray[i].team + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td>' + (_goalkeepersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _goalkeepers += '<tr><td>' + _goalkeepersArray[i].id + '</td><td class="player-team">' + _goalkeepersArray[i].team + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td>' + (_goalkeepersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(GoalkeepersRightColumn).append(_goalkeepers);
 
     // Loop through defenders array and create player rows and append to add to defender variable
     for (var i = 0; i < Math.floor(_defendersArray.length / 2); i++) {
-        _defenders += '<tr><td>' + _defendersArray[i].id + '</td><td>' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + (_defendersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _defenders += '<tr><td>' + _defendersArray[i].id + '</td><td class="player-team">' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + (_defendersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(DefendersLeftColumn).append(_defenders);
 
     _defenders = [];
 
     for (var i = Math.floor(_defendersArray.length / 2); i < _defendersArray.length; i++) {
-        _defenders += '<tr><td>' + _defendersArray[i].id + '</td><td>' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + (_defendersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _defenders += '<tr><td>' + _defendersArray[i].id + '</td><td class="player-team">' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + (_defendersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(DefendersRightColumn).append(_defenders);
 
     // Loop through midfielders array and create player rows and append to add to midfielder variable
     for (var i = 0; i < Math.floor(_midfieldersArray.length / 2); i++) {
-        _midfielders += '<tr><td>' + _midfieldersArray[i].id + '</td><td>' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + (_midfieldersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _midfielders += '<tr><td>' + _midfieldersArray[i].id + '</td><td class="player-team">' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + (_midfieldersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(MidfieldersLeftColumn).append(_midfielders);
 
     _midfielders = [];
 
     for (var i = Math.floor(_midfieldersArray.length / 2); i < _midfieldersArray.length; i++) {
-        _midfielders += '<tr><td>' + _midfieldersArray[i].id + '</td><td>' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + (_midfieldersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _midfielders += '<tr><td>' + _midfieldersArray[i].id + '</td><td class="player-team">' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + (_midfieldersArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(MidfieldersRightColumn).append(_midfielders);
 
     // Loop through Forwards array and create player rows and append to add to forwards variable
     for (var i = 0; i < Math.floor(_forwardsArray.length / 2); i++) {
-        _forwards += '<tr><td>' + _forwardsArray[i].id + '</td><td>' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + (_forwardsArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _forwards += '<tr><td>' + _forwardsArray[i].id + '</td><td class="player-team">' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + (_forwardsArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(ForwardsLeftColumn).append(_forwards);
 
     _forwards = [];
 
     for (var i = Math.floor(_forwardsArray.length / 2); i < _forwardsArray.length; i++) {
-        _forwards += '<tr><td>' + _forwardsArray[i].id + '</td><td>' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + (_forwardsArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
+        _forwards += '<tr><td>' + _forwardsArray[i].id + '</td><td class="player-team">' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + (_forwardsArray[i].now_cost / 10).toFixed(1) + '</td></tr>'
     }
     $(ForwardsRightColumn).append(_forwards);
+
+    // Loop through each player team ID and replace it with the team name abbreviation
+    $(".player-team").each(function () {
+        var teamID = $(this).text();
+        switch (true) {
+            case (teamID == 1):
+                $(this).text("ARS");
+                break;
+            case (teamID == 2):
+                $(this).text("BOU");
+                break;
+            case (teamID == 3):
+                $(this).text("BHA");
+                break;
+            case (teamID == 4):
+                $(this).text("BUR");
+                break;
+            case (teamID == 5):
+                $(this).text("CHE");
+                break;
+            case (teamID == 6):
+                $(this).text("CRY");
+                break;
+            case (teamID == 7):
+                $(this).text("EVE");
+                break;
+            case (teamID == 8):
+                $(this).text("HUD");
+                break;
+            case (teamID == 9):
+                $(this).text("LEI");
+                break;
+            case (teamID == 10):
+                $(this).text("LIV");
+                break;
+            case (teamID == 11):
+                $(this).text("MNC");
+                break;
+            case (teamID == 12):
+                $(this).text("MNU");
+                break;
+            case (teamID == 13):
+                $(this).text("NEW");
+                break;
+            case (teamID == 14):
+                $(this).text("SOU");
+                break;
+            case (teamID == 15):
+                $(this).text("STO");
+                break;
+            case (teamID == 16):
+                $(this).text("SWA");
+                break;
+            case (teamID == 17):
+                $(this).text("TOT");
+                break;
+            case (teamID == 18):
+                $(this).text("WAT");
+                break;
+            case (teamID == 19):
+                $(this).text("WBA");
+                break;
+            case (teamID == 20):
+                $(this).text("WHU");
+                break;
+            default:
+        }
+    });
 
 }
 
