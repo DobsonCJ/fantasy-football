@@ -7,6 +7,37 @@ body {
   margin: 0 auto;
 }
 
+.week-dropdown {
+  font-size: 16px;
+}
+
+.save-week {
+  padding: 5px 20px;
+  vertical-align: top;
+}
+
+.results .fixtures h3 {
+  font-size: 18px;
+}
+
+.results .fixtures table {
+  width: 100%;
+}
+
+.results .fixtures table .teams-dropdown {
+  float: left;
+  width: 73%;
+  margin-right: 2%;
+}
+
+.results .fixtures table .score {
+  width: 25%;
+}
+
+.results .fixtures table .score:disabled {
+  cursor: disabled;
+}
+
 .results .fixtures .home-team .player-filter {
   font-size: 12px;
   margin: 5px 0;

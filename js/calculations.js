@@ -28113,7 +28113,7 @@ function storeLocalData() {
                 _awayTeamName = $(this).text();
                 _awayTeamID = $(this).val();
                 _awayTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
-                
+
             }
 
             fixture[_fixtureNumber] = {
@@ -28183,8 +28183,6 @@ function applyLocaldata() {
             $('.fixtures').each(function (i) {
                 if ($(this).attr('id') == currentFixture) {
 
-                    console.log(fixturename._homeTeamID);
-
                     $(this).find('.home-team .teams-dropdown').val(fixturename._homeTeamID).prop('selected', true);
                     $(this).find('.away-team .teams-dropdown').val(fixturename._awayTeamID).prop('selected', true);
 
@@ -28212,16 +28210,25 @@ function applyLocaldata() {
 
     });
 
-    $.each($selectedWeekPlayersData, function (i, player) {
 
-        $('.player-data').each(function (i) {
-            if ($(this).attr('data-id') == player.playerID) {
+    $.each($selectedWeekPlayersData, function (i, playerList) {
 
-                $(this).find('.red-card-checkbox').prop('checked', player.redCard);
-                $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
-                $(this).find('.score-select').val(player.goalsScored);
+        var _playerList = playerList
 
-            }
+        $.each(_playerList, function (i, player) {
+
+            var _player = player;
+
+            $('.player-data').each(function (i) {
+                if ($(this).attr('data-id') == _player.playerID) {
+
+                    $(this).find('.red-card-checkbox').prop('checked', player.redCard);
+                    $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
+                    $(this).find('.score-select').val(player.goalsScored);
+
+                }
+            });
+
         });
 
     });
@@ -28232,8 +28239,8 @@ $(function () {
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
-    $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
-    $score = $('.score');
+        $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
+        $score = $('.score');
     $total = 0;
 
     // Find each team and populate the dropdowns

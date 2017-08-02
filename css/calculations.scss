@@ -1,12 +1,4 @@
 // Variables
-//Colours
-$colour-liverpool: #d20025;
-$colour-arsenal: #ef0107;
-$colour-chelsea: #024493;
-$colour-manutd: #f00;
-$colour-mancity: #5cbeeb;
-$colour-pitch: #008000;
-$colour-playercard: #daa520; // Fonts
 $font-default: 'Lato', sans-serif;
 
 body {
@@ -18,8 +10,40 @@ body {
     margin: 0 auto;
 }
 
+.week-dropdown {
+    font-size: 16px;
+}
+
+.save-week {
+    padding: 5px 20px;
+    vertical-align: top;
+}
+
 .results {
+
     .fixtures {
+
+        h3 {
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+
+            .teams-dropdown {
+                float: left;
+                width: 73%;
+                margin-right: 2%;
+            }
+
+            .score {
+                width: 25%;
+            }
+
+            .score:disabled {
+                cursor: disabled;
+            }
+        }
         .home-team {
             .player-filter {
                 font-size: 12px;
