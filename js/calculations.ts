@@ -1,5 +1,7 @@
-var $ = $;
+﻿var $ = $;
+
 // JSON Data
+
 var Teams = [
     {
         id: 1,
@@ -681,7 +683,9 @@ var Teams = [
         strength_defence_away: 1080,
         team_division: 1
     }
-];
+]
+
+
 var Players = [
     {
         id: 1,
@@ -27823,179 +27827,261 @@ var Players = [
         element_type: 4,
         team: 20
     }
-];
-var $selectedTeam = null, $selectedFixture = null, $tableHeading = null, $teamPosition = null, $teamPositionTable = null, $teamDropdown = null, $dropdownOption = null, $selectedWeekFixturesData = null, $selectedWeekPlayersData = null, $selectedWeekFixturesData2 = null, $score = null, $total = 0, $selectedWeekFixturesData = null, $selectedWeekPlayersData = null;
+]
+
+var $selectedTeam = null,
+    $selectedFixture = null,
+    $tableHeading = null,
+    $teamPosition = null,
+    $teamPositionTable = null,
+
+    $teamDropdown = null,
+    $dropdownOption = null,
+
+    $selectedWeekFixturesData = null,
+    $selectedWeekPlayersData = null,
+    $selectedWeekFixturesData2 = null,
+
+    $score = null,
+    $total = 0,
+
+    $selectedWeekFixturesData = null,
+    $selectedWeekPlayersData = null;
+
+
 // Find each team and populate the dropdowns
 function populateTeams() {
+
     for (var i = 0; i < Teams.length; i++) {
+
         var $dropdownOption = $('<option>' + Teams[i].name + '</option>');
+
         $dropdownOption.attr({
             'data-id': Teams[i].id,
             'value': Teams[i].id
         });
         $teamDropdown.append($dropdownOption);
+
     }
 }
+
 // If team has been selected enable scores otherwise disable
 function enableScore() {
+
     $($teamDropdown).each(function () {
+
         if ($(this).val()) {
+
             $(this).siblings($score).attr('disabled', false);
-        }
-        else {
+
+        } else {
             $(this).siblings($score).attr('disabled', true);
         }
     });
 }
+
 function calculatePoints() {
+
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
+
         // Create calculation variables
-        var goalsTotal = 0, cleanSheetTotal = 0, redCardTotal = 0, pointsTotal = 0, goalsScored = parseInt($(this).find('.score-select :selected').val());
+        var goalsTotal = 0,
+            cleanSheetTotal = 0,
+            redCardTotal = 0,
+            pointsTotal = 0,
+            goalsScored = parseInt($(this).find('.score-select :selected').val());
+
         // If clean sheet checkbox is checked set the cleanSheetTotal
         if ($(this).find('.clean-sheet-checkbox').is(':checked')) {
+
             // If the position of the current player loop is 'Goalkeeper' set the cleanSheetTotal to 5
             if (($(this).attr('data-position') == '1')) {
                 cleanSheetTotal = 5;
             }
+
             // If the position of the current player loop is 'Defender' set the cleanSheetTotal to 10
             if (($(this).attr('data-position') == '2')) {
                 cleanSheetTotal = 2;
             }
         }
+
         // If the red card checkbox is selected set the redCardTotal to 10
         if ($(this).find('.red-card-checkbox').is(':checked')) {
             redCardTotal = 10;
+
             // Add attribute to current player if sent off
             $(this).attr('data-sentoff', 'true');
-        }
-        else {
+        } else {
             $(this).removeAttr('data-sentoff');
         }
+
         // If the position of the current player loop is 'Goalkeeper' set the goalsTotal
         if ($(this).attr('data-position') == '1') {
+
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
-            }
-            else {
+            } else {
                 $(this).find('.score-select').removeClass('active');
             }
+
             // Multiple the goals total by 10 if its a Goalkeeper
             goalsTotal = goalsScored * 10;
+
             // If 2 or more goals are scored add 5 to the goalsTotal
             if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
+
                 // If 3 or more goals are scored add 10 to the goalsTotal
-            }
-            else if ((goalsScored >= 3)) {
+            } else if ((goalsScored >= 3)) {
                 goalsTotal = goalsTotal + 10;
             }
+
             // If the position of the current player loop is 'Defender' set the goalsTotal
-        }
-        else if ($(this).attr('data-position') == '2') {
+        } else if ($(this).attr('data-position') == '2') {
+
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
-            }
-            else {
+            } else {
                 $(this).find('.score-select').removeClass('active');
             }
+
             // Multiple the goals total by 7 if its a Defender
             goalsTotal = goalsScored * 7;
+
             // If 2 or more goals are scored add 5 to the goalsTotal
             if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
+
                 // If 3 or more goals are scored add 10 to the goalsTotal
-            }
-            else if ((goalsScored >= 3)) {
+            } else if ((goalsScored >= 3)) {
                 goalsTotal = goalsTotal + 10;
             }
+
             // If the position of the current player loop is 'Midfielder' set the goalsTotal
-        }
-        else if ($(this).attr('data-position') == '3') {
+        } else if ($(this).attr('data-position') == '3') {
+
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
-            }
-            else {
+            } else {
                 $(this).find('.score-select').removeClass('active');
             }
+
             // Multiple the goals total by 5 if its a Midfielder
             goalsTotal = goalsScored * 5;
+
             // If 2 or more goals are scored add 5 to the goalsTotal
             if (goalsScored >= 2) {
                 goalsTotal = goalsTotal + 5;
+
                 // If 3 or more goals are scored add 10 to the goalsTotal
-            }
-            else if ((goalsScored >= 3)) {
+            } else if ((goalsScored >= 3)) {
                 goalsTotal = goalsTotal + 10;
             }
+
             // If the position of the current player loop is 'Forward' set the goalsTotal
-        }
-        else if ($(this).attr('data-position') == '4') {
+        } else if ($(this).attr('data-position') == '4') {
+
             if (goalsScored > 0) {
                 $(this).find('.score-select').addClass('active');
-            }
-            else {
+            } else {
                 $(this).find('.score-select').removeClass('active');
             }
+
             // Multiple the goals total by 3 if its a Forward
             goalsTotal = goalsScored * 3;
+
             // If 2 or more goals are scored add 5 to the goalsTotal
             if (goalsScored == 2) {
                 goalsTotal = goalsTotal + 5;
+
                 // If 3 or more goals are scored add 10 to the goalsTotal
-            }
-            else if ((goalsScored >= 3)) {
+            } else if ((goalsScored >= 3)) {
                 goalsTotal = goalsTotal + 10;
             }
+
         }
+
         // Create a variable by adding the totals of all calculation variables
         var pointsTotal = goalsTotal + cleanSheetTotal - redCardTotal;
+
         // Create an attribute on the player table row and set it to the pointsTotal
         $(this).attr('data-points', pointsTotal);
+
     });
+
 }
+
 function updatePlayerData() {
+
     // Loop through each player in the teams table
     $('.player-total-data').each(function () {
+
         // Create player ID variable from the ID text
         var playerID = $(this).find('.id').text();
+
         // Add attribute to table using previous variable
         $(this).attr('data-player-id', playerID);
+
         // Filter through all player data and return the matching player from variable ID
         var matchingPlayerID = $('.player-data').filter(function () {
             return $(this).attr('data-id') == playerID;
         });
+
         // Create a variable for the points from the filtered player
         var matchingPlayerPoints = matchingPlayerID.attr('data-points');
+
         // Set the points using the filtered player points data
         $(this).find('.points').text(matchingPlayerPoints);
+
         // Check if the filtered player sent off attribute is true
         if ($(matchingPlayerID).attr('data-sentoff') == 'true') {
+
             // If true, add a class to the current loop
             $(this).addClass('sent-off');
-        }
-        else {
+
+        } else {
+
             // Else , remove the class
             $(this).removeClass('sent-off');
         }
+
     });
+
 }
+
 function updatePointsTotal() {
+
     $total = 0;
+
     $('.teams table').each(function () {
+
         $total = 0;
+
         $(this).find('.points').each(function () {
+
             $total += parseInt(($(this).text()));
+
         });
+
+
         $(this).find('.total-points').text($total);
+
     });
 }
+
 function teamPointUpdates() {
+
     calculatePoints();
+
     updatePlayerData();
+
     updatePointsTotal();
+
 }
+
 function storeLocalData() {
+
     var _currentWeek = 'week_' + $('.week-dropdown').val();
     var current_week_fixtures = [];
     var current_week_players = [];
@@ -28003,25 +28089,35 @@ function storeLocalData() {
     var fixtures = [];
     var player = {};
     var players = [];
+
     var _homeTeamName = null;
     var _homeTeamID = null;
     var _homeTeamScore = null;
+
     var _awayTeamName = null;
     var _awayTeamID = null;
     var _awayTeamScore = null;
+
     $('.fixtures .teams-dropdown').find(':selected').each(function () {
+
         if ($(this).val() !== 'Teams') {
+
             var _fixtureNumber = $(this).closest('[id^=fixture-]').attr('id');
+
             if ($(this).parents('.home-team').length) {
+
                 _homeTeamName = $(this).text();
                 _homeTeamID = $(this).val();
                 _homeTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
-            }
-            else {
+
+            } else {
+
                 _awayTeamName = $(this).text();
                 _awayTeamID = $(this).val();
                 _awayTeamScore = $(this).parent('.teams-dropdown').siblings('.score').val();
+
             }
+
             fixture[_fixtureNumber] = {
                 "_fixture": _fixtureNumber,
                 "_homeTeamName": _homeTeamName,
@@ -28030,283 +28126,436 @@ function storeLocalData() {
                 "_awayTeamName": _awayTeamName,
                 "_awayTeamID": _awayTeamID,
                 "_awayTeamScore": _awayTeamScore
-            };
+            }
         }
+
+
     });
+
     $('.player-data').each(function () {
+
         // Check if the player has any data that needs to be stored
         if ($(this).find('.score-select').val() != 0 || $(this).find('.clean-sheet-checkbox').prop('checked') || $(this).find('.red-card-checkbox').prop('checked')) {
+
             var playerName = $(this).find('td:nth-child(2)').text();
             var playerID = $(this).attr('data-id');
             var goalsScored = $(this).find('.score-select').val();
             var cleanSheet = $(this).find('.clean-sheet-checkbox').prop('checked') ? true : false;
             var redCard = $(this).find('.red-card-checkbox').prop('checked') ? true : false;
+
             player[playerID] = {
                 "playerName": playerName,
                 "playerID": playerID,
                 "goalsScored": goalsScored,
                 "cleanSheet": cleanSheet,
                 "redCard": redCard
-            };
+            }
+
             current_week_players.push(player);
+
         }
+
     });
+
     current_week_fixtures.push(fixture);
+
     localStorage[_currentWeek + "_fixtures"] = JSON.stringify(current_week_fixtures);
     localStorage[_currentWeek + "_players"] = JSON.stringify(current_week_players);
 }
+
 function applyLocaldata() {
+
     $('.home-team .teams-dropdown').val('Teams').prop('selected', false);
     $('.away-team .teams-dropdown').val('Teams').prop('selected', false);
-    $('.home-team-players table, .away-team-players table').empty();
+
+    $('.home-team-players table, .away-team-players table').empty()
+
     var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + "_fixtures";
     var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + "_players";
+
     $selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
     $selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
+
     $.each($selectedWeekFixturesData, function (i, fixture) {
+
         $.each(fixture, function (i, fixturename) {
+
             var currentFixture = fixturename._fixture;
+
             $('.fixtures').each(function (i) {
                 if ($(this).attr('id') == currentFixture) {
+
                     $(this).find('.home-team .teams-dropdown').val(fixturename._homeTeamID).prop('selected', true);
                     $(this).find('.away-team .teams-dropdown').val(fixturename._awayTeamID).prop('selected', true);
+
                     $(this).find('.home-team .score').val(fixturename._homeTeamScore).prop('selected', true);
                     $(this).find('.away-team .score').val(fixturename._awayTeamScore).prop('selected', true);
                 }
             });
         });
+
     });
+
     $('.teams-dropdown').each(function () {
+
         if ($(this).prop('selected') == true) {
             $(this).trigger('change');
         }
+
     });
+
     $('.score').each(function () {
+
         if ($(this).prop('selected') == true) {
             $(this).trigger('change');
         }
+
     });
+
+
     $.each($selectedWeekPlayersData, function (i, playerList) {
-        var _playerList = playerList;
+
+        var _playerList = playerList
+
         $.each(_playerList, function (i, player) {
+
             var _player = player;
+
             $('.player-data').each(function (i) {
                 if ($(this).attr('data-id') == _player.playerID) {
+
                     $(this).find('.red-card-checkbox').prop('checked', player.redCard);
                     $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
                     $(this).find('.score-select').val(player.goalsScored);
+
                 }
             });
+
         });
+
     });
+
 }
+
 $(function () {
+
     // Variables
     $teamDropdown = $('.teams-dropdown'),
         $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
         $score = $('.score');
     $total = 0;
+
     // Find each team and populate the dropdowns
     populateTeams();
+
     // If team has been selected enable scores otherwise disable
     enableScore();
+
     $('.teams-dropdown').change(function () {
+
         $(this).attr('selected', 'selected');
+
         // Create scoped variables
-        var _selectedTeam = $(this).find(':selected').attr('data-id'), _playerTableClass = '.' + $(this).parent().attr('class') + '-players', _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _playerTable = _selectedFixture + ' .' + $(this).parent().attr('class') + '-players' + ' table', _venue = $(this).parent().prop('className'), 
-        // Create empty arrays so that players can be filtered into correct positions
-        _goalkeepersArray = [], _defendersArray = [], _midfieldersArray = [], _forwardsArray = [], 
-        // Create variables to store player rows
-        _goalkeepers, _defenders, _midfielders, _forwards;
+        var _selectedTeam = $(this).find(':selected').attr('data-id'),
+            _playerTableClass = '.' + $(this).parent().attr('class') + '-players',
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _playerTable = _selectedFixture + ' .' + $(this).parent().attr('class') + '-players' + ' table',
+            _venue = $(this).parent().prop('className'),
+
+            // Create empty arrays so that players can be filtered into correct positions
+            _goalkeepersArray = [],
+            _defendersArray = [],
+            _midfieldersArray = [],
+            _forwardsArray = [],
+
+            // Create variables to store player rows
+            _goalkeepers,
+            _defenders,
+            _midfielders,
+            _forwards
+
         // Empty the selected table and append the table heading
         $(_playerTable).empty();
+
         // Create headings for each position
         $(_playerTable).append('<tr class="goalkeeper-header"><th colspan="5">Goalkeepers</th></tr>').append($tableHeading);
         $(_playerTable).append('<tr class="defender-header"><th colspan="5">Defenders</th></tr>').append($tableHeading);
         $(_playerTable).append('<tr class="midfielder-header"><th colspan="5">Midfielders</th></tr>').append($tableHeading);
         $(_playerTable).append('<tr class="forward-header"><th colspan="5">Forwards</th></tr>').append($tableHeading);
+
         // Loop through each player in the players array
         for (var i = 0; i < Players.length; i++) {
+
             // Create a variable for the Players Team ID and players position element type
-            var _playersTeamID = Players[i].team, _playersPositionID = Players[i].element_type;
+            var _playersTeamID = Players[i].team,
+                _playersPositionID = Players[i].element_type
+
             // Check if the players ID matches the selected teams ID
             if (_playersTeamID == _selectedTeam) {
+
                 if (_playersPositionID == 1) {
+
                     _goalkeepersArray.push(Players[i]);
-                }
-                else if (_playersPositionID == 2) {
+
+                } else if (_playersPositionID == 2) {
+
                     _defendersArray.push(Players[i]);
-                }
-                else if (_playersPositionID == 3) {
+
+                } else if (_playersPositionID == 3) {
+
                     _midfieldersArray.push(Players[i]);
-                }
-                else if (_playersPositionID == 4) {
+
+                } else if (_playersPositionID == 4) {
+
                     _forwardsArray.push(Players[i]);
                 }
+
             }
+
         }
+
         // Loop through goalkeepers array and create player rows and append to add to goalkeeper variable
         for (var i = 0; i < _goalkeepersArray.length; i++) {
-            _goalkeepers += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _goalkeepersArray[i].element_type + '" data-id="' + _goalkeepersArray[i].id + '"><td>' + _goalkeepersArray[i].id + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>';
+            _goalkeepers += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _goalkeepersArray[i].element_type + '" data-id="' + _goalkeepersArray[i].id + '"><td>' + _goalkeepersArray[i].id + '</td><td>' + _goalkeepersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
         }
+
         // Loop through defenders array and create player rows and append to add to defender variable
         for (var i = 0; i < _defendersArray.length; i++) {
-            _defenders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _defendersArray[i].element_type + '" data-id="' + _defendersArray[i].id + '"><td>' + _defendersArray[i].id + '</td><td>' + _defendersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>';
+            _defenders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _defendersArray[i].element_type + '" data-id="' + _defendersArray[i].id + '"><td>' + _defendersArray[i].id + '</td><td>' + _defendersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
         }
+
         // Loop through midfielders array and create player rows and append to add to midfielder variable
         for (var i = 0; i < _midfieldersArray.length; i++) {
-            _midfielders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _midfieldersArray[i].element_type + '" data-id="' + _midfieldersArray[i].id + '"><td>' + _midfieldersArray[i].id + '</td><td>' + _midfieldersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>';
+            _midfielders += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _midfieldersArray[i].element_type + '" data-id="' + _midfieldersArray[i].id + '"><td>' + _midfieldersArray[i].id + '</td><td>' + _midfieldersArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
         }
+
         // Loop through forwards array and create player rows and append to add to forwards variable
         for (var i = 0; i < _forwardsArray.length; i++) {
-            _forwards += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _forwardsArray[i].element_type + '" data-id="' + _forwardsArray[i].id + '"><td>' + _forwardsArray[i].id + '</td><td>' + _forwardsArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>';
+            _forwards += '<tr class="player-data" data-points="' + '0' + '" data-position="' + _forwardsArray[i].element_type + '" data-id="' + _forwardsArray[i].id + '"><td>' + _forwardsArray[i].id + '</td><td>' + _forwardsArray[i].web_name + '</td><td class="goals-scored"><select class="score-select disabled" disabled="disabled" name="score"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select></td><td class="clean-sheet"><input type="checkbox" class="clean-sheet-checkbox" data-points="5" id="1" name="Mignolet" value=" "></td><td class="red-card"><input type="checkbox" class="red-card-checkbox" name="Mignolet" value=" "></td></tr>'
         }
+
         // Add goalkeeper rows to the goalkeeper section
         $(_playerTable).find('.goalkeeper-header').next('.table-heading').after(_goalkeepers);
+
         // Add defenders rows to the defenders section
         $(_playerTable).find('.defender-header').next('.table-heading').after(_defenders);
+
         // Add midfielders rows to the midfielders section
         $(_playerTable).find('.midfielder-header').next('.table-heading').after(_midfielders);
+
         // Add midfielders rows to the midfielders section
         $(_playerTable).find('.forward-header').next('.table-heading').after(_forwards);
+
         // Loop through each player
         $(_playerTableClass).find('.player-data').each(function () {
+
             if (!$(this).siblings('tr').find('.clean-sheet-image').hasClass('disabled')) {
+
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
                 if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
-            }
-            else {
+
+            } else {
                 $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
             }
+
         });
+
         // If team has been selected enable scores otherwise disable (This needs to executed on dropdown change so that the scores can be enabled)
         enableScore();
+
         teamPointUpdates();
+
     });
+
+
     $($score).change(function () {
+
         // Create scoped variables
-        var _teamPosition = '.' + $(this).parent().attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _playerTableClass = '.' + $(this).parent().attr('class') + '-players', _playerScores = $(_selectedFixture + " " + _playerTableClass).find('.goals-scored select');
+        var _teamPosition = '.' + $(this).parent().attr('class'),
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _playerTableClass = '.' + $(this).parent().attr('class') + '-players',
+            _playerScores = $(_selectedFixture + " " + _playerTableClass).find('.goals-scored select');
+
         // Check if the selected team is the home team
         if ($(_selectedFixture + " " + _teamPosition).attr('class') == 'home-team') {
+
             // Check if home teams score is greater than 0
             if ($(_selectedFixture + " " + _teamPosition).find('.score option:selected').val() > 0) {
+
                 // Disable all clean sheet checkboxes for the away team of this fixture
                 $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').attr('disabled', true).removeAttr('checked');
                 // Set the opacity of the clean sheet image to 0.3
                 $(_selectedFixture).find('.away-team-players .clean-sheet-image').addClass('disabled');
+
                 // Enable all score select boxes and remove disabled class
                 $(_selectedFixture).find('.home-team-players .score-select').attr('disabled', false);
                 $(_selectedFixture).find('.home-team-players .score-select').removeClass('disabled');
                 $(_selectedFixture).find('.home-team-players .goals-image').removeClass('disabled');
-            }
-            else {
+
+            } else {
                 // Enable all clean sheet checkboxes for the away team of this fixture
                 $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').attr('disabled', false);
                 // Set the opacity of the clean sheet image to 1
                 $(_selectedFixture).find('.away-team-players .clean-sheet-image').removeClass('disabled');
+
                 // Disable all score select boxes and add disabled class
                 $(_selectedFixture).find('.home-team-players .score-select').attr('disabled', true);
                 $(_selectedFixture).find('.home-team-players .score-select').addClass('disabled');
                 $(_selectedFixture).find('.home-team-players .goals-image').addClass('disabled');
             }
+
             // Loop through each player (This needs to be done again as the previous action may have enabled all checkboxes)
             $(_selectedFixture).find('.away-team-players .player-data').each(function () {
+
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
                 if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
+
             });
+
             // Check if the selected team is the away team
-        }
-        else if ($(_selectedFixture + " " + _teamPosition).attr('class') == 'away-team') {
+        } else if ($(_selectedFixture + " " + _teamPosition).attr('class') == 'away-team') {
+
             // Check if away teams score is greater than 0
             if ($(_selectedFixture + " " + _teamPosition).find('.score option:selected').val() > 0) {
+
                 // Disable all clean sheet checkboxes for the home team of this fixture
                 $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').attr('disabled', true).removeAttr('checked');
                 // Set the opacity of the clean sheet image to 0.3
                 $(_selectedFixture).find('.home-team-players .clean-sheet-image').addClass('disabled');
+
                 // Enable all score select boxes
                 $(_selectedFixture).find('.away-team-players .score-select').attr('disabled', false);
                 $(_selectedFixture).find('.away-team-players .score-select').removeClass('disabled');
                 $(_selectedFixture).find('.away-team-players .goals-image').removeClass('disabled');
-            }
-            else {
+
+            } else {
                 // Enable all clean sheet checkboxes for the home team of this fixture
                 $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').attr('disabled', false);
                 // Set the opacity of the clean sheet image to 1
                 $(_selectedFixture).find('.home-team-players .clean-sheet-image').removeClass('disabled');
+
                 // Disable all score select boxes
                 $(_selectedFixture).find('.away-team-players .score-select').attr('disabled', true);
                 $(_selectedFixture).find('.away-team-players .score-select').addClass('disabled');
                 $(_selectedFixture).find('.away-team-players .goals-image').addClass('disabled');
             }
+
             // Loop through each player (This needs to be done again as the previous action may have enabled all checkboxes)
             $($(_selectedFixture)).find('.home-team-players .player-data').each(function () {
+
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
                 if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
                     $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
                 }
+
             });
         }
+
         teamPointUpdates();
+
     });
+
     $('body').on('click', '.goalkeeper-header', function () {
-        var _playerTableClass = '.' + $(this).parents('div').attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _tableHeading = $(this).next('.table-heading');
+
+        var _playerTableClass = '.' + $(this).parents('div').attr('class'),
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _tableHeading = $(this).next('.table-heading');
+
         $(this).toggleClass('active');
         $(_tableHeading).toggleClass('active');
+
         $(_selectedFixture).find(_playerTableClass).find('.player-data').each(function () {
             if ($(this).data('position') == "1") {
                 $(this).toggleClass('active');
             }
         });
+
     });
+
     $('body').on('click', '.defender-header', function () {
-        var _playerTableClass = '.' + $(this).parents('div').attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _tableHeading = $(this).next('.table-heading');
+
+        var _playerTableClass = '.' + $(this).parents('div').attr('class'),
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _tableHeading = $(this).next('.table-heading');
+
         $(this).toggleClass('active');
         $(_tableHeading).toggleClass('active');
+
         $(_selectedFixture).find(_playerTableClass).find('.player-data').each(function () {
             if ($(this).data('position') == "2") {
                 $(this).toggleClass('active');
+
             }
         });
+
     });
+
     $('body').on('click', '.midfielder-header', function () {
-        var _playerTableClass = '.' + $(this).parents('div').attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _tableHeading = $(this).next('.table-heading');
+
+        var _playerTableClass = '.' + $(this).parents('div').attr('class'),
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _tableHeading = $(this).next('.table-heading');
+
         $(this).toggleClass('active');
         $(_tableHeading).toggleClass('active');
+
         $(_selectedFixture).find(_playerTableClass).find('.player-data').each(function () {
             if ($(this).data('position') == "3") {
                 $(this).toggleClass('active');
             }
         });
+
     });
+
     $('body').on('click', '.forward-header', function () {
-        var _playerTableClass = '.' + $(this).parents('div').attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _tableHeading = $(this).next('.table-heading');
+
+        var _playerTableClass = '.' + $(this).parents('div').attr('class'),
+            _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'),
+            _tableHeading = $(this).next('.table-heading');
+
         $(this).toggleClass('active');
         $(_tableHeading).toggleClass('active');
+
         $(_selectedFixture).find(_playerTableClass).find('.player-data').each(function () {
             if ($(this).data('position') == "4") {
                 $(this).toggleClass('active');
             }
         });
+
     });
+
     $(document).on('change', '.clean-sheet-checkbox', function () {
+
         teamPointUpdates();
+
     });
+
     $(document).on('change', '.red-card-checkbox', function () {
+
         teamPointUpdates();
+
     });
+
+
+
     $(document).on('change', '.score-select', function () {
+
         teamPointUpdates();
+
     });
+
     $('.save-week').on('click', function () {
         storeLocalData();
     });
+
     $('.week-dropdown').on('change', function () {
         applyLocaldata();
         teamPointUpdates();
     });
+
+
 });
-//# sourceMappingURL=calculations.js.map
