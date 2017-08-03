@@ -28101,6 +28101,10 @@ function applyLocaldata() {
     });
 }
 $(function () {
+    var url = "https://fantasy.premierleague.com/drf/elements?=callback";
+    $.getJSON(url, function (data) {
+        console.log(data);
+    });
     // Variables
     $teamDropdown = $('.teams-dropdown'),
         $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',

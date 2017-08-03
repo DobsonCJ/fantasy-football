@@ -27848,7 +27848,6 @@ var $selectedTeam = null,
     $selectedWeekFixturesData = null,
     $selectedWeekPlayersData = null;
 
-
 // Find each team and populate the dropdowns
 function populateTeams() {
 
@@ -28238,6 +28237,11 @@ function applyLocaldata() {
 }
 
 $(function () {
+
+var url = "https://fantasy.premierleague.com/drf/elements?=callback";
+$.getJSON(url, function(data) {
+   console.log(data);
+})
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
