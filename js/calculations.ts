@@ -28238,10 +28238,19 @@ function applyLocaldata() {
 
 $(function () {
 
-var url = "https://fantasy.premierleague.com/drf/elements?=callback";
-$.getJSON(url, function(data) {
-   console.log(data);
-})
+    var url = "https://fantasy.premierleague.com/drf/elements";
+
+    $.ajax({
+        url: url,
+        dataType: "jsonp",
+        jsonp: 'jsoncallback',
+        success: function(data) {
+            console.log(data);
+        },
+        error: function(error) {
+            console.log("ERROR " + JSON.stringify(error));
+        }
+    });
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
