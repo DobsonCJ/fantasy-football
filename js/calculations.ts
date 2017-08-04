@@ -28238,19 +28238,18 @@ function applyLocaldata() {
 
 $(function () {
 
-    var url = "https://fantasy.premierleague.com/drf/elements";
+    // var url = "https://fantasy.premierleague.com/drf/bootstrap-static";
 
-    $.ajax({
-        url: url,
-        dataType: "jsonp",
-        jsonp: 'jsoncallback',
-        success: function(data) {
-            console.log(data);
-        },
-        error: function(error) {
-            console.log("ERROR " + JSON.stringify(error));
-        }
-    });
+    // $.ajax({
+    //     url: url,
+    //     dataType: "jsonp",
+    //     success: function(data) {
+    //         console.log(JSON.stringify(data));
+    //     },
+    //     error: function(error) {
+    //         console.log("ERROR " + JSON.stringify(error));
+    //     }
+    // });
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
@@ -28566,8 +28565,9 @@ $(function () {
     });
 
     $('.week-dropdown').on('change', function () {
-        applyLocaldata();
-        teamPointUpdates();
+
+            applyLocaldata();
+            teamPointUpdates();
     });
 
 

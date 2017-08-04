@@ -28101,18 +28101,17 @@ function applyLocaldata() {
     });
 }
 $(function () {
-    var url = "https://fantasy.premierleague.com/drf/elements";
-    $.ajax({
-        url: url,
-        dataType: "jsonp",
-        jsonp: 'jsoncallback',
-        success: function (data) {
-            console.log(data);
-        },
-        error: function (error) {
-            console.log("ERROR " + JSON.stringify(error));
-        }
-    });
+    // var url = "https://fantasy.premierleague.com/drf/bootstrap-static";
+    // $.ajax({
+    //     url: url,
+    //     dataType: "jsonp",
+    //     success: function(data) {
+    //         console.log(JSON.stringify(data));
+    //     },
+    //     error: function(error) {
+    //         console.log("ERROR " + JSON.stringify(error));
+    //     }
+    // });
     // Variables
     $teamDropdown = $('.teams-dropdown'),
         $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="Images/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="Images/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="Images/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
