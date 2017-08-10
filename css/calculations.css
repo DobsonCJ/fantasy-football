@@ -246,6 +246,10 @@ select {
   color: #fff;
 }
 
+.teams table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
 .teams table,
 .teams td,
 .teams th,
