@@ -234,15 +234,14 @@ select {
         font-size: 10px;
 
         .player-total-data {
-            
+
+            &:nth-child(odd){
+                background-color: #ddd;
+            }
 
             &.sent-off {
                 background-color: red;
                 color: #fff;
-            }
-
-            &:nth-child(odd){
-                background-color: #ddd;
             }
         }
     }
