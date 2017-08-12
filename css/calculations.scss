@@ -240,14 +240,11 @@ select {
                 background-color: red;
                 color: #fff;
             }
-        }
 
-        tr {
-            &:nth-child(even)
-            {
+            &:nth-child(odd){
                 background-color: #ddd;
             }
-        }   
+        }
     }
 
     table,

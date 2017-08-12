@@ -246,7 +246,7 @@ select {
   color: #fff;
 }
 
-.teams table tr:nth-child(even) {
+.teams table .player-total-data:nth-child(odd) {
   background-color: #ddd;
 }
 
