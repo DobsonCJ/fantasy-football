@@ -241,6 +241,10 @@ select {
   font-size: 10px;
 }
 
+.teams table .player-total-data:nth-child(odd) {
+  background-color: #ddd;
+}
+
 .teams table .player-total-data.sent-off {
   background-color: red;
   color: #fff;
