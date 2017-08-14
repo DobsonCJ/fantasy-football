@@ -1,4 +1,5 @@
-var $ = $;
+/// <reference types="lz-string" />
+/// <reference types="jquery" />
 // JSON Data
 var Teams = [
     {
@@ -27840,10 +27841,10 @@ function populateTeams() {
 function enableScore() {
     $($teamDropdown).each(function () {
         if ($(this).val()) {
-            $(this).siblings($score).attr('disabled', false);
+            $(this).siblings($score).prop('disabled', false);
         }
         else {
-            $(this).siblings($score).attr('disabled', true);
+            $(this).siblings($score).prop('disabled', true);
         }
     });
 }
@@ -27851,7 +27852,7 @@ function calculatePoints() {
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
         // Create calculation variables
-        var goalsTotal = 0, cleanSheetTotal = 0, redCardTotal = 0, pointsTotal = 0, goalsScored = parseInt($(this).find('.score-select :selected').val());
+        var goalsTotal = 0, cleanSheetTotal = 0, redCardTotal = 0, pointsTotal = 0, goalsScored = parseInt($(this).find('select.score :selected').first().val());
         // If clean sheet checkbox is checked set the cleanSheetTotal
         if ($(this).find('.clean-sheet-checkbox').is(':checked')) {
             // If the position of the current player loop is 'Goalkeeper' set the cleanSheetTotal to 5
@@ -28052,8 +28053,10 @@ function storeLocalData() {
         }
     });
     current_week_fixtures.push(fixture);
-    localStorage[_currentWeek + "_fixtures"] = JSON.stringify(current_week_fixtures);
-    localStorage[_currentWeek + "_players"] = JSON.stringify(current_week_players);
+    var compressedFixtures = LZString.compress(JSON.stringify(current_week_fixtures));
+    var compressedPlayers = LZString.compress(JSON.stringify(current_week_players));
+    localStorage[_currentWeek + "_fixtures"] = (compressedFixtures);
+    localStorage[_currentWeek + "_players"] = (compressedPlayers);
 }
 function applyLocaldata() {
     $('.home-team .teams-dropdown').val('Teams').prop('selected', false);
@@ -28061,8 +28064,12 @@ function applyLocaldata() {
     $('.home-team-players table, .away-team-players table').empty();
     var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + "_fixtures";
     var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + "_players";
-    $selectedWeekFixturesData = JSON.parse(localStorage.getItem(_selectedWeekFixtures));
-    $selectedWeekPlayersData = JSON.parse(localStorage.getItem(_selectedWeekPlayers));
+    var retrievedFixtures = localStorage.getItem(_selectedWeekFixtures);
+    var retrievedPlayers = localStorage.getItem(_selectedWeekPlayers);
+    var decompressedFixtures = LZString.decompress(retrievedFixtures);
+    var decompressedPlayers = LZString.decompress(retrievedPlayers);
+    $selectedWeekFixturesData = JSON.parse(decompressedFixtures);
+    $selectedWeekPlayersData = JSON.parse(decompressedPlayers);
     $.each($selectedWeekFixturesData, function (i, fixture) {
         $.each(fixture, function (i, fixturename) {
             var currentFixture = fixturename._fixture;
@@ -28139,7 +28146,7 @@ $(function () {
         // Loop through each player in the players array
         for (var i = 0; i < Players.length; i++) {
             // Create a variable for the Players Team ID and players position element type
-            var _playersTeamID = Players[i].team, _playersPositionID = Players[i].element_type;
+            var _playersTeamID = String(Players[i].team), _playersPositionID = Players[i].element_type;
             // Check if the players ID matches the selected teams ID
             if (_playersTeamID == _selectedTeam) {
                 if (_playersPositionID == 1) {
@@ -28184,12 +28191,12 @@ $(function () {
         $(_playerTableClass).find('.player-data').each(function () {
             if (!$(this).siblings('tr').find('.clean-sheet-image').hasClass('disabled')) {
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
-                if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
-                    $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
+                if (($(this).attr('data-position') == '3' || $(this).prop('data-position') == '4')) {
+                    $(this).find('.clean-sheet input[type="checkbox"]').prop('disabled', true);
                 }
             }
             else {
-                $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
+                $(this).find('.clean-sheet input[type="checkbox"]').prop('disabled', true);
             }
         });
         // If team has been selected enable scores otherwise disable (This needs to executed on dropdown change so that the scores can be enabled)
@@ -28198,27 +28205,27 @@ $(function () {
     });
     $($score).change(function () {
         // Create scoped variables
-        var _teamPosition = '.' + $(this).parent().attr('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _playerTableClass = '.' + $(this).parent().attr('class') + '-players', _playerScores = $(_selectedFixture + " " + _playerTableClass).find('.goals-scored select');
+        var _teamPosition = '.' + $(this).parent().prop('class'), _selectedFixture = '#' + $(this).closest('.fixtures').attr('id'), _playerTableClass = '.' + $(this).parent().attr('class') + '-players', _playerScores = $(_selectedFixture + " " + _playerTableClass).find('.goals-scored select');
         // Check if the selected team is the home team
         if ($(_selectedFixture + " " + _teamPosition).attr('class') == 'home-team') {
             // Check if home teams score is greater than 0
             if ($(_selectedFixture + " " + _teamPosition).find('.score option:selected').val() > 0) {
                 // Disable all clean sheet checkboxes for the away team of this fixture
-                $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').attr('disabled', true).removeAttr('checked');
+                $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').prop('disabled', true).removeAttr('checked');
                 // Set the opacity of the clean sheet image to 0.3
                 $(_selectedFixture).find('.away-team-players .clean-sheet-image').addClass('disabled');
                 // Enable all score select boxes and remove disabled class
-                $(_selectedFixture).find('.home-team-players .score-select').attr('disabled', false);
+                $(_selectedFixture).find('.home-team-players .score-select').prop('disabled', false);
                 $(_selectedFixture).find('.home-team-players .score-select').removeClass('disabled');
                 $(_selectedFixture).find('.home-team-players .goals-image').removeClass('disabled');
             }
             else {
                 // Enable all clean sheet checkboxes for the away team of this fixture
-                $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').attr('disabled', false);
+                $(_selectedFixture).find('.away-team-players .clean-sheet input[type="checkbox"]').prop('disabled', false);
                 // Set the opacity of the clean sheet image to 1
                 $(_selectedFixture).find('.away-team-players .clean-sheet-image').removeClass('disabled');
                 // Disable all score select boxes and add disabled class
-                $(_selectedFixture).find('.home-team-players .score-select').attr('disabled', true);
+                $(_selectedFixture).find('.home-team-players .score-select').prop('disabled', true);
                 $(_selectedFixture).find('.home-team-players .score-select').addClass('disabled');
                 $(_selectedFixture).find('.home-team-players .goals-image').addClass('disabled');
             }
@@ -28226,7 +28233,7 @@ $(function () {
             $(_selectedFixture).find('.away-team-players .player-data').each(function () {
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
                 if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
-                    $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
+                    $(this).find('.clean-sheet input[type="checkbox"]').prop('disabled', true);
                 }
             });
             // Check if the selected team is the away team
@@ -28235,21 +28242,21 @@ $(function () {
             // Check if away teams score is greater than 0
             if ($(_selectedFixture + " " + _teamPosition).find('.score option:selected').val() > 0) {
                 // Disable all clean sheet checkboxes for the home team of this fixture
-                $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').attr('disabled', true).removeAttr('checked');
+                $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').prop('disabled', true).removeAttr('checked');
                 // Set the opacity of the clean sheet image to 0.3
                 $(_selectedFixture).find('.home-team-players .clean-sheet-image').addClass('disabled');
                 // Enable all score select boxes
-                $(_selectedFixture).find('.away-team-players .score-select').attr('disabled', false);
+                $(_selectedFixture).find('.away-team-players .score-select').prop('disabled', false);
                 $(_selectedFixture).find('.away-team-players .score-select').removeClass('disabled');
                 $(_selectedFixture).find('.away-team-players .goals-image').removeClass('disabled');
             }
             else {
                 // Enable all clean sheet checkboxes for the home team of this fixture
-                $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').attr('disabled', false);
+                $(_selectedFixture).find('.home-team-players .clean-sheet input[type="checkbox"]').prop('disabled', false);
                 // Set the opacity of the clean sheet image to 1
                 $(_selectedFixture).find('.home-team-players .clean-sheet-image').removeClass('disabled');
                 // Disable all score select boxes
-                $(_selectedFixture).find('.away-team-players .score-select').attr('disabled', true);
+                $(_selectedFixture).find('.away-team-players .score-select').prop('disabled', true);
                 $(_selectedFixture).find('.away-team-players .score-select').addClass('disabled');
                 $(_selectedFixture).find('.away-team-players .goals-image').addClass('disabled');
             }
@@ -28257,7 +28264,7 @@ $(function () {
             $($(_selectedFixture)).find('.home-team-players .player-data').each(function () {
                 // If the player is a Midfielder or Forward then disable the clean sheet checkbox
                 if (($(this).attr('data-position') == '3' || $(this).attr('data-position') == '4')) {
-                    $(this).find('.clean-sheet input[type="checkbox"]').attr('disabled', true);
+                    $(this).find('.clean-sheet input[type="checkbox"]').prop('disabled', true);
                 }
             });
         }
