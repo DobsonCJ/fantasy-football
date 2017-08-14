@@ -30304,11 +30304,11 @@ function calculatePoints() {
     $('.player-data').each(function () {
 
         // Create calculation variables
-        var goalsTotal = 0,
-            cleanSheetTotal = 0,
-            redCardTotal = 0,
-            pointsTotal = 0,
-            goalsScored = parseInt($(this).find('select.score :selected').first().val() as string);
+        let goalsTotal: number = 0;
+        let cleanSheetTotal: number = 0;
+        let redCardTotal: number = 0;
+        let pointsTotal: number = 0;
+        let goalsScored: number = parseInt($(this).find('select.score-select :selected').val() as string);
 
         // If clean sheet checkbox is checked set the cleanSheetTotal
         if ($(this).find('.clean-sheet-checkbox').is(':checked')) {
@@ -30421,7 +30421,7 @@ function calculatePoints() {
         }
 
         // Create a variable by adding the totals of all calculation variables
-        var pointsTotal = goalsTotal + cleanSheetTotal - redCardTotal;
+        pointsTotal = goalsTotal + cleanSheetTotal - redCardTotal;
 
         // Create an attribute on the player table row and set it to the pointsTotal
         $(this).attr('data-points', pointsTotal);
@@ -30589,6 +30589,9 @@ function applyLocaldata() {
 
     $('.home-team .teams-dropdown').val('Teams').prop('selected', false);
     $('.away-team .teams-dropdown').val('Teams').prop('selected', false);
+
+    $('.home-team .score').val('0').prop('selected', false);
+    $('.away-team .score').val('0').prop('selected', false);
 
     $('.home-team-players table, .away-team-players table').empty()
 

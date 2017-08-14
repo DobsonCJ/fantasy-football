@@ -30271,7 +30271,11 @@ function calculatePoints() {
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
         // Create calculation variables
-        var goalsTotal = 0, cleanSheetTotal = 0, redCardTotal = 0, pointsTotal = 0, goalsScored = parseInt($(this).find('select.score :selected').first().val());
+        var goalsTotal = 0;
+        var cleanSheetTotal = 0;
+        var redCardTotal = 0;
+        var pointsTotal = 0;
+        var goalsScored = parseInt($(this).find('select.score-select :selected').val());
         // If clean sheet checkbox is checked set the cleanSheetTotal
         if ($(this).find('.clean-sheet-checkbox').is(':checked')) {
             // If the position of the current player loop is 'Goalkeeper' set the cleanSheetTotal to 5
@@ -30369,7 +30373,7 @@ function calculatePoints() {
             }
         }
         // Create a variable by adding the totals of all calculation variables
-        var pointsTotal = goalsTotal + cleanSheetTotal - redCardTotal;
+        pointsTotal = goalsTotal + cleanSheetTotal - redCardTotal;
         // Create an attribute on the player table row and set it to the pointsTotal
         $(this).attr('data-points', pointsTotal);
     });
@@ -30480,6 +30484,8 @@ function storeLocalData() {
 function applyLocaldata() {
     $('.home-team .teams-dropdown').val('Teams').prop('selected', false);
     $('.away-team .teams-dropdown').val('Teams').prop('selected', false);
+    $('.home-team .score').val('0').prop('selected', false);
+    $('.away-team .score').val('0').prop('selected', false);
     $('.home-team-players table, .away-team-players table').empty();
     var _selectedWeekFixtures = 'week_' + $('.week-dropdown').val() + "_fixtures";
     var _selectedWeekPlayers = 'week_' + $('.week-dropdown').val() + "_players";
