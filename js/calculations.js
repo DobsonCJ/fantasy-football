@@ -9685,6 +9685,7 @@ function enableScore() {
     });
 }
 function calculatePoints() {
+    $('.points').text('0');
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
         // Create calculation variables
@@ -9949,6 +9950,21 @@ function applyLocaldata() {
         });
     });
 }
+function applyTransfers() {
+    var currentWeek = $('.week-dropdown').val();
+    $('.player-transfer td:not(.points,.position)').each(function () {
+        var transferWeek = $(this).attr('data-transfer-week');
+        var transferPlayer = $(this).attr('data-transfer-replace');
+        var OriginalPlayer = $(this).attr('data-transfer-original');
+        // Apply original player before
+        $(this).text(OriginalPlayer);
+        $(this).removeClass('transfer');
+        if (currentWeek >= transferWeek) {
+            $(this).text(transferPlayer);
+            $(this).addClass('transfer');
+        }
+    });
+}
 $(function () {
     // var url = "https://fantasy.premierleague.com/drf/bootstrap-static";
     // $.ajax({
@@ -9970,6 +9986,8 @@ $(function () {
     populateTeams();
     // If team has been selected enable scores otherwise disable
     enableScore();
+    // Apply Transfers for week
+    applyTransfers();
     $('.teams-dropdown').change(function () {
         $(this).attr('selected', 'selected');
         // Create scoped variables
@@ -10165,6 +10183,7 @@ $(function () {
         storeLocalData();
     });
     $('.week-dropdown').on('change', function () {
+        applyTransfers();
         applyLocaldata();
         teamPointUpdates();
     });
