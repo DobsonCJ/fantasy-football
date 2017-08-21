@@ -9685,7 +9685,6 @@ function enableScore() {
     });
 }
 function calculatePoints() {
-    $('.points').text('0');
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
         // Create calculation variables
@@ -9911,21 +9910,22 @@ function applyLocaldata() {
     var retrievedPlayers = localStorage.getItem(_selectedWeekPlayers);
     var decompressedFixtures = LZString.decompress(retrievedFixtures);
     var decompressedPlayers = LZString.decompress(retrievedPlayers);
-    $selectedWeekFixturesData = JSON.parse(decompressedFixtures);
-    $selectedWeekPlayersData = JSON.parse(decompressedPlayers);
-    $.each($selectedWeekFixturesData, function (i, fixture) {
-        $.each(fixture, function (i, fixturename) {
-            var currentFixture = fixturename._fixture;
-            $('.fixtures').each(function (i) {
-                if ($(this).attr('id') == currentFixture) {
-                    $(this).find('.home-team .teams-dropdown').val(fixturename._homeTeamID).prop('selected', true);
-                    $(this).find('.away-team .teams-dropdown').val(fixturename._awayTeamID).prop('selected', true);
-                    $(this).find('.home-team .score').val(fixturename._homeTeamScore).prop('selected', true);
-                    $(this).find('.away-team .score').val(fixturename._awayTeamScore).prop('selected', true);
-                }
+    if (retrievedFixtures !== null) {
+        $selectedWeekFixturesData = JSON.parse(decompressedFixtures);
+        $.each($selectedWeekFixturesData, function (i, fixture) {
+            $.each(fixture, function (i, fixturename) {
+                var currentFixture = fixturename._fixture;
+                $('.fixtures').each(function (i) {
+                    if ($(this).attr('id') == currentFixture) {
+                        $(this).find('.home-team .teams-dropdown').val(fixturename._homeTeamID).prop('selected', true);
+                        $(this).find('.away-team .teams-dropdown').val(fixturename._awayTeamID).prop('selected', true);
+                        $(this).find('.home-team .score').val(fixturename._homeTeamScore).prop('selected', true);
+                        $(this).find('.away-team .score').val(fixturename._awayTeamScore).prop('selected', true);
+                    }
+                });
             });
         });
-    });
+    }
     $('.teams-dropdown').each(function () {
         if ($(this).prop('selected') == true) {
             $(this).trigger('change');
@@ -9936,19 +9936,22 @@ function applyLocaldata() {
             $(this).trigger('change');
         }
     });
-    $.each($selectedWeekPlayersData, function (i, playerList) {
-        var _playerList = playerList;
-        $.each(_playerList, function (i, player) {
-            var _player = player;
-            $('.player-data').each(function (i) {
-                if ($(this).attr('data-id') == _player.playerID) {
-                    $(this).find('.red-card-checkbox').prop('checked', player.redCard);
-                    $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
-                    $(this).find('.score-select').val(player.goalsScored);
-                }
+    if (retrievedPlayers !== null) {
+        $selectedWeekPlayersData = JSON.parse(decompressedPlayers);
+        $.each($selectedWeekPlayersData, function (i, playerList) {
+            var _playerList = playerList;
+            $.each(_playerList, function (i, player) {
+                var _player = player;
+                $('.player-data').each(function (i) {
+                    if ($(this).attr('data-id') == _player.playerID) {
+                        $(this).find('.red-card-checkbox').prop('checked', player.redCard);
+                        $(this).find('.clean-sheet-checkbox').prop('checked', player.cleanSheet);
+                        $(this).find('.score-select').val(player.goalsScored);
+                    }
+                });
             });
         });
-    });
+    }
 }
 function applyTransfers() {
     var currentWeek = $('.week-dropdown').val();
