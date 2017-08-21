@@ -10104,22 +10104,22 @@ function applyLocaldata() {
 
 function applyTransfers() {
 
-    var currentWeek = $('.week-dropdown').val();
+    var currentWeek = Number($('.week-dropdown').val());
 
     $('.player-transfer td:not(.points,.position)').each(function () {
 
-        var transferWeek = $(this).attr('data-transfer-week');
+        var transferWeek = Number($(this).attr('data-transfer-week'));
         var transferPlayer = $(this).attr('data-transfer-replace');
         var OriginalPlayer = $(this).attr('data-transfer-original');
 
         // Apply original player before
         $(this).text(OriginalPlayer);
-        $(this).removeClass('transfer');
+        $(this).parent('.player-transfer').removeClass('transfer');
 
 
         if (currentWeek >= transferWeek) {
             $(this).text(transferPlayer);
-            $(this).addClass('transfer');
+            $(this).parent('.player-transfer').addClass('transfer');
         }
     });
 
