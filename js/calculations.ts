@@ -9717,6 +9717,8 @@ function enableScore() {
 
 function calculatePoints() {
 
+    $('.points').text('0');
+
     // Loop through each player from the selected fixtures
     $('.player-data').each(function () {
 
@@ -10021,7 +10023,13 @@ function applyLocaldata() {
     var decompressedFixtures = LZString.decompress(retrievedFixtures);
     var decompressedPlayers = LZString.decompress(retrievedPlayers);
 
-    if (retrievedFixtures !== null) {
+    // if (localStorage.getItem(_selectedWeekFixtures) !== null) {
+    //     $selectedWeekFixturesData = JSON.parse(decompressedFixtures);
+    //     $selectedWeekPlayersData = JSON.parse(decompressedPlayers);
+    // }
+
+    if (localStorage.getItem(_selectedWeekFixtures) !== null) {
+
         $selectedWeekFixturesData = JSON.parse(decompressedFixtures);
 
         $.each($selectedWeekFixturesData, function (i, fixture) {
@@ -10046,6 +10054,8 @@ function applyLocaldata() {
 
     }
 
+
+
     $('.teams-dropdown').each(function () {
 
         if ($(this).prop('selected') == true) {
@@ -10062,7 +10072,8 @@ function applyLocaldata() {
 
     });
 
-    if (retrievedPlayers !== null) {
+    if (localStorage.getItem(_selectedWeekPlayers) !== null) {
+
         $selectedWeekPlayersData = JSON.parse(decompressedPlayers);
 
         $.each($selectedWeekPlayersData, function (i, playerList) {
@@ -10087,6 +10098,7 @@ function applyLocaldata() {
 
         });
     }
+
 
 }
 
