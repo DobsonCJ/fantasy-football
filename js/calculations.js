@@ -9959,9 +9959,9 @@ function applyLocaldata() {
     }
 }
 function applyTransfers() {
-    var currentWeek = Number($('.week-dropdown').val());
+    var currentWeek = parseInt($('.week-dropdown').val());
     $('.player-transfer td:not(.points,.position)').each(function () {
-        var transferWeek = Number($(this).attr('data-transfer-week'));
+        var transferWeek = parseInt($(this).attr('data-transfer-week'));
         var transferPlayer = $(this).attr('data-transfer-replace');
         var OriginalPlayer = $(this).attr('data-transfer-original');
         // Apply original player before
