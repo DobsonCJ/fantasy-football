@@ -1,6 +1,6 @@
 // Variables
-$font-default: 'Lato', sans-serif;
-
+$font-default: 'Lato',
+sans-serif;
 body {
     font-family: $font-default;
 }
@@ -20,26 +20,20 @@ body {
 }
 
 .results {
-
     .fixtures {
-
         h3 {
             font-size: 18px;
         }
-
         table {
             width: 100%;
-
             .teams-dropdown {
                 float: left;
                 width: 73%;
                 margin-right: 2%;
             }
-
             .score {
                 width: 25%;
             }
-
             .score:disabled {
                 cursor: disabled;
             }
@@ -48,16 +42,13 @@ body {
             .player-filter {
                 font-size: 12px;
                 margin: 5px 0;
-
                 input[type='radio'] {
                     vertical-align: sub;
                 }
             }
         }
-
         .player-table {
             vertical-align: top;
-
             .defender-header,
             .forward-header,
             .goalkeeper-header,
@@ -68,12 +59,10 @@ body {
                 color: #fff;
                 border: 1px solid #fff;
                 background-color: #808080;
-
                 th {
                     font-size: 12px !important;
                     position: relative;
                     padding: 5px;
-
                     &:before {
                         font-family: 'Glyphicons Halflings';
                         position: absolute;
@@ -88,7 +77,6 @@ body {
                         border-radius: 10px;
                     }
                 }
-
                 &.active {
                     th {
                         &:before {
@@ -101,18 +89,15 @@ body {
                     }
                 }
             }
-
             .player-data {
                 display: none;
                 -webkit-transition: all ease 2s;
                 -moz-transition: all ease 2s;
                 -o-transition: all ease 2s;
                 transition: all ease 2s;
-
                 &:nth-child(even) {
                     background-color: #eee;
                 }
-
                 &.active {
                     display: table-row;
                     -webkit-transition: all ease 2s;
@@ -122,7 +107,6 @@ body {
                 }
             }
         }
-
         .away-team-players,
         .home-team-players {
             float: left;
@@ -130,24 +114,18 @@ body {
             margin-top: 10px;
             text-align: center;
             font-size: 12px;
-
-
             .table-heading {
                 border: 5px solid #fff;
                 display: none;
-
                 &.active {
                     display: table-row;
                 }
-
                 th {
                     text-align: center;
                 }
             }
-
             table {
                 width: 100%;
-
                 td,
                 th {
                     &:first-child {
@@ -155,34 +133,27 @@ body {
                         text-align: left;
                     }
                 }
-
                 input[type='checkbox'] {
                     width: 18px;
                     height: 18px;
                 }
-
                 img {
                     width: 15px;
                 }
-
                 select {
                     padding: 0;
-
                     &.active {
                         background-color: green;
                         color: #fff;
                     }
                 }
             }
-
             p {
                 font-size: 14px;
                 margin-top: 5px;
             }
-
             .option-container {
                 position: relative;
-
                 img {
                     position: absolute;
                     top: -25px;
@@ -193,22 +164,18 @@ body {
                     margin: 0 auto;
                 }
             }
-
             span {
                 &:nth-child(3n+1) {
                     clear: left;
                 }
-
                 input[type='checkbox'] {
                     vertical-align: middle;
                 }
-
                 label {
                     font-size: 12px;
                 }
             }
         }
-
         .versus {
             float: left;
             margin: 0 20px;
@@ -226,26 +193,29 @@ select {
 
 .teams {
     text-align: center;
-
     table {
         margin-bottom: 10px;
         width: 100%;
         max-width: 100%;
         font-size: 10px;
-
         .player-total-data {
 
-            &:nth-child(odd){
+            &:nth-child(odd) {
                 background-color: #ddd;
             }
 
+            &.transfered {
+                background-color: green;
+                color: #fff;
+                font-weight: bold;
+            }
+            
             &.sent-off {
                 background-color: red;
                 color: #fff;
             }
         }
     }
-
     table,
     td,
     th,
@@ -256,7 +226,6 @@ select {
         white-space: nowrap;
         page-break-inside: avoid;
     }
-
     .total-points-row {
         th {
             text-align: center;
@@ -264,21 +233,10 @@ select {
     }
 }
 
-.transfer {
-    background-color: green;
-    color: #fff;
-    font-weight: bold;
-}
-
 @media print {
-
     .teams {
-
         table {
-
             font-size: 8px;
         }
-
     }
-
 }

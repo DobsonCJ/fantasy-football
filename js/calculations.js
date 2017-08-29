@@ -9966,10 +9966,10 @@ function applyTransfers() {
         var OriginalPlayer = $(this).attr('data-transfer-original');
         // Apply original player before
         $(this).text(OriginalPlayer);
-        $(this).parent('.player-transfer').removeClass('transfer');
+        $(this).parent('.player-transfer').removeClass('transfered');
         if (currentWeek >= transferWeek) {
             $(this).text(transferPlayer);
-            $(this).parent('.player-transfer').addClass('transfer');
+            $(this).parent('.player-transfer').addClass('transfered');
         }
     });
 }
