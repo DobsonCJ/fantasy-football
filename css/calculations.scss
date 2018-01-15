@@ -209,6 +209,12 @@ select {
                 color: #fff;
                 font-weight: bold;
             }
+
+            &.current-week-transfer {
+                background-color: yellow;
+                color: rgb(68, 68, 209);
+                font-weight: bold;
+            }
             
             &.sent-off {
                 background-color: red;

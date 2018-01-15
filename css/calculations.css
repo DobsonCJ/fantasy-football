@@ -251,6 +251,12 @@ select {
   font-weight: bold;
 }
 
+.teams table .player-total-data.current-week-transfer {
+  background-color: yellow;
+  color: #4444d1;
+  font-weight: bold;
+}
+
 .teams table .player-total-data.sent-off {
   background-color: red;
   color: #fff;
