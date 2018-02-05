@@ -38430,7 +38430,7 @@ function applyTransfers() {
 
 $(function () {
 
-     var url = "https://fantasy.premierleague.com/drf/bootstrap-static";
+     var url = "http://jokecamp.github.io/epl-fantasy-geek/js/static-data.json";
 
     $.ajax({
         url: url,
@@ -38438,7 +38438,7 @@ $(function () {
             console.log(data);
         },
         error: function(error) {
-            console.log("ERROR " + JSON.stringify(error));
+            console.log(error);
         }
     });
 
