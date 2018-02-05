@@ -38430,7 +38430,7 @@ function applyTransfers() {
 
 $(function () {
 
-     var url = "http://jokecamp.github.io/epl-fantasy-geek/js/static-data.json";
+     var url = "https://jokecamp.github.io/epl-fantasy-geek/js/static-data.json";
 
     $.ajax({
         url: url,
