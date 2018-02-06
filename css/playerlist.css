@@ -16,26 +16,20 @@ body {
   padding: 5px 10px;
 }
 
-.player-tables table tr.unavailable {
+.player-tables table tr {
   position: relative;
 }
 
-.player-tables table tr.unavailable td:last-child .fa-exclamation-triangle {
+.player-tables table tr .fa-exclamation-triangle {
   position: relative;
   float: right;
   margin-top: 3px;
-  color: red;
   z-index: 100;
 }
 
-.player-tables table tr.unavailable td:last-child .fa-exclamation-triangle:hover {
-  color: #fff;
-}
-
-.player-tables table tr.unavailable td:last-child .player-status {
+.player-tables table tr .player-status {
   display: none;
   position: absolute;
-  background-color: red;
   color: #fff;
   right: 15px;
   left: 15px;
@@ -45,8 +39,49 @@ body {
   z-index: 99;
 }
 
-.player-tables table tr.unavailable td:last-child .player-status.show-inline {
+.player-tables table tr .player-status.show-inline {
   display: inline;
+}
+
+.player-tables table tr.unavailable {
+  cursor: pointer;
+}
+
+.player-tables table tr.unavailable .fa-exclamation-triangle {
+  color: #DB0100;
+}
+
+.player-tables table tr.unavailable .player-status {
+  background-color: #DB0100;
+}
+
+.player-tables table tr.unavailable.show-data .fa-exclamation-triangle {
+  color: #fff;
+}
+
+.player-tables table tr.unavailable.show-data .player-status {
+  display: inline-block;
+}
+
+.player-tables table tr.injured {
+  cursor: pointer;
+}
+
+.player-tables table tr.injured .fa-exclamation-triangle {
+  color: #FFCC00;
+}
+
+.player-tables table tr.injured .player-status {
+  background-color: #FFCC00;
+  color: #494846;
+}
+
+.player-tables table tr.injured.show-data .fa-exclamation-triangle {
+  color: #494846;
+}
+
+.player-tables table tr.injured.show-data .player-status {
+  display: inline-block;
 }
 
 .player-tables table td {

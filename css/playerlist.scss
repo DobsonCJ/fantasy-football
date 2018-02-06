@@ -13,35 +13,61 @@ body {
             background-color: transparent;
             padding: 5px 10px;
         }
-        tr.unavailable {
+        tr {
             position: relative;
-            td:last-child {
+            .fa-exclamation-triangle {
+                position: relative;
+                float: right;
+                margin-top: 3px;
+                z-index: 100;
+            }
+            .player-status {
+                display: none;
+                position: absolute;
+                color: #fff;
+                right: 15px;
+                left: 15px;
+                padding: 5px;
+                margin-top: -5px;
+                text-align: center;
+                z-index: 99;
+                &.show-inline {
+                    display: inline;
+                }
+            }
+        }
+        tr.unavailable {
+            cursor: pointer;
+            .fa-exclamation-triangle {
+                color: #DB0100;
+            }
+            .player-status {
+                background-color: #DB0100;
+            }
+            &.show-data {
                 .fa-exclamation-triangle {
-                    position: relative;
-                    float: right;
-                    margin-top: 3px;
-                    color: red;
-                    z-index: 100;
-
-                    &:hover {
-                        color: #fff;
-                    }
+                    color: #fff;
                 }
                 .player-status {
-                    display: none;
-                    position: absolute;
-                    background-color: red;
-                    color: #fff;
-                    right: 15px;
-                    left: 15px;
-                    padding: 5px;
-                    margin-top: -5px;
-                    text-align: center;
-                    z-index: 99;
-
-                    &.show-inline {
-                        display: inline;
-                    }
+                    display: inline-block;
+                }
+            }
+        }
+        tr.injured {
+            cursor: pointer;
+            .fa-exclamation-triangle {
+                color: #FFCC00;
+            }
+            .player-status {
+                background-color: #FFCC00;
+                color: #494846;
+            }
+            &.show-data {
+                .fa-exclamation-triangle {
+                    color: #494846;
+                }
+                .player-status {
+                    display: inline-block;
                 }
             }
         }
