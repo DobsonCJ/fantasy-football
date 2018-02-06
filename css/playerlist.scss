@@ -3,24 +3,51 @@ body {
 }
 
 .player-tables {
-
     table {
         width: 100%;
         table-layout: fixed;
-
         tr:nth-child(even) {
             background-color: #eee;
         }
-
         tr.table-heading th {
             background-color: transparent;
             padding: 5px 10px;
         }
+        tr.unavailable {
+            position: relative;
+            td:last-child {
+                .fa-exclamation-triangle {
+                    position: relative;
+                    float: right;
+                    margin-top: 3px;
+                    color: red;
+                    z-index: 100;
 
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                .player-status {
+                    display: none;
+                    position: absolute;
+                    background-color: red;
+                    color: #fff;
+                    right: 15px;
+                    left: 15px;
+                    padding: 5px;
+                    margin-top: -5px;
+                    text-align: center;
+                    z-index: 99;
+
+                    &.show-inline {
+                        display: inline;
+                    }
+                }
+            }
+        }
         td {
             padding: 5px 10px;
             border-bottom: 1px solid #eee;
         }
     }
-
 }

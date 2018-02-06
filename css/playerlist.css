@@ -16,6 +16,39 @@ body {
   padding: 5px 10px;
 }
 
+.player-tables table tr.unavailable {
+  position: relative;
+}
+
+.player-tables table tr.unavailable td:last-child .fa-exclamation-triangle {
+  position: relative;
+  float: right;
+  margin-top: 3px;
+  color: red;
+  z-index: 100;
+}
+
+.player-tables table tr.unavailable td:last-child .fa-exclamation-triangle:hover {
+  color: #fff;
+}
+
+.player-tables table tr.unavailable td:last-child .player-status {
+  display: none;
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  right: 15px;
+  left: 15px;
+  padding: 5px;
+  margin-top: -5px;
+  text-align: center;
+  z-index: 99;
+}
+
+.player-tables table tr.unavailable td:last-child .player-status.show-inline {
+  display: inline;
+}
+
 .player-tables table td {
   padding: 5px 10px;
   border-bottom: 1px solid #eee;
