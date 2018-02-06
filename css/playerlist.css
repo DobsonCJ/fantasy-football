@@ -73,11 +73,11 @@ body {
 
 .player-tables table tr.injured .player-status {
   background-color: #FFCC00;
-  color: #494846;
+  color: #333;
 }
 
 .player-tables table tr.injured.show-data .fa-exclamation-triangle {
-  color: #494846;
+  color: #333;
 }
 
 .player-tables table tr.injured.show-data .player-status {

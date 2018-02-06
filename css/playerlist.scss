@@ -60,11 +60,11 @@ body {
             }
             .player-status {
                 background-color: #FFCC00;
-                color: #494846;
+                color: #333;
             }
             &.show-data {
                 .fa-exclamation-triangle {
-                    color: #494846;
+                    color: #333;
                 }
                 .player-status {
                     display: inline-block;

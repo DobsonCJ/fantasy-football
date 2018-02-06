@@ -83,7 +83,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_defendersArray[i].status == "u") {
-            var playerStatus = _defendersArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _defendersArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_defendersArray[i].status == "i") {
+            playerStatus = _defendersArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_defendersArray[i].cost_change_start >= 0) {
             _defenders += '<tr' + isUnavailable + '><td>' + _defendersArray[i].id + '</td><td class="player-team">' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + ((_defendersArray[i].now_cost / 10) - (Math.abs(_defendersArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';
@@ -98,7 +105,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_defendersArray[i].status == "u") {
-            var playerStatus = _defendersArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _defendersArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_defendersArray[i].status == "i") {
+            playerStatus = _defendersArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_defendersArray[i].cost_change_start >= 0) {
             _defenders += '<tr' + isUnavailable + '><td>' + _defendersArray[i].id + '</td><td class="player-team">' + _defendersArray[i].team + '</td><td>' + _defendersArray[i].web_name + '</td><td>' + ((_defendersArray[i].now_cost / 10) - (Math.abs(_defendersArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';
@@ -113,7 +127,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_midfieldersArray[i].status == "u") {
-            var playerStatus = _midfieldersArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _midfieldersArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_midfieldersArray[i].status == "i") {
+            playerStatus = _midfieldersArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_midfieldersArray[i].cost_change_start >= 0) {
             _midfielders += '<tr' + isUnavailable + '><td>' + _midfieldersArray[i].id + '</td><td class="player-team">' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + ((_midfieldersArray[i].now_cost / 10) - (Math.abs(_midfieldersArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';
@@ -128,7 +149,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_midfieldersArray[i].status == "u") {
-            var playerStatus = _midfieldersArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _midfieldersArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_midfieldersArray[i].status == "i") {
+            playerStatus = _midfieldersArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_midfieldersArray[i].cost_change_start >= 0) {
             _midfielders += '<tr' + isUnavailable + '><td>' + _midfieldersArray[i].id + '</td><td class="player-team">' + _midfieldersArray[i].team + '</td><td>' + _midfieldersArray[i].web_name + '</td><td>' + ((_midfieldersArray[i].now_cost / 10) - (Math.abs(_midfieldersArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';
@@ -143,7 +171,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_forwardsArray[i].status == "u") {
-            var playerStatus = _forwardsArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _forwardsArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_forwardsArray[i].status == "i") {
+            playerStatus = _forwardsArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_forwardsArray[i].cost_change_start >= 0) {
             _forwards += '<tr' + isUnavailable + '><td>' + _forwardsArray[i].id + '</td><td class="player-team">' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + ((_forwardsArray[i].now_cost / 10) - (Math.abs(_forwardsArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';
@@ -158,7 +193,14 @@ function PopulatePlayerList() {
         var isUnavailable = "";
         alertIcon = "";
         if (_forwardsArray[i].status == "u") {
-            var playerStatus = _forwardsArray[i].news, isUnavailable = " class='unavailable' data-status='" + playerStatus + "'", alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+            playerStatus = _forwardsArray[i].news,
+                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
+        }
+        else if (_forwardsArray[i].status == "i") {
+            playerStatus = _forwardsArray[i].news,
+                isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>";
         }
         if (_forwardsArray[i].cost_change_start >= 0) {
             _forwards += '<tr' + isUnavailable + '><td>' + _forwardsArray[i].id + '</td><td class="player-team">' + _forwardsArray[i].team + '</td><td>' + _forwardsArray[i].web_name + '</td><td>' + ((_forwardsArray[i].now_cost / 10) - (Math.abs(_forwardsArray[i].cost_change_start) / 10)).toFixed(1) + alertIcon + '</td></tr>';

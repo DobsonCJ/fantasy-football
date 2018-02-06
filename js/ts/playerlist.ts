@@ -130,9 +130,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_defendersArray[i].status == "u") {
-            var playerStatus = _defendersArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _defendersArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_defendersArray[i].status == "i") {
+            playerStatus = _defendersArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_defendersArray[i].cost_change_start >= 0) {
@@ -151,9 +155,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_defendersArray[i].status == "u") {
-            var playerStatus = _defendersArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _defendersArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_defendersArray[i].status == "i") {
+            playerStatus = _defendersArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_defendersArray[i].cost_change_start >= 0) {
@@ -171,9 +179,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_midfieldersArray[i].status == "u") {
-            var playerStatus = _midfieldersArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _midfieldersArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_midfieldersArray[i].status == "i") {
+            playerStatus = _midfieldersArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_midfieldersArray[i].cost_change_start >= 0) {
@@ -192,9 +204,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_midfieldersArray[i].status == "u") {
-            var playerStatus = _midfieldersArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _midfieldersArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_midfieldersArray[i].status == "i") {
+            playerStatus = _midfieldersArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_midfieldersArray[i].cost_change_start >= 0) {
@@ -212,9 +228,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_forwardsArray[i].status == "u") {
-            var playerStatus = _forwardsArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _forwardsArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_forwardsArray[i].status == "i") {
+            playerStatus = _forwardsArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_forwardsArray[i].cost_change_start >= 0) {
@@ -233,9 +253,13 @@ function PopulatePlayerList() {
         alertIcon = ""
 
         if (_forwardsArray[i].status == "u") {
-            var playerStatus = _forwardsArray[i].news,
-                isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
-                alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+            playerStatus = _forwardsArray[i].news,
+            isUnavailable = " class='unavailable' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
+        } else if (_forwardsArray[i].status == "i") {
+            playerStatus = _forwardsArray[i].news,
+            isUnavailable = " class='injured' data-status='" + playerStatus + "'",
+            alertIcon = "<i class='fas fa-exclamation-triangle'></i><span class='player-status'>" + playerStatus + "</span>"
         }
 
         if (_forwardsArray[i].cost_change_start >= 0) {
