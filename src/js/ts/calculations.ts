@@ -38434,7 +38434,7 @@ $(function () {
 
     // Variables
     $teamDropdown = $('.teams-dropdown'),
-        $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="/src/img/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="/src/img/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="/src/img/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
+        $tableHeading = '<tr class="table-heading"><th>ID</th><th>Players</th><th><img class="goals-image disabled" src="src/img/football.png" title="Goals Scored" alt="Goals Scored"></th><th><img class="clean-sheet-image" src="src/img/clean_sheet.png" title="Clean Sheet" alt="Clean Sheet"></th><th><img class="red-card-image" src="src/img/red_card.png" Title="Red Card" alt="Red Card"></th></tr>',
         $score = $('.score');
     $total = 0;
 
