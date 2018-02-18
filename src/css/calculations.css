@@ -94,17 +94,12 @@ body {
 .results .fixtures .player-table .goalkeeper-header.active th:before,
 .results .fixtures .player-table .midfielder-header.active th:before {
   -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
 .results .fixtures .player-table .player-data {
   display: none;
   -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
-  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
@@ -115,8 +110,6 @@ body {
 .results .fixtures .player-table .player-data.active {
   display: table-row;
   -webkit-transition: all ease 2s;
-  -moz-transition: all ease 2s;
-  -o-transition: all ease 2s;
   transition: all ease 2s;
 }
 
